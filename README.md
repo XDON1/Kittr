@@ -80,3 +80,15 @@ kittr/
 ├── 📦 resources.json      # Database resource terkurasi (disortir per kategori)
 └── 📁 /assets             # Icons, illustrations, dan static images
 ```
+
+---
+
+## 🧠 Cara Kerja (Alur Data)
+1. **Page Load** → script.js mengambil resources.json
+2. **Render Awal** → Resource dikelompokkan per kategori, counter dihitung otomatis
+3. **User Mengetik di Search** → Event input memicu filter real-time pada name, description, tags
+4. **User Klik Kategori** → Filter single-select memperbarui tampilan, counter menyorot state aktif
+5. **User Klik Resource** → Link terbuka di tab baru (target="_blank")
+6. **Empty State** → Jika tidak ada hasil yang cocok, tampilkan pesan ramah + tombol reset
+
+---
