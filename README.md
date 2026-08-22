@@ -56,3 +56,16 @@ Dibangun sebagai aplikasi web statis yang ringan dan cepat menggunakan **Vanilla
 - 🔄 **Reset Satu Klik:** Hapus pencarian/filter dan kembali ke tampilan awal secara instan.
 - ⚡ **Super Cepat:** Static site tanpa panggilan API eksternal — load instan bahkan di koneksi lambat.
 
+---
+
+## 🛠️ Tech Stack
+
+| Komponen | Teknologi |
+|----------|------------|
+| **Struktur** | HTML5 Semantik |
+| **Styling** | Tailwind CSS (Utility-First, CSS Variables untuk Theming) |
+| **Logic** | Vanilla JavaScript (ES6+), DOM Manipulation, Fetch API |
+| **Data** | File JSON Lokal (`resources.json`) |
+| **Icons** | Font Awesome / Heroicons (via CDN) |
+| **Deployment** | Static Hosting (Vercel / Netlify / GitHub Pages) |
+
