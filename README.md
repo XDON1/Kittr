@@ -40,4 +40,19 @@ Belajar IT terasa berat ketika resource tersebar di mana-mana. **Kittr** hadir u
 - 🌍 **Web Browser** (Privacy-Focused Browsers, Tor, Brave, Firefox)
 - 🔐 **Security & Privacy** (VirusTotal, Encryption Tools, Dark Web Search)
 
+Dibangun sebagai aplikasi web statis yang ringan dan cepat menggunakan **Vanilla JS + Tailwind CSS**, Kittr tidak memerlukan login dan langsung bekerja di browser. Semua data disimpan secara lokal dalam file JSON terstruktur untuk kemudahan maintenance dan akses offline.
+
+✨ **Highlight Utama:** Tanpa backend. Tanpa dependencies. Hanya resource terkurasi murni dengan pencarian real-time dan filtering instan.
+
+---
+
+## ✨ Fitur
+
+- 🔍 **Pencarian Real-time:** Filter resource berdasarkan nama, deskripsi, atau tag saat mengetik — tanpa reload halaman.
+- 🗂️ **Filter Kategori Cerdas:** Single-select filtering antara 13+ kategori dengan counter live.
+- 🎨 **Dark Mode First:** Estetika ramah developer dengan transisi halus (light mode akan segera hadir).
+- 📱 **Fully Responsive:** Layout teroptimasi untuk mobile, tablet, dan desktop.
+- 🧩 **Tampilan Auto-Grouped:** Resource otomatis diurutkan dan dikelompokkan per kategori dari data JSON.
+- 🔄 **Reset Satu Klik:** Hapus pencarian/filter dan kembali ke tampilan awal secara instan.
+- ⚡ **Super Cepat:** Static site tanpa panggilan API eksternal — load instan bahkan di koneksi lambat.
 
