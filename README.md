@@ -69,3 +69,14 @@ Dibangun sebagai aplikasi web statis yang ringan dan cepat menggunakan **Vanilla
 | **Icons** | Font Awesome / Heroicons (via CDN) |
 | **Deployment** | Static Hosting (Vercel / Netlify / GitHub Pages) |
 
+---
+
+## 📂 Struktur Project
+```bash
+kittr/
+├── 📄 index.html          # Layout utama: header, search, filters, resource grid, footer
+├── 🎨 style.css           # Custom overrides & CSS variables untuk theming
+├── ⚙️ script.js           # Logic inti: search, filter, render, JSON fetch
+├── 📦 resources.json      # Database resource terkurasi (disortir per kategori)
+└── 📁 /assets             # Icons, illustrations, dan static images
+```
