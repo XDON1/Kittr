@@ -61,7 +61,7 @@ Berdasarkan problem statement di atas, ini draft goals-nya:
 
 ### FR-3: Filter Kategori (Single-Select)
 
-- User dapat memfilter resource berdasarkan satu kategori pada satu waktu (misal: Web Development, Networking, atau IoT).
+- User dapat memfilter resource berdasarkan satu kategori pada satu waktu dari 13 kategori yang tersedia (lihat daftar lengkap di poin 6.4).
 - Memilih kategori lain akan otomatis mengganti filter sebelumnya (bukan menambah).
 
 ### FR-4: Navigasi ke Resource Eksternal
@@ -96,7 +96,7 @@ Berdasarkan problem statement di atas, ini draft goals-nya:
 - Website statis (HTML + Tailwind CSS + Vanilla JS), tanpa backend/database.
 - Data resource disimpan hardcode di file JSON.
 - Fitur: tampilkan list resource (grouped by category), search real-time, filter kategori (single-select), reset filter, empty state, counter jumlah resource per kategori.
-- Kategori utama mencakup minimal 3 domain: Web Development, Networking, IoT (dengan sub-kategori di masing-masing).
+- Kategori mencakup 13 kategori utama tanpa sub-kategori (lihat daftar lengkap di poin 6.4).
 - Responsive design (mobile & desktop).
 - Konten campur Bahasa Indonesia & English (menyesuaikan istilah teknis yang lazim dipakai).
 - Version control & collab pakai GitHub.
@@ -140,18 +140,36 @@ Deskripsi: Daftar kategori yang bisa diklik untuk memfilter resource (single-sel
 
 **Requirement:**
 
-- Ditampilkan sebagai tab/pill/button, contoh: Semua | Web Development | Networking | IoT.
-- Setiap kategori menampilkan counter jumlah resource, contoh: Web Development (24).
-- Kategori yang aktif/dipilih harus punya visual state berbeda (misal warna background berubah).
+- Ditampilkan sebagai tab/pill/button, contoh: Semua | Web Utilities | Networking | IoT | Web Dev | dst (13 kategori, lihat 6.4).
+- Setiap kategori menampilkan counter jumlah resource, contoh: Web Dev (24).
+- Kategori yang aktif/dipilih harus punya visual state berbeda (misal warna background berubah sesuai accent color kategori tersebut).
 - Kategori "Semua" jadi default state saat halaman pertama dibuka.
 
-### 6.4 Kategori 
+### 6.4 Daftar Kategori
 
 **Requirement:**
 
-- Kategori cuma 3 level utama: Web Development, Networking, IoT .
-- Tidak ada sub-kategori, jadi filter cukup single-level.
-- Setiap resource cukup punya satu category di data JSON.
+- Tidak ada sub-kategori, jadi filter cukup single-level (flat, 13 kategori sejajar).
+- Setiap resource cukup punya satu `category` di data JSON.
+- Daftar kategori final beserta accent color-nya:
+
+| No | Kategori | Tailwind Class (accent) |
+|---|---|---|
+| 1 | Web Utilities | `gray-500` |
+| 2 | Networking | `emerald-500` |
+| 3 | IoT | `purple-500` |
+| 4 | Web Dev | `blue-500` |
+| 5 | Programming | `yellow-500` |
+| 6 | Local Server | `red-500` |
+| 7 | Simulator | `indigo-500` |
+| 8 | Design | `pink-500` |
+| 9 | Repository Github | `olive-500` |
+| 10 | Education & Course | `orange-500` |
+| 11 | Script & Mods | `teal-500` |
+| 12 | Web Browser | `cyan-500` |
+| 13 | Security & Privacy | `green-500` |
+
+> *Catatan: `olive-500` bukan default color Tailwind (perlu di-extend manual di config, atau diganti ke warna terdekat seperti `lime-700`/custom hex kalau mau tetap pure Tailwind tanpa config tambahan).
 
 ### 6.5 Resource Card ➔ Icon Strategy
 
@@ -183,8 +201,6 @@ Deskripsi: Bagian bawah halaman.
 
 ---
 
-# HARUS DI CEK LAGI!!! 
-
 ## 7. Design System
 
 ### 7.1 Design Principles
@@ -194,37 +210,63 @@ Deskripsi: Bagian bawah halaman.
 
 ### 7.2 Color Palette
 
-**Primary Colors (Tailwind-based):**
+**Base CSS Variables (Dark Mode — default v1):**
 
-| Nama	| Hex	| Tailwind Class  |	Fungsi |
-|-------|-----|-----------------|---------|
-| Primary	| `#6366F1` (Indigo 500)	| `indigo-500` |	Tombol utama, link aktif, filter aktif |
-| Primary Dark | `#4F46E5` (Indigo 600) |	`indigo-600` |	Hover state primary |
-| Secondary	| `#0EA5E9` (Sky 500) |	`sky-500` |	Aksen sekunder, badge kategori tertentu |
+Struktur dasar warna pakai 3 layer background (biar ada hierarki depth: base → card → elevated/accent), didefinisikan sebagai CSS variable di `:root` supaya gampang di-extend ke light mode nanti di v1.x.
 
-**Neutral Colors (Dark Mode):**
-| Nama | Hex | Tailwind Class | Fungsi |
-|---|---|---|---|
-| Background | `#0F172A` (Slate 900) | `slate-900` | Background utama halaman |
-| Surface/Card | `#1E293B` (Slate 800) | `slate-800` | Background card resource |
-| Border | `#334155` (Slate 700) | `slate-700` | Border card, divider |
-| Text Primary | `#F8FAFC` (Slate 50) | `slate-50` | Judul, teks utama |
-| Text Secondary | `#94A3B8` (Slate 400) | `slate-400` | Deskripsi, teks pendukung |
-| Text Muted | `#64748B` (Slate 500) | `slate-500` | Placeholder, teks non-aktif |
+```css
+:root {
+    --bg-primary: #0f172a;   /* Slate 900 - background utama halaman */
+    --bg-secondary: #1e293b; /* Slate 800 - background card/surface */
+    --bg-tertiary: #0ff;     /* Cyan - aksen/elevated surface, dipakai terbatas */
+}
+```
 
-**Primary Colors (disesuaikan biar kontras bagus di dark background):**
-| Nama | Hex | Tailwind Class | Fungsi |
-|---|---|---|---|
-| Primary | `#818CF8` (Indigo 400) | `indigo-400` | Tombol utama, link aktif, filter aktif |
-| Primary Hover | `#6366F1` (Indigo 500) | `indigo-500` | Hover state primary |
-| Secondary | `#38BDF8` (Sky 400) | `sky-400` | Aksen sekunder |
+> Catatan: `--bg-tertiary` (`#0ff`) itu cyan terang banget kalau dipakai sebagai background luas — cocoknya dipakai buat aksen kecil (misal glow effect, active indicator, border highlight), bukan background section/card penuh. Kalau butuh warna tertiary yang lebih "aman" buat area luas, bisa dipertimbangkan versi mutednya (misal `cyan-900`/`#164e63`) sebagai alternatif.
 
-**Category Accent Colors (disesuaikan buat dark mode):**
-| Kategori | Hex | Tailwind Class |
+**Text & Border Variables (pelengkap, konsisten sama base di atas):**
+| Nama | Hex | Fungsi |
 |---|---|---|
-| Web Development | `#818CF8` (Indigo 400) | `indigo-400` |
-| Networking | `#34D399` (Emerald 400) | `emerald-400` |
-| IoT | `#FBBF24` (Amber 400) | `amber-400` |
+| `--text-primary` | `#F8FAFC` | Judul, teks utama |
+| `--text-secondary` | `#94A3B8` | Deskripsi, teks pendukung |
+| `--text-muted` | `#64748B` | Placeholder, teks non-aktif |
+
+```css
+:root {
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-tertiary: #0ff;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+}
+```
+
+**Primary/Brand Colors:**
+| Nama | Hex | Tailwind Class | Fungsi |
+|---|---|---|---|
+| Primary | `#818CF8` (Indigo 400) | `indigo-400` | Tombol utama, link aktif, elemen interaktif |
+| Primary Hover | `#6366F1` (Indigo 500) | `indigo-500` | Hover state primary |
+
+**Category Accent Colors (13 Kategori):**
+
+Setiap kategori punya warna identitas sendiri, dipakai untuk badge, border-left card, dan filter pill saat aktif. Warna diambil dari eksplorasi awal, disesuaikan ke Tailwind palette:
+
+| Kategori | Tailwind Class | Hex (referensi) |
+|---|---|---|
+| Web Utilities | `gray-500` | `#6B7280` |
+| Networking | `emerald-500` | `#10B981` |
+| IoT | `purple-500` | `#A855F7` |
+| Web Dev | `blue-500` | `#3B82F6` |
+| Programming | `yellow-500` | `#EAB308` |
+| Local Server | `red-500` | `#EF4444` |
+| Simulator | `indigo-500` | `#6366F1` |
+| Design | `pink-500` | `#EC4899` |
+| Repository Github | `olive-500` | `#708238` |
+| Education & Course | `orange-500` | `#F97316` |
+| Script & Mods | `teal-500` | `#14B8A6` |
+| Web Browser | `cyan-500` | `#06B6D4` |
+| Security & Privacy | `green-500` | `#22C55E` |
 
 **Semantic Colors:**
 
@@ -236,16 +278,7 @@ Deskripsi: Bagian bawah halaman.
 **Catatan penting untuk struktur CSS:**
 - Karena light mode nyusul di v1.x, sebaiknya dari awal build pakai **CSS variables** (bukan hardcode Tailwind class dark mode manual), supaya nanti gampang nambahin toggle tanpa rombak ulang semua komponen.
 - Contoh pendekatan: definisikan variable di `:root` (dark sebagai default), nanti pas v1.x tinggal tambah class `.light` yang override variable-nya.
-
-```css
-:root {
-  --bg-primary: #0F172A;
-  --bg-surface: #1E293B;
-  --text-primary: #F8FAFC;
-  --text-secondary: #94A3B8;
-  --border-color: #334155;
-}
-```
+- Warna kategori (13 warna di atas) sengaja pakai Tailwind class langsung (bukan CSS variable) karena sifatnya fixed identity per kategori, tidak berubah saat switch dark/light mode.
 
 ### 7.3 Typography
 
@@ -328,10 +361,11 @@ Font Family:
 
 **Struktur dalam card:**
 1. Icon/logo resource (ukuran 40x40px, rounded-lg)
-2. Badge kategori (kecil, pojok atau di bawah icon) ➔ warna sesuai category accent color
+2. Badge kategori (kecil, pojok kanan atas) ➔ warna sesuai category accent color (lihat tabel 13 kategori di 7.2)
 3. Nama resource (H3)
 4. Deskripsi (text-sm, text-gray-500, max 2 baris ➔ line-clamp-2)
 5. Link "Kunjungi →" di bagian bawah card (text-indigo-500, hover underline)
+
 
 #### D. Badge/Tag Kategori
 
@@ -386,5 +420,3 @@ Font Family:
 - Card hover: subtle lift effect (hover:shadow-md hover:-translate-y-0.5).
 - Filter pill active: transisi warna background halus.
 - (Sesuai scope, animasi tetap minimal ➔ nggak perlu animasi kompleks/library tambahan karena JS vanilla tanpa framework.)
-
-
