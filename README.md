@@ -92,3 +92,25 @@ kittr/
 6. **Empty State** → Jika tidak ada hasil yang cocok, tampilkan pesan ramah + tombol reset
 
 ---
+
+## 🎨 Category Color 
+
+Setiap kategori di Kittr punya warna identitas sendiri untuk memudahkan visual filtering. Berikut daftar lengkapnya:
+
+| Kategori | Tailwind Class | Hex Code |
+|----------|----------------|----------|
+| ️ Web Utilities | `gray-500` | `#6B7280` |
+| 🖥️ Networking | `emerald-500` | `#10B981` |
+| 📟 IoT | `purple-500` | `#A855F7` |
+| 🌐 Web Dev | `blue-500` | `#3B82F6` |
+| 💻 Programming | `yellow-500` | `#EAB308` |
+| 🗄️ Local Server | `red-500` | `#EF4444` |
+| 🎮 Simulator | `indigo-500` | `#6366F1` |
+| 🎨 Design | `pink-500` | `#EC4899` |
+| 📦 Repository Github | `olive-500`* | `#708238` |
+| 🎓 Education & Course | `orange-500` | `#F97316` |
+| ️ Script & Mods | `teal-500` | `#14B8A6` |
+| 🌍 Web Browser | `cyan-500` | `#06B6D4` |
+| 🔐 Security & Privacy | `green-500` | `#22C55E` |
+
+--- 
