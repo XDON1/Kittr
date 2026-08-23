@@ -1,30 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="/src/assets/components/stylesheet.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/assets/components/stylesheet.css" />
+
+    <!-- 1. Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- 2. FONT GOOGLE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Document</title>
 </head>
 <body>
- <div class="flex justify-evenly">
-        <div class="test-warna1 bg-gray-500 flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg mt-[20px]">Web Utilities</div>
-        <div class="test-warna2 bg-emerald-500 flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg mt-[20px]">Networking</div>
-        <div class="test-warna3 bg-purple-500 flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg mt-[20px]">IOT</div>
-        <div class="test-warna4 bg-blue-500 flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg mt-[20px]">Web Dev</div>
-        <div class="test-warna5 bg-yellow-500 flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg mt-[20px]">Programming</div>
-        <div class="test-warna6 bg-red-500 flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg mt-[20px]">Local Server</div>
-        <div class="test-warna7 bg-indigo-500 flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg mt-[20px]">Simulator</div>
-        <div class="test-warna8 bg-pink-500 flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg mt-[20px]">Design</div>
-        <div class="test-warna9 bg-olive-500 flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg mt-[20px]">Repository Github</div>
-        <div class="test-warna10 bg-orange-500 flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg mt-[20px]">Education & Course</div>
-        <div class="test-warna11 bg-teal-500 flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg mt-[20px]">Script & Mods</div>
-        <div class="test-warna12 bg-cyan-500 flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg mt-[20px]">Web Browser</div>
-        <div class="test-warna13 bg-green-500 flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg mt-[20px]">Security & Privacy</div>
-    </div>
+
+    <!-- struktur doang-->
+        <nav class="navbar">
+
+        <!-- ini logo kitter -->
+        <div class="nav-left">
+            <div class="kitter">
+                <div class="logo">
+                    KITTER
+                    <span class="sebelahkitter">NO SIGNUPS!</span>
+                </div>
+            </div>
+        </div>
+
+        <ul class="nav-center" id="navCenter">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">KATEGORI</a></li>
+            <li><a href="#">FORUM</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">DOCS</a></li>
+            <li><a href="#">GITHUB</a></li>
+        </ul>
+
+        <!-- ga bisa bikin search -->
+        <div class="nav-right" id="navRight">
+            <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+            <a href="#">FUCK SIGN IN</a>
+            <a href="#" class="btn-tipu">
+                FUCK SING UP<i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+
+        <!-- Tombol Hamburger -->
+        <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </nav>
 
    
-    <script src="/src/script.js"></script>
+    <!-- =====  KOTAK-KOTAK KATEGORI ===== -->
+    <div class="flex flex-wrap justify-evenly gap-4 mt-6 px-4">
+        <!-- Sekarang pake class custom (box-web, box-net, dll) yang warnanya ada di style.css -->
+        <div class="box-web flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg">Web Utilities</div>
+        <div class="box-net flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg">Networking</div>
+        <div class="box-iot flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg">IOT</div>
+        <div class="box-dev flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg">Web Dev</div>
+        <div class="box-prog flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg">Programming</div>
+        <div class="box-local flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg">Local Server</div>
+        <div class="box-sim flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg">Simulator</div>
+        <div class="box-design flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg">Design</div>
+        <div class="box-repo flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg text-white">Repository Github</div>
+        <div class="box-edu flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg">Education & Course</div>
+        <div class="box-script flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg">Script & Mods</div>
+        <div class="box-browser flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg">Web Browser</div>
+        <div class="box-secure flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg">Security & Privacy</div>
+    </div>
+
+    <!-- ===== FILE JS EKSTERNAL ===== -->
+    <script src="script.js"></script>
+
 </body>
 </html>

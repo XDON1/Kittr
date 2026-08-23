@@ -1,12 +1,257 @@
 :root {
-    --bg-primary: #0f172a;
-    --bg-secondary: #1e293b;
-    --bg-tertiary: #0ff;
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --text-muted: #64748b;
+    --bg-primary: #000;
+    --ds-green: #a0ff5d;
+    --text-primary: #ffffff;
+    --text-secondary: #a0ff5d;
+    --text-muted: #333333;
 }
 
 body {
     background-color: var(--bg-primary);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 1. NAVBAR kaca kayaknya                  */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    padding: 0 40px;
+    height: 80px;
+    width: calc(100% - 40px);
+    max-width: 1400px;
+    margin: 20px auto 0;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(160, 255, 93, 0.25);
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+}
+
+/* kitter */
+.nav-left .logo {
+    color: var(--text-primary);
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: default;
+}
+
+.logo .sebelahkitter {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+    background-color: var(--ds-green);
+    padding: 4px 14px;
+    border-radius: 30px;
+    letter-spacing: 0.5px;
+    border: none;
+}
+
+/* menu */
+.nav-center {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+}
+
+.nav-center li a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: color 0.2s, text-shadow 0.2s;
+    text-transform: uppercase;
+}
+
+.nav-center li a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(160, 255, 93, 0.4);
+}
+
+/* ===== KANAN ===== */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav-right a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.nav-right a:hover {
+    color: #ffffff;
+}
+
+.nav-right .search-icon {
+    font-size: 18px;
+    color: var(--text-secondary);
+}
+.nav-right .search-icon:hover {
+    color: #ffffff;
+}
+
+/* tombol tipu */
+.btn-tipu {
+    background-color: var(--ds-green) !important;
+    color: #000000 !important;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 0 20px rgba(160, 255, 93, 0.2);
+    border: none;
+}
+
+.btn-tipu:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(160, 255, 93, 0.5);
+    color: #000000 !important;
+}
+
+.btn-tipu i {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+/* hamburger */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    order: 2;
+}
+
+.hamburger span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: var(--ds-green);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+
+/* 2. Respon                          */
+@media screen and (max-width: 820px) {
+    .nav-center {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        padding: 20px 0;
+        gap: 12px;
+        order: 3;
+        border-top: 1px solid rgba(160, 255, 93, 0.2);
+        border-radius: 0 0 16px 16px;
+    }
+
+    .nav-center.active {
+        display: flex;
+    }
+
+    .nav-right {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding-bottom: 20px;
+        order: 4;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 0 0 16px 16px;
+    }
+
+    .nav-right.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-left {
+        order: 1;
+    }
+
+    .btn-join {
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 0 15px;
+        height: 70px;
+        width: calc(100% - 20px);
+        border-radius: 14px;
+        margin: 12px auto 0;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+    .logo {
+        font-size: 24px;
+    }
+    .logo .beta {
+        font-size: 10px;
+        padding: 2px 10px;
+    }
+    .nav-center li a {
+        font-size: 14px;
+    }
+    .nav-right a {
+        font-size: 13px;
+    }
+}
+
+
+/* 3. WARNA KOTAK (kategori)    */
+.box-web { background-color: #6B7280; }
+.box-net { background-color: #10B981; }
+.box-iot { background-color: #A855F7; }
+.box-dev { background-color: #3B82F6; }
+.box-prog { background-color: #EAB308; }
+.box-local { background-color: #EF4444; }
+.box-sim { background-color: #6366F1; }
+.box-design { background-color: #EC4899; }
+.box-repo { background-color: #808000; }
+.box-edu { background-color: #F97316; }
+.box-script { background-color: #14B8A6; }
+.box-browser { background-color: #06B6D4; }
+.box-secure { background-color: #22C55E; }
