@@ -114,3 +114,13 @@ Setiap kategori di Kittr punya warna identitas sendiri untuk memudahkan visual f
 | 🔐 Security & Privacy | `green-500` | `#22C55E` |
 
 --- 
+
+## 🎨 Highlight Design System
+
+- **Color Palette:** Indigo primary, Slate neutrals, category accents (Emerald untuk Networking, Amber untuk IoT, dll)
+- **Typography:** Inter untuk body, JetBrains Mono untuk code/tags
+- **Spacing:** Grid baseline 4px konsisten via spacing scale Tailwind
+- **Components:** Search bar, filter pills, resource cards, empty state, footer — semua dibangun dengan utility classes
+- **Animations:** Hover lifts halus, transisi smooth, tanpa library berat
+
+---
