@@ -1,0 +1,158 @@
+{
+    "Clipfish": {
+        "desc": "Ultra-fast, minimal text and code snippet sharing tool.",
+        "category": "Web Utilities",
+        "link": "https://clip.fish",
+        "tags": ["snippet", "code-sharing"]
+    },
+    "Tsonit Love": {
+        "desc": "Unique digital QR gift card generator for special moments and personalized surprises.",
+        "category": "Web Utilities",
+        "link": "https://love.tsonit.com",
+        "tags": ["qr-code", "generator"]
+    },
+    "QR Code Show": {
+        "desc": "Standard online generator for creating custom QR codes quickly and easily.",
+        "category": "Web Utilities",
+        "link": "https://qrcode.show",
+        "tags": ["qr-code", "generator"]
+    },
+    "UL0 Site": {
+        "desc": "Straightforward, fast, and reliable custom URL shortener service.",
+        "category": "Web Utilities",
+        "link": "https://ul0.site",
+        "tags": ["url-shortener", "utility"]
+    },
+    "Webtor": {
+        "desc": "Web-based torrent engine to stream or download torrent contents directly in the browser.",
+        "category": "Web Utilities",
+        "link": "https://webtor.io",
+        "tags": ["torrent", "streaming"]
+    },
+    "DropSilk": {
+        "desc": "WebRTC-based P2P file and screen sharing tool with zero limits and high privacy.",
+        "category": "Web Utilities",
+        "link": "https://www.dropsilk.xyz",
+        "tags": ["p2p", "file-sharing"]
+    },
+    "PairDrop": {
+        "desc": "Browser-to-browser local P2P file sharing utility with no installation required.",
+        "category": "Web Utilities",
+        "link": "https://pairdrop.net",
+        "tags": ["p2p", "file-sharing"]
+    },
+    "LocalSend": {
+        "desc": "Cross-platform file sharing app (Windows, Android, iOS, Mac) over local WiFi without internet.",
+        "category": "Web Utilities",
+        "link": "https://localsend.org",
+        "tags": ["file-sharing", "utility"]
+    },
+    "BentoPDF": {
+        "desc": "Client-side, privacy-focused web suite for merging, splitting, and editing PDFs locally.",
+        "category": "Web Utilities",
+        "link": "https://www.bentopdf.com",
+        "tags": ["pdf", "editor"]
+    },
+    "Temp Mail": {
+        "desc": "Secure, anonymous, free, and disposable temporary email address service.",
+        "category": "Web Utilities",
+        "link": "https://temp-mail.org",
+        "tags": ["email", "temporary"]
+    },
+    "10MinuteMail": {
+        "desc": "Temporary email generator that auto-expires in 10 minutes to avoid spam on your main email.",
+        "category": "Web Utilities",
+        "link": "https://10minutemail.com",
+        "tags": ["email", "temporary"]
+    },
+    "Excalidraw": {
+        "desc": "Virtual whiteboard with a hand-drawn style, perfect for sketching flows and visual diagrams.",
+        "category": "Web Utilities",
+        "link": "https://excalidraw.com",
+        "tags": ["whiteboard", "diagram"]
+    },
+    "Photopea": {
+        "desc": "Free web-based Photoshop alternative. Opens PSD, AI, and Sketch files directly in the browser.",
+        "category": "Web Utilities",
+        "link": "https://www.photopea.com",
+        "tags": ["image-editor", "design"]
+    },
+    "Waifu2x": {
+        "desc": "Web-based AI tool to upscale image resolution and reduce noise, especially for anime illustrations and photos.",
+        "category": "Web Utilities",
+        "link": "https://www.waifu2x.net",
+        "tags": ["ai", "image"]
+    },
+    "Removebg": {
+        "desc": "Instant and automatic background removal tool for photos in seconds.",
+        "category": "Web Utilities",
+        "link": "https://www.remove.bg",
+        "tags": ["ai", "image"]
+    },
+    "SSSTik": {
+        "desc": "Fast and free HD TikTok video downloader without watermark.",
+        "category": "Web Utilities",
+        "link": "https://ssstik.io/id",
+        "tags": ["downloader", "video"]
+    },
+    "SaveVid IG Downloader": {
+        "desc": "Specialized web tool for downloading private posts, reels, and media from Instagram.",
+        "category": "Web Utilities",
+        "link": "https://savevid.net/id/instagram-private-downloader",
+        "tags": ["downloader", "video"]
+    },
+    "Cobalt": {
+        "desc": "Ad-free open-source media downloader for videos and audio across major platforms.",
+        "category": "Web Utilities",
+        "link": "https://cobalt.tools",
+        "tags": ["downloader", "open-source"]
+    },
+    "Scribd Downloader": {
+        "desc": "Free web utility to fetch documents and PDFs directly from Scribd.",
+        "category": "Web Utilities",
+        "link": "https://scribd.vdownloaders.com",
+        "tags": ["downloader", "document"]
+    },
+    "PinterestDownloader": {
+        "desc": "Clean, lightweight Pinterest downloader supporting Full HD quality downloads.",
+        "category": "Web Utilities",
+        "link": "https://pindown.io",
+        "tags": ["downloader", "image"]
+    },
+    "SSSTwitter": {
+        "desc": "Popular and fast X (Twitter) video downloader allowing resolution selection from SD to HD (1080p).",
+        "category": "Web Utilities",
+        "link": "https://ssstwitter.com",
+        "tags": ["downloader", "video"]
+    },
+    "Spotidown": {
+        "desc": "Online tool to download Spotify songs as high-quality MP3 files (320kbps) for free.",
+        "category": "Web Utilities",
+        "link": "https://spotidown.co/en16",
+        "tags": ["downloader", "audio"]
+    },
+    "Relay": {
+        "desc": "Open-source web tool to transfer files directly between devices without using the cloud.",
+        "category": "Web Utilities",
+        "link": "https://relay.rishishah.in",
+        "tags": ["file-sharing", "open-source"]
+    },
+    "MP3 to URL Converter": {
+        "desc": "Simple audio hosting tool to convert MP3 files into direct playable URLs.",
+        "category": "Web Utilities",
+        "link": "https://www.mp3tourl.com",
+        "tags": ["audio", "utility"]
+    },
+    "AudioTrimmer": {
+        "desc": "Quick browser-based audio cutter for trimming tracks and making custom ringtones.",
+        "category": "Web Utilities",
+        "link": "https://audiotrimmer.com",
+        "tags": ["audio", "editor"]
+    },
+    "Sci-Hub": {
+        "desc": "Open-access platform to unlock and download paywalled international scientific journals for free.",
+        "category": "Web Utilities",
+        "link": "https://sci-hub.sidesgame.com",
+        "tags": ["education", "research"]
+    }
+}
