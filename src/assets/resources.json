@@ -154,5 +154,107 @@
         "category": "Web Utilities",
         "link": "https://sci-hub.sidesgame.com",
         "tags": ["education", "research"]
+    },
+    "Winbox": {
+        "desc": "Graphical utility for managing and configuring MikroTik RouterOS devices efficiently.",
+        "category": "Networking",
+        "link": "https://mikrotik.com/download/winbox",
+        "tags": ["router", "network-management"]
+    },
+    "Cisco Packet Tracer": {
+        "desc": "Comprehensive network simulation tool for visualizing network creation, configuration, and troubleshooting.",
+        "category": "Networking",
+        "link": "https://www.netacad.com/resources/lab-downloads?courseLang=en-US",
+        "tags": ["network-simulation", "cisco", "education"]
+    },
+    "Arduino IDE": {
+        "desc": "Official open-source integrated development environment for writing and uploading code to Arduino boards.",
+        "category": "IoT",
+        "link": "https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE",
+        "tags": ["development", "microcontroller", "open-source"]
+    },
+    "GitHub": {
+        "desc": "The world's leading platform for version control, code hosting, and developer collaboration.",
+        "category": "Web Development",
+        "link": "https://github.com",
+        "tags": ["version-control", "collaboration", "open-source"]
+    },
+    "Tailwind CSS": {
+        "desc": "Utility-first CSS framework for rapidly building custom, modern user interfaces.",
+        "category": "Web Development",
+        "link": "https://tailwindcss.com",
+        "tags": ["css-framework", "frontend", "ui"]
+    },
+    "Bootstrap": {
+        "desc": "Popular, responsive front-end framework with pre-built components and a robust grid system.",
+        "category": "Web Development",
+        "link": "https://getbootstrap.com",
+        "tags": ["css-framework", "frontend", "ui"]
+    },
+    "Vercel": {
+        "desc": "Free cloud platform for static sites and serverless functions with seamless Git integration.",
+        "category": "Web Development",
+        "link": "https://vercel.com",
+        "tags": ["hosting", "deployment", "frontend"]
+    },
+    "Netlify": {
+        "desc": "All-in-one platform for automating modern web projects, offering reliable free static site hosting.",
+        "category": "Web Development",
+        "link": "https://www.netlify.com",
+        "tags": ["hosting", "deployment", "frontend"]
+    },
+    "CSS Grid Generator": {
+        "desc": "Visual tool to easily create custom CSS grid layouts with copy-paste ready code.",
+        "category": "Web Development",
+        "link": "https://cssgrid-generator.netlify.app",
+        "tags": ["css", "layout", "generator"]
+    },
+    "Picsum Photos": {
+        "desc": "Free placeholder image service providing high-quality random images for web development testing.",
+        "category": "Web Development",
+        "link": "https://picsum.photos",
+        "tags": ["placeholder", "image", "testing"]
+    },
+    "CSS Gradient": {
+        "desc": "Free tool to generate beautiful CSS gradients with a live preview and ready-to-use code.",
+        "category": "Web Development",
+        "link": "https://cssgradient.io",
+        "tags": ["css", "design", "generator"]
+    },
+    "Lorem Ipsum Generator": {
+        "desc": "Classic dummy text generator for filling layouts with realistic-looking placeholder content.",
+        "category": "Web Development",
+        "link": "https://www.lipsum.com",
+        "tags": ["placeholder", "text", "design"]
+    },
+    "Feather Icons": {
+        "desc": "Collection of beautiful, open-source, and fully customizable SVG icons for web projects.",
+        "category": "Web Development",
+        "link": "https://feathericons.com",
+        "tags": ["icons", "svg", "open-source"]
+    },
+    "Heroicons": {
+        "desc": "Clean, hand-crafted SVG icon set made by the creators of Tailwind CSS.",
+        "category": "Web Development",
+        "link": "https://heroicons.com",
+        "tags": ["icons", "svg", "tailwind"]
+    },
+    "Font Awesome": {
+        "desc": "The web's most popular icon set and toolkit, offering thousands of scalable vector icons.",
+        "category": "Web Development",
+        "link": "https://fontawesome.com",
+        "tags": ["icons", "svg", "frontend"]
+    },
+    "TinyPNG": {
+        "desc": "Smart lossy compression technique to reduce the file size of PNG and JPEG images efficiently.",
+        "category": "Web Development",
+        "link": "https://tinyjpg.com",
+        "tags": ["image", "optimization", "utility"]
+    },
+    "Hugging Face": {
+        "desc": "The largest open-source AI community and platform for exploring, building, and deploying machine learning models.",
+        "category": "Web Development",
+        "link": "https://huggingface.co",
+        "tags": ["ai", "machine-learning", "open-source"]
     }
 }
