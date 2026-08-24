@@ -241,17 +241,3 @@ body {
 }
 
 
-/* 3. WARNA KOTAK (kategori)    */
-.box-web { background-color: #6B7280; }
-.box-net { background-color: #10B981; }
-.box-iot { background-color: #A855F7; }
-.box-dev { background-color: #3B82F6; }
-.box-prog { background-color: #EAB308; }
-.box-local { background-color: #EF4444; }
-.box-sim { background-color: #6366F1; }
-.box-design { background-color: #EC4899; }
-.box-repo { background-color: #808000; }
-.box-edu { background-color: #F97316; }
-.box-script { background-color: #14B8A6; }
-.box-browser { background-color: #06B6D4; }
-.box-secure { background-color: #22C55E; }
