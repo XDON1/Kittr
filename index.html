@@ -12,49 +12,55 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 
     <!-- 3. STYLESHEET CUSTOM -->
-    <link rel="stylesheet" href="/src/assets/components/stylesheet.css" />
-    <!-- Sesuaikan path jika pakai style.css lokal -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/assets/components/stylesheet.css"/>
 </head>
 <body>
 
-    <!-- ===== NAVBAR KACA ===== -->
-    <nav class="navbar">
-        <!-- Logo Nav -->
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
         <div class="nav-left">
             <div class="logo">
-                Kittr <span class="sebelahkitter">FUCK SIGNUP!</span>
+                Kittr
             </div>
         </div>
 
-        <!-- Nav Menu -->
-        <ul class="nav-center">
+        <ul class="nav-center" id="navMenu">
             <li><a href="#about">About</a></li>
             <li><a href="#tools">Tools</a></li>
             <li><a href="#github">Github</a></li>
             <li><a href="#donate">Donate</a></li>
         </ul>
 
-        <!-- Nav Actions (Kanan) -->
-        <div class="nav-right">
-            <!-- Search Bar / Icon -->
-            <a href="#" class="search-icon" aria-label="Search">
-                <i class="fas fa-search"></i>
-            </a>
+        <div class="nav-right" id="navRight">
 
-            <!-- Tombol Action -->
-            <button class="btn-tipu">
-                SHARE <i class="fas fa-arrow-right"></i>
-            </button>
+            <!-- ===== SEARCH BAR ===== -->
+            <form class="search-form" id="searchForm" role="search" onsubmit="handleSearch(event)">
+                <input
+                    type="search"
+                    class="search-input"
+                    id="searchInput"
+                    placeholder="Search..."
+                    aria-label="Search"
+                    autocomplete="off"
+                >
+                <button type="button" class="search-btn" id="searchBtn" aria-label="Toggle search">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+
+            <a href="#" class="btn-tipu">
+                SHARE
+                <i class="fas fa-arrow-right"></i>
+            </a>
         </div>
 
-        <!-- Hamburger Menu Mobile -->
-        <button class="hamburger" id="hamburger-btn" aria-label="Open menu">
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
             <span></span>
             <span></span>
             <span></span>
         </button>
     </nav>
+
 
     <!-- ===== KOTAK-KOTAK KATEGORI ===== -->
     <main class="container mx-auto">
@@ -76,6 +82,6 @@
     </main>
 
     <!-- ===== FILE JS EKSTERNAL ===== -->
-    <script src="script.js"></script>
+    <script src="/src/services/script.js"></script>
 </body>
 </html>

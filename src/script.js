@@ -1,19 +1,22 @@
-// Ambil elemen yang dibutuhkan
-const hamburger = document.getElementById('hamburgerBtn');
-const navCenter = document.getElementById('navCenter');
+// ===== HAMBURGER TOGGLE =====
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('navMenu');
 const navRight = document.getElementById('navRight');
 
-// Saat tombol hamburger diklik, toggle class 'active'
 hamburger.addEventListener('click', () => {
-    navCenter.classList.toggle('active');
+    navMenu.classList.toggle('active');
     navRight.classList.toggle('active');
 });
 
-// Opsional: klik di luar navbar biar menunya nutup sendiri
-document.addEventListener('click', function(event) {
-    const navbar = document.querySelector('.navbar');
-    if (navbar && !navbar.contains(event.target)) {
-        navCenter.classList.remove('active');
-        navRight.classList.remove('active');
+// ===== HANDLE SEARCH =====
+function handleSearch(e) {
+    e.preventDefault();
+    const searchInput = document.getElementById('searchInput');
+    const query = searchInput.value.trim();
+    
+    if (query) {
+        alert('Searching for: "' + query + '"');
+        // Di sini bisa diarahkan ke halaman hasil search
+        // window.location.href = '/search?q=' + encodeURIComponent(query);
     }
-});
+}
