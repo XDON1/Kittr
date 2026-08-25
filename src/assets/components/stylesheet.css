@@ -32,7 +32,7 @@ body {
     margin-right: 4px;
 }
 
-/* ===== HAMBURGER (Uiverse by Creatlydev, disesuaikan warna) ===== */
+/* ===== HAMBURGER (Uiverse by Creatlydev, disesuaikan) ===== */
 .icon-menu {
     --gap: 5px;
     --height-bar: 2.5px;
@@ -74,15 +74,16 @@ body {
     transition: bottom 200ms 100ms, transform 100ms;
 }
 
-.check-icon:checked + .icon-menu > .bar--1 {
+/* PAKE ~ (general sibling), bukan + (adjacent) — biar tetep jalan walau ada div lain (logo, dropdown, search-group) di antara checkbox & label di DOM */
+.check-icon:checked ~ .icon-menu > .bar--1 {
     transition: top 200ms, transform 200ms 100ms;
 }
 
-.check-icon:checked + .icon-menu > .bar--3 {
+.check-icon:checked ~ .icon-menu > .bar--3 {
     transition: bottom 200ms, transform 200ms 100ms;
 }
 
-.check-icon:checked + .icon-menu {
+.check-icon:checked ~ .icon-menu {
     --pos-y-bar-one: calc(var(--gap) + var(--height-bar));
     --pos-y-bar-three: calc(var(--gap) + var(--height-bar));
     --scale-bar: 0;
