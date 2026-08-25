@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kittr Directory</title>
 
-    <!-- 1. TAILWIND CSS (Cukup 1 CDN Script Ini Aja, Gadot!) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script>
@@ -24,80 +23,90 @@
         }
     </script>
 
-    <!-- 2. FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-
-    <!-- 3. STYLESHEET CUSTOM -->
     <link rel="stylesheet" href="src/assets/components/stylesheet.css"/>
 </head>
 <body>
 
     <!-- ===== NAVBAR ===== -->
-    <nav class="sticky top-5 flex items-center justify-between bg-[rgba(0,0,0,0.35)] backdrop-blur-[8px] px-10 h-[80px] w-[calc(100%-40px)] max-w-[1400px] mx-auto mt-5 rounded-[20px] shadow-[0_8px_32px_rgba(0,0,0,0.6),inset_0_1px_0_rgba(255,255,255,0.1)] border border-[rgba(160,255,93,0.25)] box-border relative z-10 mobile:px-[15px] mobile:h-[70px] mobile:w-[calc(100%-20px)] mobile:rounded-[14px] mobile:mt-3" id="navbar">
-        <div class="tablet:order-1">
-            <div class="text-white text-[32px] font-bold tracking-[2px] flex items-center gap-3 cursor-default mobile:text-[24px]">
+    <nav class="sticky top-5 flex flex-wrap items-center justify-between bg-[rgba(0,0,0,0.35)] backdrop-blur-[8px] px-10 min-h-[80px] w-[94vw] max-w-[1400px] mx-auto mt-5 rounded-[20px] shadow-[0_8px_32px_rgba(0,0,0,0.6),inset_0_1px_0_rgba(255,255,255,0.1)] border border-[rgba(160,255,93,0.25)] box-border relative z-10 mobile:px-3 mobile:min-h-[60px] mobile:w-[92vw] mobile:rounded-[14px] mobile:mt-3" id="navbar">
+
+        <!-- CHECKBOX: paling depan di DOM biar peer-checked & sibling selector jalan -->
+        <input hidden class="check-icon peer" id="check-icon" name="check-icon" type="checkbox">
+
+        <!-- 1. LOGO -->
+        <div class="order-1 flex items-center">
+            <div class="text-white text-[32px] font-bold tracking-[2px] flex items-center gap-3 cursor-default mobile:text-[20px] mobile:gap-2">
                 Kittr
             </div>
         </div>
 
-        <ul class="hidden tablet:hidden tablet:flex-col tablet:w-full tablet:bg-[rgba(0,0,0,0.8)] tablet:backdrop-blur-[10px] tablet:py-5 tablet:gap-3 tablet:order-3 tablet:border-t tablet:border-[rgba(160,255,93,0.2)] tablet:rounded-b-[16px] md:flex md:flex-row md:items-center md:gap-7 md:static md:bg-transparent md:backdrop-blur-none md:p-0 md:border-0 md:rounded-none list-none" id="navMenu">
-            <li><a href="#about" class="text-ds-green no-underline text-base font-semibold tracking-[1px] transition-all duration-200 uppercase hover:bg-[rgba(160,255,93,0.25)] py-2 px-4 rounded-2xl hover:text-white hover:[text-shadow:0_0_10px_rgba(160,255,93,0.4)] mobile:text-sm">About</a></li>
-            <li><a href="#tools" class="text-ds-green no-underline text-base font-semibold tracking-[1px] transition-all duration-200 uppercase hover:bg-[rgba(160,255,93,0.25)] py-2 px-4 rounded-2xl hover:text-white hover:[text-shadow:0_0_10px_rgba(160,255,93,0.4)] mobile:text-sm">Tools</a></li>
-            <li><a href="#github" class="text-ds-green no-underline text-base font-semibold tracking-[1px] transition-all duration-200 uppercase hover:bg-[rgba(160,255,93,0.25)] py-2 px-4 rounded-2xl hover:text-white hover:[text-shadow:0_0_10px_rgba(160,255,93,0.4)] mobile:text-sm">Github</a></li>
-            <li><a href="#donate" class="text-ds-green no-underline text-base font-semibold tracking-[1px] transition-all duration-200 uppercase hover:bg-[rgba(160,255,93,0.25)] py-2 px-4 rounded-2xl hover:text-white hover:[text-shadow:0_0_10px_rgba(160,255,93,0.4)] mobile:text-sm">Donate</a></li>
-        </ul>
+        <!-- 2. NAV MENU (desktop: order-2 di antara logo & search-group; mobile: masuk dropdown) -->
+        <div class="nav-dropdown hidden peer-checked:flex flex-col w-full pb-6 order-4 lg:order-2 lg:flex lg:!flex-row lg:w-auto lg:pb-0 lg:contents" id="navDropdown">
+            <ul class="flex flex-col lg:flex-row gap-3 lg:gap-7 lg:items-center list-none w-full lg:w-auto lg:order-2" id="navMenu">
+                <li><a href="#about" class="block lg:inline text-ds-green no-underline text-base font-semibold tracking-[1px] transition-all duration-200 uppercase hover:bg-[rgba(160,255,93,0.25)] py-2 px-4 rounded-2xl hover:text-white hover:[text-shadow:0_0_10px_rgba(160,255,93,0.4)] mobile:text-sm">About</a></li>
+                <li><a href="#tools" class="block lg:inline text-ds-green no-underline text-base font-semibold tracking-[1px] transition-all duration-200 uppercase hover:bg-[rgba(160,255,93,0.25)] py-2 px-4 rounded-2xl hover:text-white hover:[text-shadow:0_0_10px_rgba(160,255,93,0.4)] mobile:text-sm">Tools</a></li>
+                <li><a href="#github" class="block lg:inline text-ds-green no-underline text-base font-semibold tracking-[1px] transition-all duration-200 uppercase hover:bg-[rgba(160,255,93,0.25)] py-2 px-4 rounded-2xl hover:text-white hover:[text-shadow:0_0_10px_rgba(160,255,93,0.4)] mobile:text-sm">Github</a></li>
+                <li><a href="#donate" class="block lg:inline text-ds-green no-underline text-base font-semibold tracking-[1px] transition-all duration-200 uppercase hover:bg-[rgba(160,255,93,0.25)] py-2 px-4 rounded-2xl hover:text-white hover:[text-shadow:0_0_10px_rgba(160,255,93,0.4)] mobile:text-sm">Donate</a></li>
+            </ul>
 
-        <div class="hidden tablet:hidden tablet:flex-col tablet:w-full tablet:items-center tablet:gap-3 tablet:pb-5 tablet:order-4 tablet:bg-[rgba(0,0,0,0.8)] tablet:backdrop-blur-[10px] tablet:rounded-b-[16px] md:flex md:items-center md:gap-6 md:static md:bg-transparent md:backdrop-blur-none md:p-0 md:rounded-none" id="navRight">
-
-            <!-- ===== SEARCH BAR ===== -->
-            <form class="search-form relative flex items-center" id="searchForm" role="search" onsubmit="handleSearch(event)">
-                <input
-                    type="search"
-                    class="search-input w-[220px] py-3 pl-5 pr-[50px] bg-[rgba(160,255,93,0.05)] border-2 border-[rgba(160,255,93,0.4)] rounded-[30px] text-white text-sm font-medium tracking-[0.5px] outline-none transition-all duration-300 font-inherit placeholder:text-[rgba(160,255,93,0.6)] placeholder:font-medium focus:border-[rgba(160,255,93,0.8)] focus:bg-[rgba(160,255,93,0.08)] focus:shadow-[0_0_25px_rgba(160,255,93,0.15)] tablet:w-[200px] mobile:w-[180px] mobile:text-[13px]"
-                    id="searchInput"
-                    placeholder="Search..."
-                    aria-label="Search"
-                    autocomplete="off"
-                >
-                <button type="button" class="absolute right-2 bg-none border-none text-ds-green text-lg cursor-pointer py-2 px-3 rounded-full transition-all duration-200 flex items-center justify-center hover:text-white hover:bg-[rgba(160,255,93,0.15)] hover:scale-110" id="searchBtn" aria-label="Toggle search">
-                    <i class="fas fa-search"></i>
-                </button>
-            </form>
-
-            <a href="#" class="bg-ds-green text-black px-7 py-3 rounded-[30px] font-bold text-base shadow-[0_0_20px_rgba(160,255,93,0.2)] border-none no-underline inline-flex items-center gap-2 transition-all duration-200 hover:scale-105 hover:shadow-[0_0_40px_rgba(160,255,93,0.5)]">
+            <!-- Share versi mobile -->
+            <a href="#" class="lg:hidden w-full justify-center bg-ds-green text-black px-7 py-3 rounded-[30px] font-bold text-base shadow-[0_0_20px_rgba(160,255,93,0.2)] border-none no-underline inline-flex items-center gap-2 transition-all duration-200 hover:scale-105 hover:shadow-[0_0_40px_rgba(160,255,93,0.5)]">
                 SHARE
                 <i class="fas fa-arrow-right"></i>
             </a>
         </div>
 
-        <button class="hidden tablet:flex flex-col gap-[5px] bg-none border-none cursor-pointer p-[5px] order-2 md:hidden" id="hamburger" aria-label="Toggle menu">
-            <span class="block w-7 h-[3px] bg-ds-green rounded-[5px] transition-all duration-300"></span>
-            <span class="block w-7 h-[3px] bg-ds-green rounded-[5px] transition-all duration-300"></span>
-            <span class="block w-7 h-[3px] bg-ds-green rounded-[5px] transition-all duration-300"></span>
-        </button>
+        <!-- 3. GRUP KANAN: search + share-desktop + hamburger, digandeng jadi 1 flex biar gak diregangin justify-between nav -->
+        <div class="order-2 lg:order-3 flex items-center gap-3 mobile:gap-2">
+            <form class="search-form relative flex items-center mobile:my-2" id="searchForm" role="search" onsubmit="handleSearch(event)">
+                <input
+                    type="search"
+                    class="search-input w-[220px] py-3 pl-5 pr-[50px] bg-[rgba(160,255,93,0.05)] border-2 border-[rgba(160,255,93,0.4)] rounded-[30px] text-white text-sm font-medium tracking-[0.5px] outline-none transition-all duration-300 font-inherit placeholder:text-[rgba(160,255,93,0.6)] placeholder:font-medium focus:border-[rgba(160,255,93,0.8)] focus:bg-[rgba(160,255,93,0.08)] focus:shadow-[0_0_25px_rgba(160,255,93,0.15)] mobile:w-[130px] mobile:py-2 mobile:pl-3 mobile:pr-[38px] mobile:text-[12px]"
+                    id="searchInput"
+                    placeholder="Search..."
+                    aria-label="Search"
+                    autocomplete="off"
+                >
+                <button type="button" class="absolute right-2 bg-none border-none text-ds-green text-lg cursor-pointer py-2 px-3 rounded-full transition-all duration-200 flex items-center justify-center hover:text-white hover:bg-[rgba(160,255,93,0.15)] hover:scale-110 mobile:text-sm mobile:py-1 mobile:px-2 mobile:right-1" id="searchBtn" aria-label="Toggle search">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+
+            <!-- Share versi desktop -->
+            <a href="#" class="hidden lg:inline-flex bg-ds-green text-black px-7 py-3 rounded-[30px] font-bold text-base shadow-[0_0_20px_rgba(160,255,93,0.2)] border-none no-underline items-center gap-2 transition-all duration-200 hover:scale-105 hover:shadow-[0_0_40px_rgba(160,255,93,0.5)]">
+                SHARE
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+            <!-- HAMBURGER, ikut nempel di grup ini -->
+            <label class="icon-menu lg:hidden" for="check-icon" aria-label="Toggle menu">
+                <div class="bar bar--1"></div>
+                <div class="bar bar--2"></div>
+                <div class="bar bar--3"></div>
+            </label>
+        </div>
     </nav>
 
-
     <!-- ===== KOTAK-KOTAK KATEGORI ===== -->
-<main class="container mx-auto">
-    <div class="flex flex-wrap justify-center gap-4 mt-8 px-4">
-        <div class="box-web bg-gray-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Web Utilities</div>
-        <div class="box-net bg-emerald-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Networking</div>
-        <div class="box-iot bg-purple-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">IOT</div>
-        <div class="box-dev bg-blue-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Web Dev</div>
-        <div class="box-prog bg-yellow-500 text-black flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Programming</div>
-        <div class="box-local bg-red-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Local Server</div>
-        <div class="box-sim bg-indigo-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Simulator</div>
-        <div class="box-design bg-pink-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Design</div>
-        <div class="box-repo bg-[#808000] text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Repository Github</div>
-        <div class="box-edu bg-orange-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Education & Course</div>
-        <div class="box-script bg-teal-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Script & Mods</div>
-        <div class="box-browser bg-cyan-500 text-black flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Web Browser</div>
-        <div class="box-secure bg-green-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Security & Privacy</div>
-    </div>
-</main>
+    <main class="container mx-auto">
+        <div class="flex flex-wrap justify-center gap-4 mt-8 px-4">
+            <div class="box-web bg-gray-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Web Utilities</div>
+            <div class="box-net bg-emerald-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Networking</div>
+            <div class="box-iot bg-purple-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">IOT</div>
+            <div class="box-dev bg-blue-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Web Dev</div>
+            <div class="box-prog bg-yellow-500 text-black flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Programming</div>
+            <div class="box-local bg-red-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Local Server</div>
+            <div class="box-sim bg-indigo-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Simulator</div>
+            <div class="box-design bg-pink-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Design</div>
+            <div class="box-repo bg-[#808000] text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Repository Github</div>
+            <div class="box-edu bg-orange-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Education & Course</div>
+            <div class="box-script bg-teal-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Script & Mods</div>
+            <div class="box-browser bg-cyan-500 text-black flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Web Browser</div>
+            <div class="box-secure bg-green-500 text-white flex items-center justify-center text-center size-[100px] shrink-0 rounded-lg cursor-pointer hover:scale-105 transition-transform">Security & Privacy</div>
+        </div>
+    </main>
 
-    <!-- ===== FILE JS EKSTERNAL ===== -->
     <script src="/src/services/script.js"></script>
 </body>
 </html>
