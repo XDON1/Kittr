@@ -4,8 +4,11 @@ const navMenu = document.getElementById('navMenu');
 const navRight = document.getElementById('navRight');
 
 hamburger.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
-    navRight.classList.toggle('active');
+    navMenu.classList.toggle('hidden');
+    navMenu.classList.toggle('tablet:flex');
+
+    navRight.classList.toggle('hidden');
+    navRight.classList.toggle('tablet:flex');
 });
 
 // ===== HANDLE SEARCH =====
