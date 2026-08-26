@@ -1,5 +1,5 @@
 {
-    "Web Utilities" : {
+    "Web Utilities": {
         "Clipfish": {
             "desc": "Ultra-fast, minimal text and code snippet sharing tool.",
             "link": "https://clip.fish",
@@ -36,7 +36,7 @@
             "tags": ["p2p", "file-sharing"]
         },
         "LocalSend": {
-            "desc": "Cross-platform file sharing app (Windows, Android, iOS, Mac) over local WiFi without internet.",
+            "desc": "Cross-platform file sharing app over local WiFi without internet.",
             "link": "https://localsend.org",
             "tags": ["file-sharing", "utility"]
         },
@@ -131,8 +131,7 @@
             "tags": ["education", "research"]
         }
     },
-
-    "Networking" : {
+    "Networking": {
         "Winbox": {
             "desc": "Graphical utility for managing and configuring MikroTik RouterOS devices efficiently.",
             "link": "https://mikrotik.com/download/winbox",
@@ -141,88 +140,431 @@
         "Cisco Packet Tracer": {
             "desc": "Comprehensive network simulation tool for visualizing network creation, configuration, and troubleshooting.",
             "link": "https://www.netacad.com/resources/lab-downloads?courseLang=en-US",
-            "tags": ["network-simulation", "cisco", "education"]
+            "tags": ["network-simulation", "cisco"]
         }
     },
-
-    "IoT" : {
+    "IoT": {
         "Arduino IDE": {
             "desc": "Official open-source integrated development environment for writing and uploading code to Arduino boards.",
             "link": "https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE",
-            "tags": ["development", "microcontroller", "open-source"]
+            "tags": ["development", "microcontroller"]
         }
     },
-
-    "Web Development" : {
+    "Web Development": {
         "GitHub": {
             "desc": "The world's leading platform for version control, code hosting, and developer collaboration.",
             "link": "https://github.com",
-            "tags": ["version-control", "collaboration", "open-source"]
+            "tags": ["version-control", "collaboration"]
         },
         "Tailwind CSS": {
             "desc": "Utility-first CSS framework for rapidly building custom, modern user interfaces.",
             "link": "https://tailwindcss.com",
-            "tags": ["css-framework", "frontend", "ui"]
+            "tags": ["css-framework", "frontend"]
         },
         "Bootstrap": {
             "desc": "Popular, responsive front-end framework with pre-built components and a robust grid system.",
             "link": "https://getbootstrap.com",
-            "tags": ["css-framework", "frontend", "ui"]
+            "tags": ["css-framework", "frontend"]
         },
         "Vercel": {
             "desc": "Free cloud platform for static sites and serverless functions with seamless Git integration.",
             "link": "https://vercel.com",
-            "tags": ["hosting", "deployment", "frontend"]
+            "tags": ["hosting", "deployment"]
         },
         "Netlify": {
             "desc": "All-in-one platform for automating modern web projects, offering reliable free static site hosting.",
             "link": "https://www.netlify.com",
-            "tags": ["hosting", "deployment", "frontend"]
+            "tags": ["hosting", "deployment"]
         },
         "CSS Grid Generator": {
             "desc": "Visual tool to easily create custom CSS grid layouts with copy-paste ready code.",
             "link": "https://cssgrid-generator.netlify.app",
-            "tags": ["css", "layout", "generator"]
+            "tags": ["css", "layout"]
         },
         "Picsum Photos": {
             "desc": "Free placeholder image service providing high-quality random images for web development testing.",
             "link": "https://picsum.photos",
-            "tags": ["placeholder", "image", "testing"]
+            "tags": ["placeholder", "image"]
         },
         "CSS Gradient": {
             "desc": "Free tool to generate beautiful CSS gradients with a live preview and ready-to-use code.",
             "link": "https://cssgradient.io",
-            "tags": ["css", "design", "generator"]
+            "tags": ["css", "design"]
         },
         "Lorem Ipsum Generator": {
             "desc": "Classic dummy text generator for filling layouts with realistic-looking placeholder content.",
             "link": "https://www.lipsum.com",
-            "tags": ["placeholder", "text", "design"]
+            "tags": ["placeholder", "text"]
         },
         "Feather Icons": {
             "desc": "Collection of beautiful, open-source, and fully customizable SVG icons for web projects.",
             "link": "https://feathericons.com",
-            "tags": ["icons", "svg", "open-source"]
+            "tags": ["icons", "svg"]
         },
         "Heroicons": {
             "desc": "Clean, hand-crafted SVG icon set made by the creators of Tailwind CSS.",
             "link": "https://heroicons.com",
-            "tags": ["icons", "svg", "tailwind"]
+            "tags": ["icons", "svg"]
         },
         "Font Awesome": {
             "desc": "The web's most popular icon set and toolkit, offering thousands of scalable vector icons.",
             "link": "https://fontawesome.com",
-            "tags": ["icons", "svg", "frontend"]
+            "tags": ["icons", "svg"]
         },
         "TinyPNG": {
             "desc": "Smart lossy compression technique to reduce the file size of PNG and JPEG images efficiently.",
             "link": "https://tinyjpg.com",
-            "tags": ["image", "optimization", "utility"]
+            "tags": ["image", "optimization"]
         },
         "Hugging Face": {
             "desc": "The largest open-source AI community and platform for exploring, building, and deploying machine learning models.",
             "link": "https://huggingface.co",
-            "tags": ["ai", "machine-learning", "open-source"]
+            "tags": ["ai", "machine-learning"]
+        }
+    },
+    "Programming": {
+        "VS Code": {
+            "desc": "Free, lightweight, and extensible code editor from Microsoft for modern web and cloud applications.",
+            "link": "https://code.visualstudio.com",
+            "tags": ["code-editor", "microsoft"]
+        },
+        "Visual Studio": {
+            "desc": "Comprehensive IDE from Microsoft for building applications across multiple platforms.",
+            "link": "https://visualstudio.microsoft.com",
+            "tags": ["ide", "microsoft"]
+        },
+        "NetBeans": {
+            "desc": "Open-source IDE for Java, PHP, C/C++, and HTML5 development with robust features.",
+            "link": "https://netbeans.apache.org/front/main/download",
+            "tags": ["ide", "java"]
+        },
+        "JSON Crack": {
+            "desc": "Visual tool that transforms complex JSON data into readable and interactive tree diagrams.",
+            "link": "https://jsoncrack.com",
+            "tags": ["json", "visualization"]
+        },
+        "Hoppscotch": {
+            "desc": "Lightweight, web-based open-source alternative to Postman for testing REST and GraphQL APIs.",
+            "link": "https://hoppscotch.io",
+            "tags": ["api", "testing"]
+        },
+        "Lazygit": {
+            "desc": "Keyboard-driven terminal UI (TUI) for Git that makes commits, pushes, and branching faster and easier.",
+            "link": "https://github.com/jesseduffield/lazygit",
+            "tags": ["git", "terminal"]
+        }
+    },
+    "Local Server": {
+        "Laragon": {
+            "desc": "Fast, powerful, and isolated local development environment for PHP, Node.js, Python, and more.",
+            "link": "https://laragon.org/download",
+            "tags": ["local-server", "php"]
+        },
+        "XAMPP": {
+            "desc": "Free and open-source local server stack including Apache, MariaDB, PHP, and Perl.",
+            "link": "https://www.apachefriends.org/download.html",
+            "tags": ["local-server", "apache"]
+        }
+    },
+    "Simulator": {
+        "VirtualBox": {
+            "desc": "Powerful open-source virtualization software for x86 and AMD64/Intel64 computers.",
+            "link": "https://www.virtualbox.org/wiki/Downloads",
+            "tags": ["virtualization", "virtual-machine"]
+        },
+        "Tinkercad": {
+            "desc": "Free web-based 3D design, electronics, and coding simulator, perfect for beginners.",
+            "link": "https://www.tinkercad.com",
+            "tags": ["3d-design", "simulation"]
+        },
+        "Cisco Packet Tracer": {
+            "desc": "Comprehensive network simulation tool for visualizing network creation, configuration, and troubleshooting.",
+            "link": "https://www.netacad.com/resources/lab-downloads?courseLang=en-US",
+            "tags": ["network-simulation", "cisco"]
+        }
+    },
+    "Design": {
+        "Color Hunt": {
+            "desc": "Curated collection of beautiful color combinations and palettes for designers and artists.",
+            "link": "https://colorhunt.co",
+            "tags": ["color-palette", "design"]
+        },
+        "Figma": {
+            "desc": "Collaborative web-based design tool for creating websites, apps, and better user interfaces.",
+            "link": "https://www.figma.com",
+            "tags": ["ui-design", "collaboration"]
+        }
+    },
+    "GitHub Repository": {
+        "Badges4-README": {
+            "desc": "Collection of stylish SVG badges to enhance and beautify GitHub profile READMEs.",
+            "link": "https://github.com/alexandresanlim/Badges4-README.md-Profile",
+            "tags": ["github", "badges"]
+        },
+        "SinyalDetektor": {
+            "desc": "Real-time Wi-Fi network scanning script and tool for network analysis and monitoring.",
+            "link": "https://github.com/XDON1/SinyalDetektor",
+            "tags": ["network", "scanner"]
+        },
+        "ATM Simulator Core": {
+            "desc": "Core backend logic and code simulation for a fully functional ATM machine system.",
+            "link": "https://github.com/VyyxSyh/ATM-Simulator-Core",
+            "tags": ["simulation", "backend"]
+        },
+        "ATM Card Designer": {
+            "desc": "Interactive web tool to design custom virtual ATM card UIs with ease.",
+            "link": "https://github.com/VyyxSyh/ATM-Card-Designer",
+            "tags": ["design", "ui"]
+        },
+        "Web Weton Jawa": {
+            "desc": "Traditional Javanese weton calendar calculator tool built for cultural preservation.",
+            "link": "https://github.com/VyyxSyh/Web-Weton-Jawa",
+            "tags": ["calendar", "javanese"]
+        },
+        "KadoLink": {
+            "desc": "Simple and lightweight gift bio-link generator for creating personalized gift pages.",
+            "link": "https://github.com/XDON1/KadoLink",
+            "tags": ["bio-link", "gift"]
+        },
+        "Rufus": {
+            "desc": "Reliable, fast, and open-source tool for creating bootable USB drives from ISO files.",
+            "link": "https://github.com/pbatard/rufus",
+            "tags": ["usb", "bootable"]
+        },
+        "TorLink": {
+            "desc": "Open-source Tor onion site aggregator and privacy-focused link directory.",
+            "link": "https://github.com/baairon/torlink",
+            "tags": ["privacy", "tor"]
+        },
+        "OmniCloud": {
+            "desc": "Full-stack cloud drive aggregation platform presenting multiple storage providers in one consistent workspace.",
+            "link": "https://github.com/dimartarmizi/OmniCloud",
+            "tags": ["cloud-storage", "aggregator"]
+        },
+        "Scrapy Framework": {
+            "desc": "Fast and powerful open-source Python framework for web crawling and data extraction.",
+            "link": "https://github.com/scrapy/scrapy",
+            "tags": ["web-scraping", "python"]
+        },
+        "yt-dlp": {
+            "desc": "Powerful open-source command-line tool for downloading videos and audio from YouTube and thousands of platforms in up to 4K/8K quality.",
+            "link": "https://github.com/yt-dlp/yt-dlp",
+            "tags": ["downloader", "video"]
+        }
+    },
+    "Education & Courses": {
+        "Dicoding": {
+            "desc": "Leading Indonesian platform for learning programming, tech skills, and certified bootcamps.",
+            "link": "https://www.dicoding.com",
+            "tags": ["coding", "learning"]
+        },
+        "Coursera": {
+            "desc": "Global online learning platform offering courses and degrees from top universities and companies.",
+            "link": "https://www.coursera.org",
+            "tags": ["courses", "university"]
+        },
+        "Digital Talent Scholarship": {
+            "desc": "Indonesian government initiative providing free digital skills training and professional certifications.",
+            "link": "https://digitalent.komdigi.go.id",
+            "tags": ["scholarship", "digital-skills"]
+        }
+    },
+    "Scripts & Utilities": {
+        "SpotX": {
+            "desc": "Modified Spotify desktop client for Windows that blocks ads and enables premium-like features.",
+            "link": "https://github.com/SpotX-Official/SpotX",
+            "tags": ["spotify", "mod"]
+        },
+        "Winutil (Chris Titus Tech)": {
+            "desc": "Comprehensive PowerShell utility to tweak Windows performance, disable updates, and install software.",
+            "link": "https://github.com/ChrisTitusTech/winutil",
+            "tags": ["windows", "optimization"]
+        },
+        "Morphe Patches": {
+            "desc": "Open-source repository containing Android app patches for ad-free experiences and background play.",
+            "link": "https://github.com/MorpheApp/morphe-patches",
+            "tags": ["android", "patching"]
+        },
+        "ReVanced Patches": {
+            "desc": "Popular repository for patching YouTube, Twitter, and TikTok to remove ads and unlock features.",
+            "link": "https://github.com/ReVanced/revanced-patches",
+            "tags": ["patching", "modding"]
+        },
+        "BetterDiscord": {
+            "desc": "Desktop client modification for Discord to add custom themes, plugins, and extra features.",
+            "link": "https://github.com/BetterDiscord/BetterDiscord",
+            "tags": ["discord", "customization"]
+        },
+        "Discord Quest Completer": {
+            "desc": "Automation tool to complete Discord Quests without needing to install or play the game.",
+            "link": "https://github.com/markterence/discord-quest-completer",
+            "tags": ["discord", "automation"]
+        },
+        "Discord Quest Auto-Script": {
+            "desc": "Instant console inject script to complete Discord Quests via browser or PTB client.",
+            "link": "https://gist.github.com/aamiaa/204cd9d42013ded9faf646fae7f89fbb",
+            "tags": ["discord", "script"]
+        },
+        "FileCR": {
+            "desc": "Comprehensive software repository providing downloads for Windows, macOS, and Android applications.",
+            "link": "https://filecr.com",
+            "tags": ["software", "repository"]
+        },
+        "SteamRIP": {
+            "desc": "Library offering pre-installed and direct-play PC games for easy access.",
+            "link": "https://steamrip.com",
+            "tags": ["games", "direct-download"]
+        },
+        "FitGirl Repacks": {
+            "desc": "Highly compressed PC game installers repository for faster downloads and saving disk space.",
+            "link": "https://fitgirl-repacks.site",
+            "tags": ["games", "compression"]
+        },
+        "OvaGames": {
+            "desc": "Website providing free download links for repack and full version PC games from various servers.",
+            "link": "https://www.ovagames.com",
+            "tags": ["games", "download"]
+        },
+        "RG Mechanics": {
+            "desc": "Provider of highly compressed PC game repack download links.",
+            "link": "https://rgmechanics.com",
+            "tags": ["games", "repack"]
+        },
+        "BitTorrent": {
+            "desc": "Official desktop and mobile P2P client for downloading and sharing large torrent files.",
+            "link": "https://www.bittorrent.com",
+            "tags": ["torrent", "p2p"]
+        },
+        "AB Download Manager": {
+            "desc": "Modern open-source download manager with multi-threaded speed acceleration and clean UI.",
+            "link": "https://github.com/amir1376/ab-download-manager",
+            "tags": ["download-manager", "open-source"]
+        },
+        "Win11Debloat": {
+            "desc": "Open-source PowerShell script to remove bloatware, ads, and junk apps from Windows 11.",
+            "link": "https://github.com/Raphire/Win11Debloat",
+            "tags": ["windows", "debloat"]
+        },
+        "Microsoft Activation Scripts (MAS)": {
+            "desc": "Safe and clean open-source script for activating Windows and Office via HWID/Ohook.",
+            "link": "https://github.com/massgravel/Microsoft-Activation-Scripts",
+            "tags": ["windows", "activation"]
+        }
+    },
+    "Operating Systems": {
+        "ReviOS": {
+            "desc": "Modified Windows OS optimized specifically for gaming and high-performance tasks.",
+            "link": "https://revi.cc",
+            "tags": ["windows", "gaming"]
+        },
+        "AtlasOS": {
+            "desc": "Lightweight Windows modification that removes bloatware and significantly reduces system latency.",
+            "link": "https://atlasos.net",
+            "tags": ["windows", "optimization"]
+        },
+        "Hiren's BootCD PE": {
+            "desc": "Emergency Windows PE-based OS for repairing, troubleshooting, and backing up broken PCs.",
+            "link": "https://www.hirensbootcd.org",
+            "tags": ["bootable", "recovery"]
+        },
+        "Ghost Spectre Discord Server": {
+            "desc": "Official community server for Ghost Spectre custom OS ISO files, updates, and troubleshooting.",
+            "link": "https://discord.com/invite/ADVqEAZ2RF",
+            "tags": ["windows", "community"]
+        },
+        "KernelOS": {
+            "desc": "Custom Windows OS focused purely on high performance without unnecessary Microsoft features.",
+            "link": "https://kernelos.org",
+            "tags": ["windows", "performance"]
+        },
+        "Nobara Linux": {
+            "desc": "Gaming-focused Linux distro by GloriousEggroll with pre-installed GPU drivers and tweaks.",
+            "link": "https://nobaraproject.org",
+            "tags": ["linux", "gaming"]
+        },
+        "Garuda Linux": {
+            "desc": "Arch-based Linux distro for gaming with a cool UI, automation features, and ready-to-use drivers.",
+            "link": "https://garudalinux.org",
+            "tags": ["linux", "arch"]
+        },
+        "Linux Mint": {
+            "desc": "Lightweight, user-friendly, and stable Linux distribution based on Ubuntu/Debian.",
+            "link": "https://linuxmint.com",
+            "tags": ["linux", "lightweight"]
+        },
+        "Pop OS": {
+            "desc": "Ubuntu-based Linux distribution with excellent out-of-the-box support for Nvidia GPUs.",
+            "link": "https://system76.com/pop",
+            "tags": ["linux", "nvidia"]
+        }
+    },
+    "Browsers": {
+        "Brave Browser": {
+            "desc": "Privacy-focused web browser with a built-in ad blocker and tracker prevention.",
+            "link": "https://brave.com",
+            "tags": ["privacy", "ad-blocker"]
+        },
+        "Mozilla Firefox": {
+            "desc": "Fast, highly customizable, and open-source web browser.",
+            "link": "https://www.firefox.com",
+            "tags": ["open-source", "customization"]
+        },
+        "Aloha Browser": {
+            "desc": "Privacy-first web browser with a free built-in VPN and ad-blocker.",
+            "link": "https://alohabrowser.com",
+            "tags": ["vpn", "privacy"]
+        },
+        "Tor Browser": {
+            "desc": "Privacy-focused browser designed for anonymous browsing and accessing the dark web.",
+            "link": "https://www.torproject.org",
+            "tags": ["anonymity", "tor"]
+        }
+    },
+    "Security & Privacy": {
+        "Ahmia": {
+            "desc": "Dark web search engine for indexing and finding hidden Tor (.onion) links safely.",
+            "link": "https://ahmia.fi",
+            "tags": ["dark-web", "search-engine"]
+        },
+        "Have I Been Pwned": {
+            "desc": "Service to check if your email or password has been compromised in a known data breach.",
+            "link": "https://haveibeenpwned.com",
+            "tags": ["data-breach", "security"]
+        },
+        "OSINT Framework": {
+            "desc": "Comprehensive directory of tools and websites for digital investigation and OSINT.",
+            "link": "https://osintframework.com",
+            "tags": ["osint", "investigation"]
+        },
+        "VirusTotal": {
+            "desc": "Web service to analyze suspicious files and URLs using multiple antivirus engines.",
+            "link": "https://www.virustotal.com/gui/home/upload",
+            "tags": ["antivirus", "malware-analysis"]
+        },
+        "IT-Tools": {
+            "desc": "Collection of handy online tools for developers, including encryption and decryption utilities.",
+            "link": "https://it-tools.tech",
+            "tags": ["encryption", "developer-tools"]
+        },
+        "Cyberforensics": {
+            "desc": "Platform and resources dedicated to digital forensics and cyber investigation.",
+            "link": "https://www.cyberforensics.in",
+            "tags": ["forensics", "investigation"]
+        },
+        "KeyCDN Tools": {
+            "desc": "Suite of web performance testing tools to analyze website speed and optimization.",
+            "link": "https://tools.keycdn.com",
+            "tags": ["performance", "testing"]
+        },
+        "Sherlock": {
+            "desc": "OSINT tool to hunt down social media accounts by username across hundreds of platforms.",
+            "link": "https://github.com/sherlock-project/sherlock",
+            "tags": ["osint", "social-media"]
+        },
+        "Internet Archive": {
+            "desc": "Non-profit digital library offering free access to historical web pages, books, and media.",
+            "link": "https://archive.org",
+            "tags": ["archive", "wayback-machine"]
         }
     }
-}
+} 
