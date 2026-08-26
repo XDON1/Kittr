@@ -108,12 +108,17 @@
             </div>
 
             <!-- KANAN: Stats per Kategori -->
-            <div class="flex-1 w-full max-w-xl">
-                <h2 class="text-ds-green text-sm font-bold uppercase tracking-[2px] mb-6 text-center lg:text-left">
+            <div class="flex-1 w-full max-w-2xl">
+                <h2 class="text-ds-green text-sm font-bold uppercase tracking-[2px] mb-6 text-center">
                     Kategori &amp; Jumlah Tools
                 </h2>
-                <div id="statsContainer" class="flex flex-col gap-4">
-                    <!-- diisi otomatis via JS dari categories.json -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-4">
+                    <div id="statsLeft" class="flex flex-col gap-4">
+                        <!-- diisi otomatis via JS, style mirror (mulai dari kanan) -->
+                    </div>
+                    <div id="statsRight" class="flex flex-col gap-4">
+                        <!-- diisi otomatis via JS, style normal (mulai dari kiri) -->
+                    </div>
                 </div>
             </div>
 
