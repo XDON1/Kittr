@@ -1,260 +1,228 @@
 {
-    "Clipfish": {
-        "desc": "Ultra-fast, minimal text and code snippet sharing tool.",
-        "category": "Web Utilities",
-        "link": "https://clip.fish",
-        "tags": ["snippet", "code-sharing"]
+    "Web Utilities" : {
+        "Clipfish": {
+            "desc": "Ultra-fast, minimal text and code snippet sharing tool.",
+            "link": "https://clip.fish",
+            "tags": ["snippet", "code-sharing"]
+        },
+        "Tsonit Love": {
+            "desc": "Unique digital QR gift card generator for special moments and personalized surprises.",
+            "link": "https://love.tsonit.com",
+            "tags": ["qr-code", "generator"]
+        },
+        "QR Code Show": {
+            "desc": "Standard online generator for creating custom QR codes quickly and easily.",
+            "link": "https://qrcode.show",
+            "tags": ["qr-code", "generator"]
+        },
+        "UL0 Site": {
+            "desc": "Straightforward, fast, and reliable custom URL shortener service.",
+            "link": "https://ul0.site",
+            "tags": ["url-shortener", "utility"]
+        },
+        "Webtor": {
+            "desc": "Web-based torrent engine to stream or download torrent contents directly in the browser.",
+            "link": "https://webtor.io",
+            "tags": ["torrent", "streaming"]
+        },
+        "DropSilk": {
+            "desc": "WebRTC-based P2P file and screen sharing tool with zero limits and high privacy.",
+            "link": "https://www.dropsilk.xyz",
+            "tags": ["p2p", "file-sharing"]
+        },
+        "PairDrop": {
+            "desc": "Browser-to-browser local P2P file sharing utility with no installation required.",
+            "link": "https://pairdrop.net",
+            "tags": ["p2p", "file-sharing"]
+        },
+        "LocalSend": {
+            "desc": "Cross-platform file sharing app (Windows, Android, iOS, Mac) over local WiFi without internet.",
+            "link": "https://localsend.org",
+            "tags": ["file-sharing", "utility"]
+        },
+        "BentoPDF": {
+            "desc": "Client-side, privacy-focused web suite for merging, splitting, and editing PDFs locally.",
+            "link": "https://www.bentopdf.com",
+            "tags": ["pdf", "editor"]
+        },
+        "Temp Mail": {
+            "desc": "Secure, anonymous, free, and disposable temporary email address service.",
+            "link": "https://temp-mail.org",
+            "tags": ["email", "temporary"]
+        },
+        "10MinuteMail": {
+            "desc": "Temporary email generator that auto-expires in 10 minutes to avoid spam on your main email.",
+            "link": "https://10minutemail.com",
+            "tags": ["email", "temporary"]
+        },
+        "Excalidraw": {
+            "desc": "Virtual whiteboard with a hand-drawn style, perfect for sketching flows and visual diagrams.",
+            "link": "https://excalidraw.com",
+            "tags": ["whiteboard", "diagram"]
+        },
+        "Photopea": {
+            "desc": "Free web-based Photoshop alternative. Opens PSD, AI, and Sketch files directly in the browser.",
+            "link": "https://www.photopea.com",
+            "tags": ["image-editor", "design"]
+        },
+        "Waifu2x": {
+            "desc": "Web-based AI tool to upscale image resolution and reduce noise, especially for anime illustrations and photos.",
+            "link": "https://www.waifu2x.net",
+            "tags": ["ai", "image"]
+        },
+        "Removebg": {
+            "desc": "Instant and automatic background removal tool for photos in seconds.",
+            "link": "https://www.remove.bg",
+            "tags": ["ai", "image"]
+        },
+        "SSSTik": {
+            "desc": "Fast and free HD TikTok video downloader without watermark.",
+            "link": "https://ssstik.io/id",
+            "tags": ["downloader", "video"]
+        },
+        "SaveVid IG Downloader": {
+            "desc": "Specialized web tool for downloading private posts, reels, and media from Instagram.",
+            "link": "https://savevid.net/id/instagram-private-downloader",
+            "tags": ["downloader", "video"]
+        },
+        "Cobalt": {
+            "desc": "Ad-free open-source media downloader for videos and audio across major platforms.",
+            "link": "https://cobalt.tools",
+            "tags": ["downloader", "open-source"]
+        },
+        "Scribd Downloader": {
+            "desc": "Free web utility to fetch documents and PDFs directly from Scribd.",
+            "link": "https://scribd.vdownloaders.com",
+            "tags": ["downloader", "document"]
+        },
+        "PinterestDownloader": {
+            "desc": "Clean, lightweight Pinterest downloader supporting Full HD quality downloads.",
+            "link": "https://pindown.io",
+            "tags": ["downloader", "image"]
+        },
+        "SSSTwitter": {
+            "desc": "Popular and fast X (Twitter) video downloader allowing resolution selection from SD to HD (1080p).",
+            "link": "https://ssstwitter.com",
+            "tags": ["downloader", "video"]
+        },
+        "Spotidown": {
+            "desc": "Online tool to download Spotify songs as high-quality MP3 files (320kbps) for free.",
+            "link": "https://spotidown.co/en16",
+            "tags": ["downloader", "audio"]
+        },
+        "Relay": {
+            "desc": "Open-source web tool to transfer files directly between devices without using the cloud.",
+            "link": "https://relay.rishishah.in",
+            "tags": ["file-sharing", "open-source"]
+        },
+        "MP3 to URL Converter": {
+            "desc": "Simple audio hosting tool to convert MP3 files into direct playable URLs.",
+            "link": "https://www.mp3tourl.com",
+            "tags": ["audio", "utility"]
+        },
+        "AudioTrimmer": {
+            "desc": "Quick browser-based audio cutter for trimming tracks and making custom ringtones.",
+            "link": "https://audiotrimmer.com",
+            "tags": ["audio", "editor"]
+        },
+        "Sci-Hub": {
+            "desc": "Open-access platform to unlock and download paywalled international scientific journals for free.",
+            "link": "https://sci-hub.sidesgame.com",
+            "tags": ["education", "research"]
+        }
     },
-    "Tsonit Love": {
-        "desc": "Unique digital QR gift card generator for special moments and personalized surprises.",
-        "category": "Web Utilities",
-        "link": "https://love.tsonit.com",
-        "tags": ["qr-code", "generator"]
+
+    "Networking" : {
+        "Winbox": {
+            "desc": "Graphical utility for managing and configuring MikroTik RouterOS devices efficiently.",
+            "link": "https://mikrotik.com/download/winbox",
+            "tags": ["router", "network-management"]
+        },
+        "Cisco Packet Tracer": {
+            "desc": "Comprehensive network simulation tool for visualizing network creation, configuration, and troubleshooting.",
+            "link": "https://www.netacad.com/resources/lab-downloads?courseLang=en-US",
+            "tags": ["network-simulation", "cisco", "education"]
+        }
     },
-    "QR Code Show": {
-        "desc": "Standard online generator for creating custom QR codes quickly and easily.",
-        "category": "Web Utilities",
-        "link": "https://qrcode.show",
-        "tags": ["qr-code", "generator"]
+
+    "IoT" : {
+        "Arduino IDE": {
+            "desc": "Official open-source integrated development environment for writing and uploading code to Arduino boards.",
+            "link": "https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE",
+            "tags": ["development", "microcontroller", "open-source"]
+        }
     },
-    "UL0 Site": {
-        "desc": "Straightforward, fast, and reliable custom URL shortener service.",
-        "category": "Web Utilities",
-        "link": "https://ul0.site",
-        "tags": ["url-shortener", "utility"]
-    },
-    "Webtor": {
-        "desc": "Web-based torrent engine to stream or download torrent contents directly in the browser.",
-        "category": "Web Utilities",
-        "link": "https://webtor.io",
-        "tags": ["torrent", "streaming"]
-    },
-    "DropSilk": {
-        "desc": "WebRTC-based P2P file and screen sharing tool with zero limits and high privacy.",
-        "category": "Web Utilities",
-        "link": "https://www.dropsilk.xyz",
-        "tags": ["p2p", "file-sharing"]
-    },
-    "PairDrop": {
-        "desc": "Browser-to-browser local P2P file sharing utility with no installation required.",
-        "category": "Web Utilities",
-        "link": "https://pairdrop.net",
-        "tags": ["p2p", "file-sharing"]
-    },
-    "LocalSend": {
-        "desc": "Cross-platform file sharing app (Windows, Android, iOS, Mac) over local WiFi without internet.",
-        "category": "Web Utilities",
-        "link": "https://localsend.org",
-        "tags": ["file-sharing", "utility"]
-    },
-    "BentoPDF": {
-        "desc": "Client-side, privacy-focused web suite for merging, splitting, and editing PDFs locally.",
-        "category": "Web Utilities",
-        "link": "https://www.bentopdf.com",
-        "tags": ["pdf", "editor"]
-    },
-    "Temp Mail": {
-        "desc": "Secure, anonymous, free, and disposable temporary email address service.",
-        "category": "Web Utilities",
-        "link": "https://temp-mail.org",
-        "tags": ["email", "temporary"]
-    },
-    "10MinuteMail": {
-        "desc": "Temporary email generator that auto-expires in 10 minutes to avoid spam on your main email.",
-        "category": "Web Utilities",
-        "link": "https://10minutemail.com",
-        "tags": ["email", "temporary"]
-    },
-    "Excalidraw": {
-        "desc": "Virtual whiteboard with a hand-drawn style, perfect for sketching flows and visual diagrams.",
-        "category": "Web Utilities",
-        "link": "https://excalidraw.com",
-        "tags": ["whiteboard", "diagram"]
-    },
-    "Photopea": {
-        "desc": "Free web-based Photoshop alternative. Opens PSD, AI, and Sketch files directly in the browser.",
-        "category": "Web Utilities",
-        "link": "https://www.photopea.com",
-        "tags": ["image-editor", "design"]
-    },
-    "Waifu2x": {
-        "desc": "Web-based AI tool to upscale image resolution and reduce noise, especially for anime illustrations and photos.",
-        "category": "Web Utilities",
-        "link": "https://www.waifu2x.net",
-        "tags": ["ai", "image"]
-    },
-    "Removebg": {
-        "desc": "Instant and automatic background removal tool for photos in seconds.",
-        "category": "Web Utilities",
-        "link": "https://www.remove.bg",
-        "tags": ["ai", "image"]
-    },
-    "SSSTik": {
-        "desc": "Fast and free HD TikTok video downloader without watermark.",
-        "category": "Web Utilities",
-        "link": "https://ssstik.io/id",
-        "tags": ["downloader", "video"]
-    },
-    "SaveVid IG Downloader": {
-        "desc": "Specialized web tool for downloading private posts, reels, and media from Instagram.",
-        "category": "Web Utilities",
-        "link": "https://savevid.net/id/instagram-private-downloader",
-        "tags": ["downloader", "video"]
-    },
-    "Cobalt": {
-        "desc": "Ad-free open-source media downloader for videos and audio across major platforms.",
-        "category": "Web Utilities",
-        "link": "https://cobalt.tools",
-        "tags": ["downloader", "open-source"]
-    },
-    "Scribd Downloader": {
-        "desc": "Free web utility to fetch documents and PDFs directly from Scribd.",
-        "category": "Web Utilities",
-        "link": "https://scribd.vdownloaders.com",
-        "tags": ["downloader", "document"]
-    },
-    "PinterestDownloader": {
-        "desc": "Clean, lightweight Pinterest downloader supporting Full HD quality downloads.",
-        "category": "Web Utilities",
-        "link": "https://pindown.io",
-        "tags": ["downloader", "image"]
-    },
-    "SSSTwitter": {
-        "desc": "Popular and fast X (Twitter) video downloader allowing resolution selection from SD to HD (1080p).",
-        "category": "Web Utilities",
-        "link": "https://ssstwitter.com",
-        "tags": ["downloader", "video"]
-    },
-    "Spotidown": {
-        "desc": "Online tool to download Spotify songs as high-quality MP3 files (320kbps) for free.",
-        "category": "Web Utilities",
-        "link": "https://spotidown.co/en16",
-        "tags": ["downloader", "audio"]
-    },
-    "Relay": {
-        "desc": "Open-source web tool to transfer files directly between devices without using the cloud.",
-        "category": "Web Utilities",
-        "link": "https://relay.rishishah.in",
-        "tags": ["file-sharing", "open-source"]
-    },
-    "MP3 to URL Converter": {
-        "desc": "Simple audio hosting tool to convert MP3 files into direct playable URLs.",
-        "category": "Web Utilities",
-        "link": "https://www.mp3tourl.com",
-        "tags": ["audio", "utility"]
-    },
-    "AudioTrimmer": {
-        "desc": "Quick browser-based audio cutter for trimming tracks and making custom ringtones.",
-        "category": "Web Utilities",
-        "link": "https://audiotrimmer.com",
-        "tags": ["audio", "editor"]
-    },
-    "Sci-Hub": {
-        "desc": "Open-access platform to unlock and download paywalled international scientific journals for free.",
-        "category": "Web Utilities",
-        "link": "https://sci-hub.sidesgame.com",
-        "tags": ["education", "research"]
-    },
-    "Winbox": {
-        "desc": "Graphical utility for managing and configuring MikroTik RouterOS devices efficiently.",
-        "category": "Networking",
-        "link": "https://mikrotik.com/download/winbox",
-        "tags": ["router", "network-management"]
-    },
-    "Cisco Packet Tracer": {
-        "desc": "Comprehensive network simulation tool for visualizing network creation, configuration, and troubleshooting.",
-        "category": "Networking",
-        "link": "https://www.netacad.com/resources/lab-downloads?courseLang=en-US",
-        "tags": ["network-simulation", "cisco", "education"]
-    },
-    "Arduino IDE": {
-        "desc": "Official open-source integrated development environment for writing and uploading code to Arduino boards.",
-        "category": "IoT",
-        "link": "https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE",
-        "tags": ["development", "microcontroller", "open-source"]
-    },
-    "GitHub": {
-        "desc": "The world's leading platform for version control, code hosting, and developer collaboration.",
-        "category": "Web Development",
-        "link": "https://github.com",
-        "tags": ["version-control", "collaboration", "open-source"]
-    },
-    "Tailwind CSS": {
-        "desc": "Utility-first CSS framework for rapidly building custom, modern user interfaces.",
-        "category": "Web Development",
-        "link": "https://tailwindcss.com",
-        "tags": ["css-framework", "frontend", "ui"]
-    },
-    "Bootstrap": {
-        "desc": "Popular, responsive front-end framework with pre-built components and a robust grid system.",
-        "category": "Web Development",
-        "link": "https://getbootstrap.com",
-        "tags": ["css-framework", "frontend", "ui"]
-    },
-    "Vercel": {
-        "desc": "Free cloud platform for static sites and serverless functions with seamless Git integration.",
-        "category": "Web Development",
-        "link": "https://vercel.com",
-        "tags": ["hosting", "deployment", "frontend"]
-    },
-    "Netlify": {
-        "desc": "All-in-one platform for automating modern web projects, offering reliable free static site hosting.",
-        "category": "Web Development",
-        "link": "https://www.netlify.com",
-        "tags": ["hosting", "deployment", "frontend"]
-    },
-    "CSS Grid Generator": {
-        "desc": "Visual tool to easily create custom CSS grid layouts with copy-paste ready code.",
-        "category": "Web Development",
-        "link": "https://cssgrid-generator.netlify.app",
-        "tags": ["css", "layout", "generator"]
-    },
-    "Picsum Photos": {
-        "desc": "Free placeholder image service providing high-quality random images for web development testing.",
-        "category": "Web Development",
-        "link": "https://picsum.photos",
-        "tags": ["placeholder", "image", "testing"]
-    },
-    "CSS Gradient": {
-        "desc": "Free tool to generate beautiful CSS gradients with a live preview and ready-to-use code.",
-        "category": "Web Development",
-        "link": "https://cssgradient.io",
-        "tags": ["css", "design", "generator"]
-    },
-    "Lorem Ipsum Generator": {
-        "desc": "Classic dummy text generator for filling layouts with realistic-looking placeholder content.",
-        "category": "Web Development",
-        "link": "https://www.lipsum.com",
-        "tags": ["placeholder", "text", "design"]
-    },
-    "Feather Icons": {
-        "desc": "Collection of beautiful, open-source, and fully customizable SVG icons for web projects.",
-        "category": "Web Development",
-        "link": "https://feathericons.com",
-        "tags": ["icons", "svg", "open-source"]
-    },
-    "Heroicons": {
-        "desc": "Clean, hand-crafted SVG icon set made by the creators of Tailwind CSS.",
-        "category": "Web Development",
-        "link": "https://heroicons.com",
-        "tags": ["icons", "svg", "tailwind"]
-    },
-    "Font Awesome": {
-        "desc": "The web's most popular icon set and toolkit, offering thousands of scalable vector icons.",
-        "category": "Web Development",
-        "link": "https://fontawesome.com",
-        "tags": ["icons", "svg", "frontend"]
-    },
-    "TinyPNG": {
-        "desc": "Smart lossy compression technique to reduce the file size of PNG and JPEG images efficiently.",
-        "category": "Web Development",
-        "link": "https://tinyjpg.com",
-        "tags": ["image", "optimization", "utility"]
-    },
-    "Hugging Face": {
-        "desc": "The largest open-source AI community and platform for exploring, building, and deploying machine learning models.",
-        "category": "Web Development",
-        "link": "https://huggingface.co",
-        "tags": ["ai", "machine-learning", "open-source"]
+
+    "Web Development" : {
+        "GitHub": {
+            "desc": "The world's leading platform for version control, code hosting, and developer collaboration.",
+            "link": "https://github.com",
+            "tags": ["version-control", "collaboration", "open-source"]
+        },
+        "Tailwind CSS": {
+            "desc": "Utility-first CSS framework for rapidly building custom, modern user interfaces.",
+            "link": "https://tailwindcss.com",
+            "tags": ["css-framework", "frontend", "ui"]
+        },
+        "Bootstrap": {
+            "desc": "Popular, responsive front-end framework with pre-built components and a robust grid system.",
+            "link": "https://getbootstrap.com",
+            "tags": ["css-framework", "frontend", "ui"]
+        },
+        "Vercel": {
+            "desc": "Free cloud platform for static sites and serverless functions with seamless Git integration.",
+            "link": "https://vercel.com",
+            "tags": ["hosting", "deployment", "frontend"]
+        },
+        "Netlify": {
+            "desc": "All-in-one platform for automating modern web projects, offering reliable free static site hosting.",
+            "link": "https://www.netlify.com",
+            "tags": ["hosting", "deployment", "frontend"]
+        },
+        "CSS Grid Generator": {
+            "desc": "Visual tool to easily create custom CSS grid layouts with copy-paste ready code.",
+            "link": "https://cssgrid-generator.netlify.app",
+            "tags": ["css", "layout", "generator"]
+        },
+        "Picsum Photos": {
+            "desc": "Free placeholder image service providing high-quality random images for web development testing.",
+            "link": "https://picsum.photos",
+            "tags": ["placeholder", "image", "testing"]
+        },
+        "CSS Gradient": {
+            "desc": "Free tool to generate beautiful CSS gradients with a live preview and ready-to-use code.",
+            "link": "https://cssgradient.io",
+            "tags": ["css", "design", "generator"]
+        },
+        "Lorem Ipsum Generator": {
+            "desc": "Classic dummy text generator for filling layouts with realistic-looking placeholder content.",
+            "link": "https://www.lipsum.com",
+            "tags": ["placeholder", "text", "design"]
+        },
+        "Feather Icons": {
+            "desc": "Collection of beautiful, open-source, and fully customizable SVG icons for web projects.",
+            "link": "https://feathericons.com",
+            "tags": ["icons", "svg", "open-source"]
+        },
+        "Heroicons": {
+            "desc": "Clean, hand-crafted SVG icon set made by the creators of Tailwind CSS.",
+            "link": "https://heroicons.com",
+            "tags": ["icons", "svg", "tailwind"]
+        },
+        "Font Awesome": {
+            "desc": "The web's most popular icon set and toolkit, offering thousands of scalable vector icons.",
+            "link": "https://fontawesome.com",
+            "tags": ["icons", "svg", "frontend"]
+        },
+        "TinyPNG": {
+            "desc": "Smart lossy compression technique to reduce the file size of PNG and JPEG images efficiently.",
+            "link": "https://tinyjpg.com",
+            "tags": ["image", "optimization", "utility"]
+        },
+        "Hugging Face": {
+            "desc": "The largest open-source AI community and platform for exploring, building, and deploying machine learning models.",
+            "link": "https://huggingface.co",
+            "tags": ["ai", "machine-learning", "open-source"]
+        }
     }
 }
