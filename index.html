@@ -92,6 +92,34 @@
         </div>
     </nav>
 
+    <section class="hero">
+        <div class="max-w-[1440px] mx-auto px-6 lg:px-10 py-16 lg:py-24 flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-16">
+
+            <!-- KIRI: Judul + Deskripsi -->
+            <div class="flex-1 w-full max-w-xl text-center lg:text-left">
+                <h1 class="text-white text-[48px] mobile:text-[36px] lg:text-[72px] font-extrabold leading-[1.05] tracking-tight">
+                    Kittr
+                </h1>
+                <p class="mt-6 text-white/60 text-base lg:text-lg leading-relaxed">
+                    Kittr adalah direktori tools, situs, dan resource pilihan buat siapa aja yang kerja di dunia web,
+                    networking, programming, sampai IoT — semuanya dikurasi dan dikelompokin per kategori biar gampang dicari,
+                    tanpa perlu ribet bikin akun atau signup.
+                </p>
+            </div>
+
+            <!-- KANAN: Stats per Kategori -->
+            <div class="flex-1 w-full max-w-xl">
+                <h2 class="text-ds-green text-sm font-bold uppercase tracking-[2px] mb-6 text-center lg:text-left">
+                    Kategori &amp; Jumlah Tools
+                </h2>
+                <div id="statsContainer" class="flex flex-col gap-4">
+                    <!-- diisi otomatis via JS dari categories.json -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <!-- ===== KOTAK-KOTAK KATEGORI ===== -->
     <main class="container mx-auto">
         <div class="flex flex-wrap justify-center gap-4 mt-8 px-4">
@@ -111,6 +139,6 @@
         </div>
     </main>
 
-    <script src="/src/services/script.js"></script>
+    <script src="/src/script.js"></script>
 </body>
 </html>
