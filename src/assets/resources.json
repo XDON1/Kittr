@@ -38,7 +38,7 @@
     "PairDrop": {
       "desc": "Kirim file antar perangkat dalam satu WiFi yang sama. Cukup buka browser, tanpa instalasi apapun.",
       "link": "https://pairdrop.net",
-      "tags": ["kirim file", "lokal", "wifi", "tanpa install", "cepat"]
+      "tags": ["kirim file", "lokal", "wifi", "tanpa install", "hp-pc"]
     },
     "LocalSend": {
       "desc": "Aplikasi kirim file antar HP, PC, atau Mac dalam satu WiFi. Cepat, gratis, dan tidak pakai internet sama sekali.",
@@ -63,7 +63,7 @@
     "Clipfish": {
       "desc": "Bagikan teks, kode, atau gambar secara instan dan tanpa ribet. Cocok buat berbagi apapun dengan teman atau tim.",
       "link": "https://clip.fish",
-      "tags": ["bagi teks", "bagi kode", "bagi gambar", "cepat", "gratis"]
+      "tags": ["bagi teks", "bagi kode", "bagi gambar", "hp-pc", "gratis"]
     },
     "Tsonit Love": {
       "desc": "Buat kartu hadiah digital dengan kode QR yang unik dan personal untuk momen spesial, seperti ulang tahun atau anniversary.",
@@ -93,12 +93,12 @@
     "DropSilk": {
       "desc": "Kirim file dan bagikan layar langsung antar perangkat. Privasi tinggi, tanpa batasan ukuran, dan tanpa perlu daftar.",
       "link": "https://www.dropsilk.xyz",
-      "tags": ["kirim file", "bagi layar", "p2p", "privasi", "tanpa batas"]
+      "tags": ["kirim file", "bagi layar", "p2p", "privasi", "hp-pc"]
     },
     "Relay": {
       "desc": "Kirim file langsung antar perangkat tanpa melalui cloud. Privasi aman, cepat, dan sumber terbuka (open-source).",
       "link": "https://relay.rishishah.in",
-      "tags": ["kirim file", "langsung", "tanpa cloud", "privasi", "open-source"]
+      "tags": ["kirim file", "hp-pc", "tanpa cloud", "privasi", "open-source"]
     },
     "Waifu2x": {
       "desc": "Perbesar resolusi gambar dan kurangi noise pakai AI, cocok buat gambar anime atau foto yang pecah.",
