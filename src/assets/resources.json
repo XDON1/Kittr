@@ -1,4 +1,4 @@
- {
+{
   "Web Utilities": {
     "Removebg": {
       "desc": "Hapus latar belakang gambar secara otomatis dalam hitungan detik. Tinggal upload, langsung jadi!",
@@ -126,9 +126,9 @@
       "tags": ["download video", "twitter", "x", "hd", "gratis"]
     },
     "StorySaver": {
-    "desc": "Download story dan highlight Instagram secara gratis tanpa aplikasi. Tinggal masukin username, langsung bisa unduh!",
-    "link": "https://www.storysaver.net/en",
-    "tags": ["download video", "hd", "instagram", "story", "gratis"]
+      "desc": "Download story dan highlight Instagram secara gratis tanpa aplikasi. Tinggal masukin username, langsung bisa unduh!",
+      "link": "https://www.storysaver.net/en",
+      "tags": ["download video", "hd", "instagram", "story", "gratis"]
     },
     "MP3 to URL Converter": {
       "desc": "Ubah file MP3 jadi link yang bisa diputar langsung di browser. Praktis buat berbagi audio.",
@@ -140,7 +140,7 @@
       "link": "https://audiotrimmer.com",
       "tags": ["edit audio", "potong audio", "nada dering", "online", "gratis"]
     }
-},
+  },
   "Networking": {
     "Winbox": {
       "desc": "Aplikasi untuk mengatur dan mengelola perangkat jaringan MikroTik dengan mudah dan cepat.",
@@ -186,6 +186,16 @@
       "link": "https://www.netlify.com",
       "tags": ["hosting", "deploy", "static site", "otomatis", "gratis"]
     },
+    "Hugging Face": {
+      "desc": "Platform AI terbesar untuk eksplorasi, belajar, dan pakai model machine learning. Banyak model siap pakai, termasuk chat dan gambar.",
+      "link": "https://huggingface.co",
+      "tags": ["ai", "machine learning", "model", "open-source", "komunitas"]
+    },
+    "TinyPNG": {
+      "desc": "Kompres gambar PNG dan JPG biar ukurannya kecil tapi kualitas tetap terjaga. Bikin website lebih cepat.",
+      "link": "https://tinyjpg.com",
+      "tags": ["kompres gambar", "png", "jpg", "optimasi", "cepat"]
+    },
     "CSS Grid Generator": {
       "desc": "Bikin layout CSS Grid secara visual, tinggal drag and drop, langsung dapat kode CSS-nya.",
       "link": "https://cssgrid-generator.netlify.app",
@@ -220,16 +230,6 @@
       "desc": "Ikon paling terkenal di dunia web. Ribuan ikon siap pakai untuk website, aplikasi, dan lainnya.",
       "link": "https://fontawesome.com",
       "tags": ["ikon", "svg", "font", "web", "populer"]
-    },
-    "TinyPNG": {
-      "desc": "Kompres gambar PNG dan JPG biar ukurannya kecil tapi kualitas tetap terjaga. Bikin website lebih cepat.",
-      "link": "https://tinyjpg.com",
-      "tags": ["kompres gambar", "png", "jpg", "optimasi", "cepat"]
-    },
-    "Hugging Face": {
-      "desc": "Platform AI terbesar untuk eksplorasi, belajar, dan pakai model machine learning. Banyak model siap pakai, termasuk chat dan gambar.",
-      "link": "https://huggingface.co",
-      "tags": ["ai", "machine learning", "model", "open-source", "komunitas"]
     }
   },
   "Programming": {
@@ -294,18 +294,53 @@
     }
   },
   "Design": {
-    "Color Hunt": {
-      "desc": "Kumpulan palet warna cantik buat referensi desain. Tinggal pilih, terus pakai buat proyekmu.",
-      "link": "https://colorhunt.co",
-      "tags": ["palet warna", "desain", "warna", "inspirasi", "kreatif"]
-    },
     "Figma": {
       "desc": "Aplikasi desain UI dan prototyping yang kolaboratif. Bisa dikerjakan bareng tim secara real-time, dan gratis!",
       "link": "https://www.figma.com",
       "tags": ["ui design", "prototyping", "kolaborasi", "desain", "gratis"]
+    },
+    "Color Hunt": {
+      "desc": "Kumpulan palet warna cantik buat referensi desain. Tinggal pilih, terus pakai buat proyekmu.",
+      "link": "https://colorhunt.co",
+      "tags": ["palet warna", "desain", "warna", "inspirasi", "kreatif"]
     }
   },
   "GitHub Repository": {
+    "yt-dlp": {
+      "desc": "Download video dan audio dari YouTube dan ribuan platform lainnya, sampai kualitas 4K/8K. Versi lanjutan dari youtube-dl.",
+      "link": "https://github.com/yt-dlp/yt-dlp",
+      "tags": ["download video", "youtube", "4k", "audio", "open-source"]
+    },
+    "Rufus": {
+      "desc": "Bikin USB bootable dari file ISO dengan cepat dan andal. Wajib punya buat install OS!",
+      "link": "https://github.com/pbatard/rufus",
+      "tags": ["usb", "bootable", "install os", "windows", "linux"]
+    },
+    "Scrapy Framework": {
+      "desc": "Framework Python buat bikin web scraper (ambil data dari website) dengan cepat dan efisien. Andalan data scientist.",
+      "link": "https://github.com/scrapy/scrapy",
+      "tags": ["web scraping", "python", "data", "framework", "open-source"]
+    },
+    "Shizuku": {
+      "desc": "Framework Android yang memungkinkan aplikasi biasa pakai system API dengan bantuan ADB atau root. Jadi fondasi buat banyak aplikasi modifikasi.",
+      "link": "https://github.com/RikkaApps/Shizuku",
+      "tags": ["android", "framework", "adb", "root", "developer"]
+    },
+    "Canta": {
+      "desc": "Hapus aplikasi bawaan Android tanpa root (pakai Shizuku). Ada rekomendasi aplikasi aman dihapus biar gak salah.",
+      "link": "https://github.com/samolego/Canta",
+      "tags": ["android", "debloat", "hapus aplikasi", "shizuku", "utility"]
+    },
+    "OmniCloud": {
+      "desc": "Platform yang menggabungkan beberapa layanan cloud (Google Drive, Dropbox, dll) dalam satu antarmuka. Praktis!",
+      "link": "https://github.com/dimartarmizi/OmniCloud",
+      "tags": ["cloud storage", "aggregator", "file", "praktis", "open-source"]
+    },
+    "TorLink": {
+      "desc": "Direktori link onion (dark web) yang dikumpulkan secara open-source. Untuk browsing anonim dan privasi.",
+      "link": "https://github.com/baairon/torlink",
+      "tags": ["tor", "onion", "dark web", "privasi", "anonim"]
+    },
     "Badges4-README": {
       "desc": "Kumpulan badge SVG keren buat mempercantik profil README-mu di GitHub. Tinggal pilih, copy, tempel!",
       "link": "https://github.com/alexandresanlim/Badges4-README.md-Profile",
@@ -326,62 +361,27 @@
       "link": "https://github.com/VyyxSyh/ATM-Card-Designer",
       "tags": ["desain", "ui", "kartu", "atm", "visual"]
     },
-    "Rufus": {
-      "desc": "Bikin USB bootable dari file ISO dengan cepat dan andal. Wajib punya buat install OS!",
-      "link": "https://github.com/pbatard/rufus",
-      "tags": ["usb", "bootable", "install os", "windows", "linux"]
-    },
-    "TorLink": {
-      "desc": "Direktori link onion (dark web) yang dikumpulkan secara open-source. Untuk browsing anonim dan privasi.",
-      "link": "https://github.com/baairon/torlink",
-      "tags": ["tor", "onion", "dark web", "privasi", "anonim"]
-    },
-    "OmniCloud": {
-      "desc": "Platform yang menggabungkan beberapa layanan cloud (Google Drive, Dropbox, dll) dalam satu antarmuka. Praktis!",
-      "link": "https://github.com/dimartarmizi/OmniCloud",
-      "tags": ["cloud storage", "aggregator", "file", "praktis", "open-source"]
-    },
-    "Scrapy Framework": {
-      "desc": "Framework Python buat bikin web scraper (ambil data dari website) dengan cepat dan efisien. Andalan data scientist.",
-      "link": "https://github.com/scrapy/scrapy",
-      "tags": ["web scraping", "python", "data", "framework", "open-source"]
-    },
-    "yt-dlp": {
-      "desc": "Download video dan audio dari YouTube dan ribuan platform lainnya, sampai kualitas 4K/8K. Versi lanjutan dari youtube-dl.",
-      "link": "https://github.com/yt-dlp/yt-dlp",
-      "tags": ["download video", "youtube", "4k", "audio", "open-source"]
-    },
     "readest": {
-     "desc": "Baca ebook (EPUB, PDF, MOBI, dll) langsung di browser atau desktop. Ada fitur cari teks, anotasi, TTS (baca teks), dan sinkronisasi antar perangkat.",
-     "link": "https://github.com/readest/readest",
-    "tags": ["ebook", "pembaca", "baca", "online", "gratis"]
+      "desc": "Baca ebook (EPUB, PDF, MOBI, dll) langsung di browser atau desktop. Ada fitur cari teks, anotasi, TTS (baca teks), dan sinkronisasi antar perangkat.",
+      "link": "https://github.com/readest/readest",
+      "tags": ["ebook", "pembaca", "baca", "online", "gratis"]
     },
     "Google Timeline Visualizer": {
-    "desc": "Ubah data riwayat lokasi dari Google Maps jadi video perjalanan animasi. Upload file JSON, langsung jadi video MP4.",
-    "link": "https://github.com/mahlernim/google-timeline-visualizer",
-    "tags": ["lokasi", "maps", "video", "animasi", "perjalanan"]
-    },
-    "Canta": {
-    "desc": "Hapus aplikasi bawaan Android tanpa root (pakai Shizuku). Ada rekomendasi aplikasi aman dihapus biar gak salah.",
-    "link": "https://github.com/samolego/Canta",
-    "tags": ["android", "debloat", "hapus aplikasi", "shizuku", "utility"]
-    },
-    "Shizuku": {
-    "desc": "Framework Android yang memungkinkan aplikasi biasa pakai system API dengan bantuan ADB atau root. Jadi fondasi buat banyak aplikasi modifikasi.",
-    "link": "https://github.com/RikkaApps/Shizuku",
-    "tags": ["android", "framework", "adb", "root", "developer"]
-}
+      "desc": "Ubah data riwayat lokasi dari Google Maps jadi video perjalanan animasi. Upload file JSON, langsung jadi video MP4.",
+      "link": "https://github.com/mahlernim/google-timeline-visualizer",
+      "tags": ["lokasi", "maps", "video", "animasi", "perjalanan"]
+    }
   },
   "Education & Courses": {
-    "Dicoding": {
-      "desc": "Platform belajar coding dan teknologi terkemuka di Indonesia. Ada bootcamp dan sertifikasi, cocok buat pemula sampai profesional.",
-      "link": "https://www.dicoding.com",
-      "tags": ["belajar coding", "indonesia", "sertifikasi", "bootcamp", "online"]
-    },
     "Coursera": {
       "desc": "Belajar dari universitas top dunia seperti Stanford dan Yale. Ada ribuan kursus, sertifikat, bahkan gelar!",
       "link": "https://www.coursera.org",
       "tags": ["kursus online", "universitas", "sertifikat", "belajar", "global"]
+    },
+    "Dicoding": {
+      "desc": "Platform belajar coding dan teknologi terkemuka di Indonesia. Ada bootcamp dan sertifikasi, cocok buat pemula sampai profesional.",
+      "link": "https://www.dicoding.com",
+      "tags": ["belajar coding", "indonesia", "sertifikasi", "bootcamp", "online"]
     },
     "Digital Talent Scholarship": {
       "desc": "Program beasiswa dari pemerintah Indonesia untuk belajar keterampilan digital secara gratis. Dapat sertifikat juga!",
@@ -393,17 +393,12 @@
     "SpotX": {
       "desc": "Modifikasi desktop Spotify biar bebas iklan dan dapet fitur premium. Buat yang suka dengerin musik tanpa gangguan.",
       "link": "https://github.com/SpotX-Official/SpotX",
-      "tags": ["spotify", "mod", "no ads", "premium", "windows"]
+      "tags": ["spotify", "pc", "no ads", "premium", "windows"]
     },
-    "Winutil (Chris Titus Tech)": {
-      "desc": "Tool PowerShell all-in-one buat tuning Windows, instal software, dan disable update. Praktis banget!",
-      "link": "https://github.com/ChrisTitusTech/winutil",
-      "tags": ["windows", "optimasi", "tweaking", "utility", "gratis"]
-    },
-    "Morphe Patches": {
-      "desc": "Kumpulan patch buat aplikasi Android biar bisa dipakai tanpa iklan dan fitur premium. Cocok buat modder.",
-      "link": "https://github.com/MorpheApp/morphe-patches",
-      "tags": ["android", "patching", "mod", "open-source", "ad-free"]
+    "BitChord": {
+      "desc": "Aplikasi pemutar musik YouTube dengan tampilan aesthetic ala Apple Music. Bisa download lagu offline, dengerin audio lossless (FLAC/ALAC), lirik sinkron, dan tema dinamis dari cover album.",
+      "link": "https://github.com/kushagrasinghx/BitChord",
+      "tags": ["musik", "youtube music", "pemutar", "offline", "android"]
     },
     "ReVanced Patches": {
       "desc": "Patch buat YouTube, Twitter, dan TikTok biar bebas iklan dan fitur tambahan. Paling populer!",
@@ -413,22 +408,7 @@
     "BetterDiscord": {
       "desc": "Modifikasi Discord desktop buat pasang tema kustom, plugin, dan fitur tambahan. Bikin Discord lebih kece.",
       "link": "https://github.com/BetterDiscord/BetterDiscord",
-      "tags": ["discord", "custom", "tema", "plugin", "mod"]
-    },
-    "Discord Quest Completer": {
-      "desc": "Auto selesaikan quest Discord tanpa harus install atau main game-nya. Hemat waktu!",
-      "link": "https://github.com/markterence/discord-quest-completer",
-      "tags": ["discord", "quest", "automation", "gratis", "tool"]
-    },
-    "Discord Quest Auto-Script": {
-      "desc": "Skrip inject ke console Discord buat ngerjain quest secara instan. Cepat dan mudah.",
-      "link": "https://gist.github.com/aamiaa/204cd9d42013ded9faf646fae7f89fbb",
-      "tags": ["discord", "quest", "script", "inject", "cepat"]
-    },
-    "FileCR": {
-      "desc": "Tempat download software Windows, macOS, dan Android gratis. Koleksinya lengkap banget.",
-      "link": "https://filecr.com",
-      "tags": ["software", "download", "windows", "macos", "android"]
+      "tags": ["discord", "custom", "tema", "plugin", "pc"]
     },
     "SteamRIP": {
       "desc": "Download game PC langsung main tanpa instalasi ribet. Praktis dan banyak pilihan.",
@@ -440,6 +420,11 @@
       "link": "https://fitgirl-repacks.site",
       "tags": ["game", "repack", "compressed", "pc", "hemat kuota"]
     },
+    "Morphe Patches": {
+      "desc": "Kumpulan patch buat aplikasi Android biar bisa dipakai tanpa iklan dan fitur premium. Cocok buat modder.",
+      "link": "https://github.com/MorpheApp/morphe-patches",
+      "tags": ["android", "patching", "mod", "open-source", "ad-free"]
+    },
     "OvaGames": {
       "desc": "Download game PC repack atau full version dari berbagai server. Banyak pilihan game populer.",
       "link": "https://www.ovagames.com",
@@ -450,10 +435,20 @@
       "link": "https://rgmechanics.com",
       "tags": ["game", "repack", "pc", "kompres", "gratis"]
     },
-    "BitTorrent": {
-      "desc": "Aplikasi P2P buat download dan share file besar via torrent. Resmi dan stabil.",
-      "link": "https://www.bittorrent.com",
-      "tags": ["torrent", "p2p", "download", "file", "client"]
+    "Discord Quest Completer": {
+      "desc": "Auto selesaikan quest Discord tanpa harus install atau main game-nya. Hemat waktu!",
+      "link": "https://github.com/markterence/discord-quest-completer",
+      "tags": ["discord", "quest", "automation", "gratis", "tool"]
+    },
+    "Discord Quest Auto-Script": {
+      "desc": "Skrip inject ke console Discord buat ngerjain quest secara instan. Cepat dan mudah.",
+      "link": "https://gist.github.com/aamiaa/204cd9d42013ded9faf646fae7f89fbb",
+      "tags": ["discord", "quest", "script", "inject", "cepat"]
+    },
+    "Winutil (Chris Titus Tech)": {
+      "desc": "Tool PowerShell all-in-one buat tuning Windows, instal software, dan disable update. Praktis banget!",
+      "link": "https://github.com/ChrisTitusTech/winutil",
+      "tags": ["windows", "optimasi", "tweaking", "utility", "gratis"]
     },
     "AB Download Manager": {
       "desc": "Download manager open-source dengan multi-thread biar download lebih cepat. Desainnya modern dan bersih.",
@@ -469,6 +464,16 @@
       "desc": "Script open-source buat aktivasi Windows dan Office dengan metode HWID atau Ohook. Aman dan bersih.",
       "link": "https://github.com/massgravel/Microsoft-Activation-Scripts",
       "tags": ["windows", "aktivasi", "office", "open-source", "gratis"]
+    },
+    "FileCR": {
+      "desc": "Tempat download software Windows, macOS, dan Android gratis. Koleksinya lengkap banget.",
+      "link": "https://filecr.com",
+      "tags": ["software", "download", "windows", "macos", "android"]
+    },
+    "BitTorrent": {
+      "desc": "Aplikasi P2P buat download dan share file besar via torrent. Resmi dan stabil.",
+      "link": "https://www.bittorrent.com",
+      "tags": ["torrent", "p2p", "download", "file", "client"]
     }
   },
   "Operating Systems": {
@@ -481,21 +486,6 @@
       "desc": "Modifikasi Windows yang super ringan dan minim latensi. Cocok buat gaming dan PC kentang.",
       "link": "https://atlasos.net",
       "tags": ["windows", "optimasi", "gaming", "ringan", "low latency"]
-    },
-    "Hiren's BootCD PE": {
-      "desc": "OS darurat berbasis Windows PE buat perbaikan, backup, dan recovery PC yang rusak. Wajib buat teknisi.",
-      "link": "https://www.hirensbootcd.org",
-      "tags": ["bootable", "recovery", "windows pe", "perbaikan pc", "teknisi"]
-    },
-    "Ghost Spectre Discord Server": {
-      "desc": "Komunitas resmi pengguna Ghost Spectre, custom OS Windows. Dapat update, bantuan, dan diskusi.",
-      "link": "https://discord.com/invite/ADVqEAZ2RF",
-      "tags": ["windows", "custom os", "komunitas", "discord", "gaming"]
-    },
-    "KernelOS": {
-      "desc": "Custom Windows yang fokus pada performa tinggi tanpa fitur-fitur Microsoft yang gak perlu.",
-      "link": "https://kernelos.org",
-      "tags": ["windows", "perform", "custom os", "optimasi", "ringan"]
     },
     "Nobara Linux": {
       "desc": "Distro Linux yang dibuat khusus buat gaming. Sudah include driver GPU dan berbagai tweak biar siap main game.",
@@ -516,6 +506,21 @@
       "desc": "Linux berbasis Ubuntu dengan dukungan GPU Nvidia yang oke punya. Cocok buat desain, AI, dan gaming.",
       "link": "https://system76.com/pop",
       "tags": ["linux", "ubuntu", "nvidia", "gaming", "desain"]
+    },
+    "Hiren's BootCD PE": {
+      "desc": "OS darurat berbasis Windows PE buat perbaikan, backup, dan recovery PC yang rusak. Wajib buat teknisi.",
+      "link": "https://www.hirensbootcd.org",
+      "tags": ["bootable", "recovery", "windows pe", "perbaikan pc", "teknisi"]
+    },
+    "Ghost Spectre Discord Server": {
+      "desc": "Komunitas resmi pengguna Ghost Spectre, custom OS Windows. Dapat update, bantuan, dan diskusi.",
+      "link": "https://discord.com/invite/ADVqEAZ2RF",
+      "tags": ["windows", "custom os", "komunitas", "discord", "gaming"]
+    },
+    "KernelOS": {
+      "desc": "Custom Windows yang fokus pada performa tinggi tanpa fitur-fitur Microsoft yang gak perlu.",
+      "link": "https://kernelos.org",
+      "tags": ["windows", "perform", "custom os", "optimasi", "ringan"]
     }
   },
   "Browsers": {
@@ -529,42 +534,52 @@
       "link": "https://www.firefox.com",
       "tags": ["browser", "open-source", "privasi", "kustom", "cepat"]
     },
-    "Aloha Browser": {
-      "desc": "Browser dengan VPN gratis dan pemblokir iklan bawaan. Fokus pada keamanan dan privasi.",
-      "link": "https://alohabrowser.com",
-      "tags": ["browser", "vpn", "privasi", "ad blocker", "mobile"]
-    },
     "Tor Browser": {
       "desc": "Browser untuk browsing anonim dan mengakses dark web dengan aman.",
       "link": "https://www.torproject.org",
       "tags": ["browser", "anonim", "tor", "privasi", "dark web"]
+    },
+    "Aloha Browser": {
+      "desc": "Browser dengan VPN gratis dan pemblokir iklan bawaan. Fokus pada keamanan dan privasi.",
+      "link": "https://alohabrowser.com",
+      "tags": ["browser", "vpn", "privasi", "ad blocker", "mobile"]
     }
   },
   "Security & Privacy": {
-    "Ahmia": {
-      "desc": "Mesin pencari khusus untuk dark web. Bisa cari link .onion dengan aman.",
-      "link": "https://ahmia.fi",
-      "tags": ["dark web", "mesin pencari", "onion", "anonim", "tor"]
+    "VirusTotal": {
+      "desc": "Analisis file atau link mencurigakan dengan puluhan antivirus sekaligus. Buat cek keamanan.",
+      "link": "https://www.virustotal.com/gui/home/upload",
+      "tags": ["antivirus", "malware", "analisis", "keamanan", "scan"]
     },
     "Have I Been Pwned": {
       "desc": "Cek apakah email atau passwordmu pernah bocor di peretasan data. Penting buat keamanan akun.",
       "link": "https://haveibeenpwned.com",
       "tags": ["keamanan", "data breach", "email", "password", "cek bocor"]
     },
+    "Sherlock": {
+      "desc": "Cari tahu username di ratusan platform media sosial hanya dengan satu kali pencarian.",
+      "link": "https://github.com/sherlock-project/sherlock",
+      "tags": ["osint", "username", "sosial media", "pencarian", "investigasi"]
+    },
     "OSINT Framework": {
       "desc": "Kumpulan alat dan website untuk investigasi digital dan pencarian informasi dari sumber terbuka.",
       "link": "https://osintframework.com",
       "tags": ["osint", "investigasi", "digital", "pencarian", "alat"]
     },
-    "VirusTotal": {
-      "desc": "Analisis file atau link mencurigakan dengan puluhan antivirus sekaligus. Buat cek keamanan.",
-      "link": "https://www.virustotal.com/gui/home/upload",
-      "tags": ["antivirus", "malware", "analisis", "keamanan", "scan"]
+    "Internet Archive": {
+      "desc": "Perpustakaan digital raksasa yang menyimpan salinan website, buku, film, dan lainnya. Bisa lihat versi lama website!",
+      "link": "https://archive.org",
+      "tags": ["arsip", "wayback machine", "sejarah", "digital library", "gratis"]
     },
     "IT-Tools": {
       "desc": "Koleksi alat online buat developer, termasuk enkripsi, hashing, dan konversi data.",
       "link": "https://it-tools.tech",
       "tags": ["enkripsi", "developer", "alat online", "keamanan", "utility"]
+    },
+    "Ahmia": {
+      "desc": "Mesin pencari khusus untuk dark web. Bisa cari link .onion dengan aman.",
+      "link": "https://ahmia.fi",
+      "tags": ["dark web", "mesin pencari", "onion", "anonim", "tor"]
     },
     "Cyberforensics": {
       "desc": "Platform dan sumber daya untuk belajar forensik digital dan investigasi cyber.",
@@ -576,20 +591,10 @@
       "link": "https://tools.keycdn.com",
       "tags": ["perform", "testing", "website", "speed", "analisis"]
     },
-    "Sherlock": {
-      "desc": "Cari tahu username di ratusan platform media sosial hanya dengan satu kali pencarian.",
-      "link": "https://github.com/sherlock-project/sherlock",
-      "tags": ["osint", "username", "sosial media", "pencarian", "investigasi"]
-    },
     "NIK Parser": {
-    "desc": "Library JavaScript buat parsing dan validasi data KTP Indonesia. Bisa dapetin jenis kelamin, tanggal lahir, daerah, zodiak, dan pasaran Jawa.",
-    "link": "https://github.com/bachors/nik_parse.js",
-    "tags": ["ktp", "indonesia", "parser", "javascript", "library"]
-    },
-    "Internet Archive": {
-      "desc": "Perpustakaan digital raksasa yang menyimpan salinan website, buku, film, dan lainnya. Bisa lihat versi lama website!",
-      "link": "https://archive.org",
-      "tags": ["arsip", "wayback machine", "sejarah", "digital library", "gratis"]
+      "desc": "Library JavaScript buat parsing dan validasi data KTP Indonesia. Bisa dapetin jenis kelamin, tanggal lahir, daerah, zodiak, dan pasaran Jawa.",
+      "link": "https://github.com/bachors/nik_parse.js",
+      "tags": ["ktp", "indonesia", "parser", "javascript", "library"]
     }
   }
 }
