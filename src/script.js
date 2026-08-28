@@ -13,11 +13,14 @@ function handleSearch(e) {
 
 // ===== SHARED: fetch resources.json sekali, dipake bareng buat stats & filter =====
 let resourcesCache = null;
+let activeCategory = 'All Categories';
+let allToolsData = null;
 
 async function getResources() {
     if (resourcesCache) return resourcesCache;
     const res = await fetch('/src/assets/resources.json');
     resourcesCache = await res.json();
+    allToolsData = resourcesCache;   // <-- tambahan
     return resourcesCache;
 }
 
@@ -158,6 +161,72 @@ const CATEGORY_ICONS = {
 function getCategoryIcon(category) {
     return CATEGORY_ICONS[category] || ICON_PLACEHOLDER;
 }
+// ===== RENDER TOOL CARDS =====
+
+function createToolCard(toolName, toolInfo, categoryName) {
+    const categoryColor = getCategoryColor(categoryName);
+    return `
+        <div class="group relative bg-white/5 border-2 rounded-2xl p-6 transition-all duration-300 hover:scale-[1.02] flex flex-col" 
+             style="border-color: ${categoryColor}; box-shadow: 0 0 15px ${categoryColor}33;">
+            <div class="flex items-start justify-between mb-4">
+                <h3 class="text-white font-bold text-lg leading-tight transition-colors group-hover:text-ds-green">
+                    ${toolName}
+                </h3>
+                <a href="${toolInfo.link}" target="_blank" rel="noopener noreferrer" 
+                   class="ml-3 shrink-0 w-9 h-9 flex items-center justify-center rounded-full border transition-all duration-200"
+                   style="background-color: ${categoryColor}1A; color: ${categoryColor}; border-color: ${categoryColor}33;"
+                   title="Buka ${toolName}">
+                    <i class="fas fa-external-link-alt text-sm"></i>
+                </a>
+            </div>
+            
+            <p class="text-white/60 text-sm leading-relaxed flex-1">${toolInfo.desc}</p>
+            
+            <div class="mt-4 flex flex-wrap gap-2">
+                ${toolInfo.tags.map(tag => `
+                    <span class="text-[11px] font-medium px-3 py-1 rounded-full"
+                          style="background-color: ${categoryColor}1A; color: ${categoryColor}; border: 1px solid ${categoryColor}33;">
+                        #${tag}
+                    </span>
+                `).join('')}
+            </div>
+        </div>
+    `;
+}
+
+function renderToolCards(category) {
+    const container = document.getElementById('toolCardsContainer');
+    const emptyState = document.getElementById('toolCardsEmpty');
+    if (!container || !allToolsData) return;
+
+    let toolsToRender = [];
+
+if (category === 'All Categories') {
+    for (const cat in allToolsData) {
+        for (const [toolName, toolInfo] of Object.entries(allToolsData[cat])) {
+            toolsToRender.push({ toolName, toolInfo, category: cat });
+        }
+    }
+} else {
+    if (allToolsData[category]) {
+        for (const [toolName, toolInfo] of Object.entries(allToolsData[category])) {
+            toolsToRender.push({ toolName, toolInfo, category: category });
+        }
+    }
+}
+
+    if (toolsToRender.length > 0) {
+        container.innerHTML = toolsToRender.map(({ toolName, toolInfo, category }) => 
+            createToolCard(toolName, toolInfo, category)
+        ).join('');
+        container.classList.remove('hidden');
+        emptyState.classList.add('hidden');
+    } else {
+        container.innerHTML = '';
+        container.classList.add('hidden');
+        emptyState.classList.remove('hidden');
+    }
+}
 
 function setActiveCategory(category) {
     // Update tampilan tombol (tablet/desktop)
@@ -184,8 +253,11 @@ function setActiveCategory(category) {
 
     closeCategoryDropdown();
 
-    // TODO: hubungin ke logic filter kotak-kotak kategori kalo section-nya udah ada
+    activeCategory = category;
+    renderToolCards(category);
 }
+    // TODO: hubungin ke logic filter kotak-kotak kategori kalo section-nya udah ada
+
 
 function closeCategoryDropdown() {
     const list = document.getElementById('categoryDropdownList');
