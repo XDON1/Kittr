@@ -1,49 +1,14 @@
-{
+ {
   "Web Utilities": {
-    "Clipfish": {
-      "desc": "Bagikan teks, kode, atau gambar secara instan dan tanpa ribet. Cocok buat berbagi apapun dengan teman atau tim.",
-      "link": "https://clip.fish",
-      "tags": ["bagi teks", "bagi kode", "bagi gambar", "cepat", "gratis"]
+    "Removebg": {
+      "desc": "Hapus latar belakang gambar secara otomatis dalam hitungan detik. Tinggal upload, langsung jadi!",
+      "link": "https://www.remove.bg",
+      "tags": ["hapus background", "edit foto", "ai", "cepat", "gratis"]
     },
-    "Tsonit Love": {
-      "desc": "Buat kartu hadiah digital dengan kode QR yang unik dan personal untuk momen spesial, seperti ulang tahun atau anniversary.",
-      "link": "https://love.tsonit.com",
-      "tags": ["qr code", "generator", "kartu digital", "hadiah", "gratis"]
-    },
-    "QR Code Show": {
-      "desc": "Hasilkan kode QR sendiri dengan mudah dan cepat. Tinggal masukin link, langsung jadi!",
-      "link": "https://qrcode.show",
-      "tags": ["qr code", "generator", "mudah", "cepat", "gratis"]
-    },
-    "UL0 Site": {
-      "desc": "Perpendek URL panjangmu jadi lebih pendek, rapi, dan mudah dibagikan. Cepat dan terpercaya.",
-      "link": "https://ul0.site",
-      "tags": ["shortener", "link pendek", "praktis", "gratis"]
-    },
-    "Webtor": {
-      "desc": "Streaming atau download file dari torrent langsung di browser, tanpa perlu aplikasi tambahan.",
-      "link": "https://webtor.io",
-      "tags": ["torrent", "streaming", "download", "browser", "gratis"]
-    },
-    "DropSilk": {
-      "desc": "Kirim file dan bagikan layar langsung antar perangkat. Privasi tinggi, tanpa batasan ukuran, dan tanpa perlu daftar.",
-      "link": "https://www.dropsilk.xyz",
-      "tags": ["kirim file", "bagi layar", "p2p", "privasi", "tanpa batas"]
-    },
-    "PairDrop": {
-      "desc": "Kirim file antar perangkat dalam satu WiFi yang sama. Cukup buka browser, tanpa instalasi apapun.",
-      "link": "https://pairdrop.net",
-      "tags": ["kirim file", "lokal", "wifi", "tanpa install", "cepat"]
-    },
-    "LocalSend": {
-      "desc": "Aplikasi kirim file antar HP, PC, atau Mac dalam satu WiFi. Cepat, gratis, dan tidak pakai internet sama sekali.",
-      "link": "https://localsend.org",
-      "tags": ["kirim file", "lokal", "wifi", "hp-pc", "gratis"]
-    },
-    "BentoPDF": {
-      "desc": "Edit, gabung, pisah, atau kompres PDF langsung di browser. Privasi terjaga karena semua proses dilakukan di perangkatmu.",
-      "link": "https://www.bentopdf.com",
-      "tags": ["pdf", "edit pdf", "gabung pdf", "kompres pdf", "privasi"]
+    "Photopea": {
+      "desc": "Edit gambar dan desain grafis seperti di Photoshop, tapi gratis dan langsung di browser! Bisa buka file PSD, AI, dan Sketch.",
+      "link": "https://www.photopea.com",
+      "tags": ["edit gambar", "desain grafis", "online", "gratis", "psd"]
     },
     "Temp Mail": {
       "desc": "Dapatkan alamat email sementara untuk menerima pesan tanpa harus pakai email pribadi. Aman dan gratis.",
@@ -60,35 +25,90 @@
       "link": "https://excalidraw.com",
       "tags": ["papan tulis", "sketsa", "diagram", "visual", "gratis"]
     },
-    "Photopea": {
-      "desc": "Edit gambar dan desain grafis seperti di Photoshop, tapi gratis dan langsung di browser! Bisa buka file PSD, AI, dan Sketch.",
-      "link": "https://www.photopea.com",
-      "tags": ["edit gambar", "desain grafis", "online", "gratis", "psd"]
+    "SSSTik": {
+      "desc": "Download video TikTok HD tanpa watermark. Cepat, gratis, dan tanpa ribet.",
+      "link": "https://ssstik.io/id",
+      "tags": ["download video", "tiktok", "tanpa watermark", "hd", "gratis"]
+    },
+    "Cobalt": {
+      "desc": "Download video atau audio dari berbagai platform media sosial tanpa iklan. Cepat, gratis, dan open-source.",
+      "link": "https://cobalt.tools",
+      "tags": ["download video", "download audio", "media sosial", "open-source", "gratis"]
+    },
+    "PairDrop": {
+      "desc": "Kirim file antar perangkat dalam satu WiFi yang sama. Cukup buka browser, tanpa instalasi apapun.",
+      "link": "https://pairdrop.net",
+      "tags": ["kirim file", "lokal", "wifi", "tanpa install", "cepat"]
+    },
+    "LocalSend": {
+      "desc": "Aplikasi kirim file antar HP, PC, atau Mac dalam satu WiFi. Cepat, gratis, dan tidak pakai internet sama sekali.",
+      "link": "https://localsend.org",
+      "tags": ["kirim file", "lokal", "wifi", "hp-pc", "gratis"]
+    },
+    "UL0 Site": {
+      "desc": "Perpendek URL panjangmu jadi lebih pendek, rapi, dan mudah dibagikan. Cepat dan terpercaya.",
+      "link": "https://ul0.site",
+      "tags": ["shortener", "link pendek", "praktis", "gratis"]
+    },
+    "BentoPDF": {
+      "desc": "Edit, gabung, pisah, atau kompres PDF langsung di browser. Privasi terjaga karena semua proses dilakukan di perangkatmu.",
+      "link": "https://www.bentopdf.com",
+      "tags": ["pdf", "edit pdf", "gabung pdf", "kompres pdf", "privasi"]
+    },
+    "Sci-Hub": {
+      "desc": "Akses jutaan jurnal ilmiah internasional yang berbayar secara gratis. Platform terbuka untuk pendidikan dan penelitian.",
+      "link": "https://sci-hub.sidesgame.com",
+      "tags": ["jurnal ilmiah", "penelitian", "pendidikan", "gratis", "akses terbuka"]
+    },
+    "Clipfish": {
+      "desc": "Bagikan teks, kode, atau gambar secara instan dan tanpa ribet. Cocok buat berbagi apapun dengan teman atau tim.",
+      "link": "https://clip.fish",
+      "tags": ["bagi teks", "bagi kode", "bagi gambar", "cepat", "gratis"]
+    },
+    "Tsonit Love": {
+      "desc": "Buat kartu hadiah digital dengan kode QR yang unik dan personal untuk momen spesial, seperti ulang tahun atau anniversary.",
+      "link": "https://love.tsonit.com",
+      "tags": ["qr code", "generator", "kartu digital", "hadiah", "gratis"]
+    },
+    "QR Code Show": {
+      "desc": "Hasilkan kode QR sendiri dengan mudah dan cepat. Tinggal masukin link, langsung jadi!",
+      "link": "https://qrcode.show",
+      "tags": ["qr code", "generator", "mudah", "cepat", "gratis"]
+    },
+    "Web Weton Jawa": {
+      "desc": "Kalkulator weton Jawa berbasis web. Bantu hitungan hari baik dan budaya tradisional secara digital.",
+      "link": "https://wetonneptujawa.netlify.app",
+      "tags": ["weton", "jawa", "kalender", "budaya", "tradisional"]
+    },
+    "KadoLink": {
+      "desc": "Generator halaman bio-link sederhana untuk hadiah, ucapan, atau momen spesial. Ringan dan mudah dibuat.",
+      "link": "https://kado-link.vercel.app",
+      "tags": ["bio link", "hadiah", "ucapan", "gratis", "personal"]
+    },
+    "Webtor": {
+      "desc": "Streaming atau download file dari torrent langsung di browser, tanpa perlu aplikasi tambahan.",
+      "link": "https://webtor.io",
+      "tags": ["torrent", "streaming", "download", "browser", "gratis"]
+    },
+    "DropSilk": {
+      "desc": "Kirim file dan bagikan layar langsung antar perangkat. Privasi tinggi, tanpa batasan ukuran, dan tanpa perlu daftar.",
+      "link": "https://www.dropsilk.xyz",
+      "tags": ["kirim file", "bagi layar", "p2p", "privasi", "tanpa batas"]
+    },
+    "Relay": {
+      "desc": "Kirim file langsung antar perangkat tanpa melalui cloud. Privasi aman, cepat, dan sumber terbuka (open-source).",
+      "link": "https://relay.rishishah.in",
+      "tags": ["kirim file", "langsung", "tanpa cloud", "privasi", "open-source"]
     },
     "Waifu2x": {
       "desc": "Perbesar resolusi gambar dan kurangi noise pakai AI, cocok buat gambar anime atau foto yang pecah.",
       "link": "https://www.waifu2x.net",
       "tags": ["upscale gambar", "ai", "gambar pecah", "anime", "foto"]
     },
-    "Removebg": {
-      "desc": "Hapus latar belakang gambar secara otomatis dalam hitungan detik. Tinggal upload, langsung jadi!",
-      "link": "https://www.remove.bg",
-      "tags": ["hapus background", "edit foto", "ai", "cepat", "gratis"]
-    },
-    "SSSTik": {
-      "desc": "Download video TikTok HD tanpa watermark. Cepat, gratis, dan tanpa ribet.",
-      "link": "https://ssstik.io/id",
-      "tags": ["download video", "tiktok", "tanpa watermark", "hd", "gratis"]
-    },
     "SaveVid IG Downloader": {
       "desc": "Download postingan, reel, atau media dari Instagram, termasuk yang private (jika kamu punya akses).",
       "link": "https://savevid.net/id/instagram-private-downloader",
       "tags": ["download video", "download gambar", "instagram", "reel", "gratis"]
-    },
-    "Cobalt": {
-      "desc": "Download video atau audio dari berbagai platform media sosial tanpa iklan. Cepat, gratis, dan open-source.",
-      "link": "https://cobalt.tools",
-      "tags": ["download video", "download audio", "media sosial", "open-source", "gratis"]
     },
     "Scribd Downloader": {
       "desc": "Ambil dokumen atau PDF dari Scribd secara gratis, tanpa perlu login atau berlangganan.",
@@ -110,11 +130,6 @@
       "link": "https://spotidown.co/en16",
       "tags": ["download audio", "spotify", "mp3", "kualitas tinggi", "gratis"]
     },
-    "Relay": {
-      "desc": "Kirim file langsung antar perangkat tanpa melalui cloud. Privasi aman, cepat, dan sumber terbuka (open-source).",
-      "link": "https://relay.rishishah.in",
-      "tags": ["kirim file", "langsung", "tanpa cloud", "privasi", "open-source"]
-    },
     "MP3 to URL Converter": {
       "desc": "Ubah file MP3 jadi link yang bisa diputar langsung di browser. Praktis buat berbagi audio.",
       "link": "https://www.mp3tourl.com",
@@ -124,13 +139,8 @@
       "desc": "Potong dan edit audio langsung di browser. Cocok buat bikin nada dering atau potongan lagu.",
       "link": "https://audiotrimmer.com",
       "tags": ["edit audio", "potong audio", "nada dering", "online", "gratis"]
-    },
-    "Sci-Hub": {
-      "desc": "Akses jutaan jurnal ilmiah internasional yang berbayar secara gratis. Platform terbuka untuk pendidikan dan penelitian.",
-      "link": "https://sci-hub.sidesgame.com",
-      "tags": ["jurnal ilmiah", "penelitian", "pendidikan", "gratis", "akses terbuka"]
     }
-  },
+},
   "Networking": {
     "Winbox": {
       "desc": "Aplikasi untuk mengatur dan mengelola perangkat jaringan MikroTik dengan mudah dan cepat.",
@@ -315,16 +325,6 @@
       "desc": "Desain virtual kartu ATM dengan mudah. Bisa buat mockup untuk presentasi atau edukasi.",
       "link": "https://github.com/VyyxSyh/ATM-Card-Designer",
       "tags": ["desain", "ui", "kartu", "atm", "visual"]
-    },
-    "Web Weton Jawa": {
-      "desc": "Kalkulator weton Jawa berbasis web. Bantu hitungan hari baik dan budaya tradisional secara digital.",
-      "link": "https://github.com/VyyxSyh/Web-Weton-Jawa",
-      "tags": ["weton", "jawa", "kalender", "budaya", "tradisional"]
-    },
-    "KadoLink": {
-      "desc": "Generator halaman bio-link sederhana untuk hadiah, ucapan, atau momen spesial. Ringan dan mudah dibuat.",
-      "link": "https://github.com/XDON1/KadoLink",
-      "tags": ["bio link", "hadiah", "ucapan", "gratis", "personal"]
     },
     "Rufus": {
       "desc": "Bikin USB bootable dari file ISO dengan cepat dan andal. Wajib punya buat install OS!",
@@ -580,6 +580,11 @@
       "desc": "Cari tahu username di ratusan platform media sosial hanya dengan satu kali pencarian.",
       "link": "https://github.com/sherlock-project/sherlock",
       "tags": ["osint", "username", "sosial media", "pencarian", "investigasi"]
+    },
+    "NIK Parser": {
+    "desc": "Library JavaScript buat parsing dan validasi data KTP Indonesia. Bisa dapetin jenis kelamin, tanggal lahir, daerah, zodiak, dan pasaran Jawa.",
+    "link": "https://github.com/bachors/nik_parse.js",
+    "tags": ["ktp", "indonesia", "parser", "javascript", "library"]
     },
     "Internet Archive": {
       "desc": "Perpustakaan digital raksasa yang menyimpan salinan website, buku, film, dan lainnya. Bisa lihat versi lama website!",
