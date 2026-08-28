@@ -1,570 +1,590 @@
 {
-    "Web Utilities": {
-        "Clipfish": {
-            "desc": "Ultra-fast, minimal text and code snippet sharing tool.",
-            "link": "https://clip.fish",
-            "tags": ["snippet", "code-sharing"]
-        },
-        "Tsonit Love": {
-            "desc": "Unique digital QR gift card generator for special moments and personalized surprises.",
-            "link": "https://love.tsonit.com",
-            "tags": ["qr-code", "generator"]
-        },
-        "QR Code Show": {
-            "desc": "Standard online generator for creating custom QR codes quickly and easily.",
-            "link": "https://qrcode.show",
-            "tags": ["qr-code", "generator"]
-        },
-        "UL0 Site": {
-            "desc": "Straightforward, fast, and reliable custom URL shortener service.",
-            "link": "https://ul0.site",
-            "tags": ["url-shortener", "utility"]
-        },
-        "Webtor": {
-            "desc": "Web-based torrent engine to stream or download torrent contents directly in the browser.",
-            "link": "https://webtor.io",
-            "tags": ["torrent", "streaming"]
-        },
-        "DropSilk": {
-            "desc": "WebRTC-based P2P file and screen sharing tool with zero limits and high privacy.",
-            "link": "https://www.dropsilk.xyz",
-            "tags": ["p2p", "file-sharing"]
-        },
-        "PairDrop": {
-            "desc": "Browser-to-browser local P2P file sharing utility with no installation required.",
-            "link": "https://pairdrop.net",
-            "tags": ["p2p", "file-sharing"]
-        },
-        "LocalSend": {
-            "desc": "Cross-platform file sharing app over local WiFi without internet.",
-            "link": "https://localsend.org",
-            "tags": ["file-sharing", "utility"]
-        },
-        "BentoPDF": {
-            "desc": "Client-side, privacy-focused web suite for merging, splitting, and editing PDFs locally.",
-            "link": "https://www.bentopdf.com",
-            "tags": ["pdf", "editor"]
-        },
-        "Temp Mail": {
-            "desc": "Secure, anonymous, free, and disposable temporary email address service.",
-            "link": "https://temp-mail.org",
-            "tags": ["email", "temporary"]
-        },
-        "10MinuteMail": {
-            "desc": "Temporary email generator that auto-expires in 10 minutes to avoid spam on your main email.",
-            "link": "https://10minutemail.com",
-            "tags": ["email", "temporary"]
-        },
-        "Excalidraw": {
-            "desc": "Virtual whiteboard with a hand-drawn style, perfect for sketching flows and visual diagrams.",
-            "link": "https://excalidraw.com",
-            "tags": ["whiteboard", "diagram"]
-        },
-        "Photopea": {
-            "desc": "Free web-based Photoshop alternative. Opens PSD, AI, and Sketch files directly in the browser.",
-            "link": "https://www.photopea.com",
-            "tags": ["image-editor", "design"]
-        },
-        "Waifu2x": {
-            "desc": "Web-based AI tool to upscale image resolution and reduce noise, especially for anime illustrations and photos.",
-            "link": "https://www.waifu2x.net",
-            "tags": ["ai", "image"]
-        },
-        "Removebg": {
-            "desc": "Instant and automatic background removal tool for photos in seconds.",
-            "link": "https://www.remove.bg",
-            "tags": ["ai", "image"]
-        },
-        "SSSTik": {
-            "desc": "Fast and free HD TikTok video downloader without watermark.",
-            "link": "https://ssstik.io/id",
-            "tags": ["downloader", "video"]
-        },
-        "SaveVid IG Downloader": {
-            "desc": "Specialized web tool for downloading private posts, reels, and media from Instagram.",
-            "link": "https://savevid.net/id/instagram-private-downloader",
-            "tags": ["downloader", "video"]
-        },
-        "Cobalt": {
-            "desc": "Ad-free open-source media downloader for videos and audio across major platforms.",
-            "link": "https://cobalt.tools",
-            "tags": ["downloader", "open-source"]
-        },
-        "Scribd Downloader": {
-            "desc": "Free web utility to fetch documents and PDFs directly from Scribd.",
-            "link": "https://scribd.vdownloaders.com",
-            "tags": ["downloader", "document"]
-        },
-        "PinterestDownloader": {
-            "desc": "Clean, lightweight Pinterest downloader supporting Full HD quality downloads.",
-            "link": "https://pindown.io",
-            "tags": ["downloader", "image"]
-        },
-        "SSSTwitter": {
-            "desc": "Popular and fast X (Twitter) video downloader allowing resolution selection from SD to HD (1080p).",
-            "link": "https://ssstwitter.com",
-            "tags": ["downloader", "video"]
-        },
-        "Spotidown": {
-            "desc": "Online tool to download Spotify songs as high-quality MP3 files (320kbps) for free.",
-            "link": "https://spotidown.co/en16",
-            "tags": ["downloader", "audio"]
-        },
-        "Relay": {
-            "desc": "Open-source web tool to transfer files directly between devices without using the cloud.",
-            "link": "https://relay.rishishah.in",
-            "tags": ["file-sharing", "open-source"]
-        },
-        "MP3 to URL Converter": {
-            "desc": "Simple audio hosting tool to convert MP3 files into direct playable URLs.",
-            "link": "https://www.mp3tourl.com",
-            "tags": ["audio", "utility"]
-        },
-        "AudioTrimmer": {
-            "desc": "Quick browser-based audio cutter for trimming tracks and making custom ringtones.",
-            "link": "https://audiotrimmer.com",
-            "tags": ["audio", "editor"]
-        },
-        "Sci-Hub": {
-            "desc": "Open-access platform to unlock and download paywalled international scientific journals for free.",
-            "link": "https://sci-hub.sidesgame.com",
-            "tags": ["education", "research"]
-        }
+  "Web Utilities": {
+    "Clipfish": {
+      "desc": "Bagikan teks, kode, atau gambar secara instan dan tanpa ribet. Cocok buat berbagi apapun dengan teman atau tim.",
+      "link": "https://clip.fish",
+      "tags": ["bagi teks", "bagi kode", "bagi gambar", "cepat", "gratis"]
     },
-    "Networking": {
-        "Winbox": {
-            "desc": "Graphical utility for managing and configuring MikroTik RouterOS devices efficiently.",
-            "link": "https://mikrotik.com/download/winbox",
-            "tags": ["router", "network-management"]
-        },
-        "Cisco Packet Tracer": {
-            "desc": "Comprehensive network simulation tool for visualizing network creation, configuration, and troubleshooting.",
-            "link": "https://www.netacad.com/resources/lab-downloads?courseLang=en-US",
-            "tags": ["network-simulation", "cisco"]
-        }
+    "Tsonit Love": {
+      "desc": "Buat kartu hadiah digital dengan kode QR yang unik dan personal untuk momen spesial, seperti ulang tahun atau anniversary.",
+      "link": "https://love.tsonit.com",
+      "tags": ["qr code", "generator", "kartu digital", "hadiah", "gratis"]
     },
-    "IoT": {
-        "Arduino IDE": {
-            "desc": "Official open-source integrated development environment for writing and uploading code to Arduino boards.",
-            "link": "https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE",
-            "tags": ["development", "microcontroller"]
-        }
+    "QR Code Show": {
+      "desc": "Hasilkan kode QR sendiri dengan mudah dan cepat. Tinggal masukin link, langsung jadi!",
+      "link": "https://qrcode.show",
+      "tags": ["qr code", "generator", "mudah", "cepat", "gratis"]
     },
-    "Web Development": {
-        "GitHub": {
-            "desc": "The world's leading platform for version control, code hosting, and developer collaboration.",
-            "link": "https://github.com",
-            "tags": ["version-control", "collaboration"]
-        },
-        "Tailwind CSS": {
-            "desc": "Utility-first CSS framework for rapidly building custom, modern user interfaces.",
-            "link": "https://tailwindcss.com",
-            "tags": ["css-framework", "frontend"]
-        },
-        "Bootstrap": {
-            "desc": "Popular, responsive front-end framework with pre-built components and a robust grid system.",
-            "link": "https://getbootstrap.com",
-            "tags": ["css-framework", "frontend"]
-        },
-        "Vercel": {
-            "desc": "Free cloud platform for static sites and serverless functions with seamless Git integration.",
-            "link": "https://vercel.com",
-            "tags": ["hosting", "deployment"]
-        },
-        "Netlify": {
-            "desc": "All-in-one platform for automating modern web projects, offering reliable free static site hosting.",
-            "link": "https://www.netlify.com",
-            "tags": ["hosting", "deployment"]
-        },
-        "CSS Grid Generator": {
-            "desc": "Visual tool to easily create custom CSS grid layouts with copy-paste ready code.",
-            "link": "https://cssgrid-generator.netlify.app",
-            "tags": ["css", "layout"]
-        },
-        "Picsum Photos": {
-            "desc": "Free placeholder image service providing high-quality random images for web development testing.",
-            "link": "https://picsum.photos",
-            "tags": ["placeholder", "image"]
-        },
-        "CSS Gradient": {
-            "desc": "Free tool to generate beautiful CSS gradients with a live preview and ready-to-use code.",
-            "link": "https://cssgradient.io",
-            "tags": ["css", "design"]
-        },
-        "Lorem Ipsum Generator": {
-            "desc": "Classic dummy text generator for filling layouts with realistic-looking placeholder content.",
-            "link": "https://www.lipsum.com",
-            "tags": ["placeholder", "text"]
-        },
-        "Feather Icons": {
-            "desc": "Collection of beautiful, open-source, and fully customizable SVG icons for web projects.",
-            "link": "https://feathericons.com",
-            "tags": ["icons", "svg"]
-        },
-        "Heroicons": {
-            "desc": "Clean, hand-crafted SVG icon set made by the creators of Tailwind CSS.",
-            "link": "https://heroicons.com",
-            "tags": ["icons", "svg"]
-        },
-        "Font Awesome": {
-            "desc": "The web's most popular icon set and toolkit, offering thousands of scalable vector icons.",
-            "link": "https://fontawesome.com",
-            "tags": ["icons", "svg"]
-        },
-        "TinyPNG": {
-            "desc": "Smart lossy compression technique to reduce the file size of PNG and JPEG images efficiently.",
-            "link": "https://tinyjpg.com",
-            "tags": ["image", "optimization"]
-        },
-        "Hugging Face": {
-            "desc": "The largest open-source AI community and platform for exploring, building, and deploying machine learning models.",
-            "link": "https://huggingface.co",
-            "tags": ["ai", "machine-learning"]
-        }
+    "UL0 Site": {
+      "desc": "Perpendek URL panjangmu jadi lebih pendek, rapi, dan mudah dibagikan. Cepat dan terpercaya.",
+      "link": "https://ul0.site",
+      "tags": ["shortener", "link pendek", "praktis", "gratis"]
     },
-    "Programming": {
-        "VS Code": {
-            "desc": "Free, lightweight, and extensible code editor from Microsoft for modern web and cloud applications.",
-            "link": "https://code.visualstudio.com",
-            "tags": ["code-editor", "microsoft"]
-        },
-        "Visual Studio": {
-            "desc": "Comprehensive IDE from Microsoft for building applications across multiple platforms.",
-            "link": "https://visualstudio.microsoft.com",
-            "tags": ["ide", "microsoft"]
-        },
-        "NetBeans": {
-            "desc": "Open-source IDE for Java, PHP, C/C++, and HTML5 development with robust features.",
-            "link": "https://netbeans.apache.org/front/main/download",
-            "tags": ["ide", "java"]
-        },
-        "JSON Crack": {
-            "desc": "Visual tool that transforms complex JSON data into readable and interactive tree diagrams.",
-            "link": "https://jsoncrack.com",
-            "tags": ["json", "visualization"]
-        },
-        "Hoppscotch": {
-            "desc": "Lightweight, web-based open-source alternative to Postman for testing REST and GraphQL APIs.",
-            "link": "https://hoppscotch.io",
-            "tags": ["api", "testing"]
-        },
-        "Lazygit": {
-            "desc": "Keyboard-driven terminal UI (TUI) for Git that makes commits, pushes, and branching faster and easier.",
-            "link": "https://github.com/jesseduffield/lazygit",
-            "tags": ["git", "terminal"]
-        }
+    "Webtor": {
+      "desc": "Streaming atau download file dari torrent langsung di browser, tanpa perlu aplikasi tambahan.",
+      "link": "https://webtor.io",
+      "tags": ["torrent", "streaming", "download", "browser", "gratis"]
     },
-    "Local Server": {
-        "Laragon": {
-            "desc": "Fast, powerful, and isolated local development environment for PHP, Node.js, Python, and more.",
-            "link": "https://laragon.org/download",
-            "tags": ["local-server", "php"]
-        },
-        "XAMPP": {
-            "desc": "Free and open-source local server stack including Apache, MariaDB, PHP, and Perl.",
-            "link": "https://www.apachefriends.org/download.html",
-            "tags": ["local-server", "apache"]
-        }
+    "DropSilk": {
+      "desc": "Kirim file dan bagikan layar langsung antar perangkat. Privasi tinggi, tanpa batasan ukuran, dan tanpa perlu daftar.",
+      "link": "https://www.dropsilk.xyz",
+      "tags": ["kirim file", "bagi layar", "p2p", "privasi", "tanpa batas"]
     },
-    "Simulator": {
-        "VirtualBox": {
-            "desc": "Powerful open-source virtualization software for x86 and AMD64/Intel64 computers.",
-            "link": "https://www.virtualbox.org/wiki/Downloads",
-            "tags": ["virtualization", "virtual-machine"]
-        },
-        "Tinkercad": {
-            "desc": "Free web-based 3D design, electronics, and coding simulator, perfect for beginners.",
-            "link": "https://www.tinkercad.com",
-            "tags": ["3d-design", "simulation"]
-        },
-        "Cisco Packet Tracer": {
-            "desc": "Comprehensive network simulation tool for visualizing network creation, configuration, and troubleshooting.",
-            "link": "https://www.netacad.com/resources/lab-downloads?courseLang=en-US",
-            "tags": ["network-simulation", "cisco"]
-        }
+    "PairDrop": {
+      "desc": "Kirim file antar perangkat dalam satu WiFi yang sama. Cukup buka browser, tanpa instalasi apapun.",
+      "link": "https://pairdrop.net",
+      "tags": ["kirim file", "lokal", "wifi", "tanpa install", "cepat"]
     },
-    "Design": {
-        "Color Hunt": {
-            "desc": "Curated collection of beautiful color combinations and palettes for designers and artists.",
-            "link": "https://colorhunt.co",
-            "tags": ["color-palette", "design"]
-        },
-        "Figma": {
-            "desc": "Collaborative web-based design tool for creating websites, apps, and better user interfaces.",
-            "link": "https://www.figma.com",
-            "tags": ["ui-design", "collaboration"]
-        }
+    "LocalSend": {
+      "desc": "Aplikasi kirim file antar HP, PC, atau Mac dalam satu WiFi. Cepat, gratis, dan tidak pakai internet sama sekali.",
+      "link": "https://localsend.org",
+      "tags": ["kirim file", "lokal", "wifi", "hp-pc", "gratis"]
     },
-    "GitHub Repository": {
-        "Badges4-README": {
-            "desc": "Collection of stylish SVG badges to enhance and beautify GitHub profile READMEs.",
-            "link": "https://github.com/alexandresanlim/Badges4-README.md-Profile",
-            "tags": ["github", "badges"]
-        },
-        "SinyalDetektor": {
-            "desc": "Real-time Wi-Fi network scanning script and tool for network analysis and monitoring.",
-            "link": "https://github.com/XDON1/SinyalDetektor",
-            "tags": ["network", "scanner"]
-        },
-        "ATM Simulator Core": {
-            "desc": "Core backend logic and code simulation for a fully functional ATM machine system.",
-            "link": "https://github.com/VyyxSyh/ATM-Simulator-Core",
-            "tags": ["simulation", "backend"]
-        },
-        "ATM Card Designer": {
-            "desc": "Interactive web tool to design custom virtual ATM card UIs with ease.",
-            "link": "https://github.com/VyyxSyh/ATM-Card-Designer",
-            "tags": ["design", "ui"]
-        },
-        "Web Weton Jawa": {
-            "desc": "Traditional Javanese weton calendar calculator tool built for cultural preservation.",
-            "link": "https://github.com/VyyxSyh/Web-Weton-Jawa",
-            "tags": ["calendar", "javanese"]
-        },
-        "KadoLink": {
-            "desc": "Simple and lightweight gift bio-link generator for creating personalized gift pages.",
-            "link": "https://github.com/XDON1/KadoLink",
-            "tags": ["bio-link", "gift"]
-        },
-        "Rufus": {
-            "desc": "Reliable, fast, and open-source tool for creating bootable USB drives from ISO files.",
-            "link": "https://github.com/pbatard/rufus",
-            "tags": ["usb", "bootable"]
-        },
-        "TorLink": {
-            "desc": "Open-source Tor onion site aggregator and privacy-focused link directory.",
-            "link": "https://github.com/baairon/torlink",
-            "tags": ["privacy", "tor"]
-        },
-        "OmniCloud": {
-            "desc": "Full-stack cloud drive aggregation platform presenting multiple storage providers in one consistent workspace.",
-            "link": "https://github.com/dimartarmizi/OmniCloud",
-            "tags": ["cloud-storage", "aggregator"]
-        },
-        "Scrapy Framework": {
-            "desc": "Fast and powerful open-source Python framework for web crawling and data extraction.",
-            "link": "https://github.com/scrapy/scrapy",
-            "tags": ["web-scraping", "python"]
-        },
-        "yt-dlp": {
-            "desc": "Powerful open-source command-line tool for downloading videos and audio from YouTube and thousands of platforms in up to 4K/8K quality.",
-            "link": "https://github.com/yt-dlp/yt-dlp",
-            "tags": ["downloader", "video"]
-        }
+    "BentoPDF": {
+      "desc": "Edit, gabung, pisah, atau kompres PDF langsung di browser. Privasi terjaga karena semua proses dilakukan di perangkatmu.",
+      "link": "https://www.bentopdf.com",
+      "tags": ["pdf", "edit pdf", "gabung pdf", "kompres pdf", "privasi"]
     },
-    "Education & Courses": {
-        "Dicoding": {
-            "desc": "Leading Indonesian platform for learning programming, tech skills, and certified bootcamps.",
-            "link": "https://www.dicoding.com",
-            "tags": ["coding", "learning"]
-        },
-        "Coursera": {
-            "desc": "Global online learning platform offering courses and degrees from top universities and companies.",
-            "link": "https://www.coursera.org",
-            "tags": ["courses", "university"]
-        },
-        "Digital Talent Scholarship": {
-            "desc": "Indonesian government initiative providing free digital skills training and professional certifications.",
-            "link": "https://digitalent.komdigi.go.id",
-            "tags": ["scholarship", "digital-skills"]
-        }
+    "Temp Mail": {
+      "desc": "Dapatkan alamat email sementara untuk menerima pesan tanpa harus pakai email pribadi. Aman dan gratis.",
+      "link": "https://temp-mail.org",
+      "tags": ["email sementara", "anti spam", "anonim", "gratis"]
     },
-    "Scripts & Utilities": {
-        "SpotX": {
-            "desc": "Modified Spotify desktop client for Windows that blocks ads and enables premium-like features.",
-            "link": "https://github.com/SpotX-Official/SpotX",
-            "tags": ["spotify", "mod"]
-        },
-        "Winutil (Chris Titus Tech)": {
-            "desc": "Comprehensive PowerShell utility to tweak Windows performance, disable updates, and install software.",
-            "link": "https://github.com/ChrisTitusTech/winutil",
-            "tags": ["windows", "optimization"]
-        },
-        "Morphe Patches": {
-            "desc": "Open-source repository containing Android app patches for ad-free experiences and background play.",
-            "link": "https://github.com/MorpheApp/morphe-patches",
-            "tags": ["android", "patching"]
-        },
-        "ReVanced Patches": {
-            "desc": "Popular repository for patching YouTube, Twitter, and TikTok to remove ads and unlock features.",
-            "link": "https://github.com/ReVanced/revanced-patches",
-            "tags": ["patching", "modding"]
-        },
-        "BetterDiscord": {
-            "desc": "Desktop client modification for Discord to add custom themes, plugins, and extra features.",
-            "link": "https://github.com/BetterDiscord/BetterDiscord",
-            "tags": ["discord", "customization"]
-        },
-        "Discord Quest Completer": {
-            "desc": "Automation tool to complete Discord Quests without needing to install or play the game.",
-            "link": "https://github.com/markterence/discord-quest-completer",
-            "tags": ["discord", "automation"]
-        },
-        "Discord Quest Auto-Script": {
-            "desc": "Instant console inject script to complete Discord Quests via browser or PTB client.",
-            "link": "https://gist.github.com/aamiaa/204cd9d42013ded9faf646fae7f89fbb",
-            "tags": ["discord", "script"]
-        },
-        "FileCR": {
-            "desc": "Comprehensive software repository providing downloads for Windows, macOS, and Android applications.",
-            "link": "https://filecr.com",
-            "tags": ["software", "repository"]
-        },
-        "SteamRIP": {
-            "desc": "Library offering pre-installed and direct-play PC games for easy access.",
-            "link": "https://steamrip.com",
-            "tags": ["games", "direct-download"]
-        },
-        "FitGirl Repacks": {
-            "desc": "Highly compressed PC game installers repository for faster downloads and saving disk space.",
-            "link": "https://fitgirl-repacks.site",
-            "tags": ["games", "compression"]
-        },
-        "OvaGames": {
-            "desc": "Website providing free download links for repack and full version PC games from various servers.",
-            "link": "https://www.ovagames.com",
-            "tags": ["games", "download"]
-        },
-        "RG Mechanics": {
-            "desc": "Provider of highly compressed PC game repack download links.",
-            "link": "https://rgmechanics.com",
-            "tags": ["games", "repack"]
-        },
-        "BitTorrent": {
-            "desc": "Official desktop and mobile P2P client for downloading and sharing large torrent files.",
-            "link": "https://www.bittorrent.com",
-            "tags": ["torrent", "p2p"]
-        },
-        "AB Download Manager": {
-            "desc": "Modern open-source download manager with multi-threaded speed acceleration and clean UI.",
-            "link": "https://github.com/amir1376/ab-download-manager",
-            "tags": ["download-manager", "open-source"]
-        },
-        "Win11Debloat": {
-            "desc": "Open-source PowerShell script to remove bloatware, ads, and junk apps from Windows 11.",
-            "link": "https://github.com/Raphire/Win11Debloat",
-            "tags": ["windows", "debloat"]
-        },
-        "Microsoft Activation Scripts (MAS)": {
-            "desc": "Safe and clean open-source script for activating Windows and Office via HWID/Ohook.",
-            "link": "https://github.com/massgravel/Microsoft-Activation-Scripts",
-            "tags": ["windows", "activation"]
-        }
+    "10MinuteMail": {
+      "desc": "Email sekali pakai yang otomatis mati dalam 10 menit. Cocok buat daftar situs yang mencurigakan.",
+      "link": "https://10minutemail.com",
+      "tags": ["email sementara", "anti spam", "sekali pakai", "cepat", "gratis"]
     },
-    "Operating Systems": {
-        "ReviOS": {
-            "desc": "Modified Windows OS optimized specifically for gaming and high-performance tasks.",
-            "link": "https://revi.cc",
-            "tags": ["windows", "gaming"]
-        },
-        "AtlasOS": {
-            "desc": "Lightweight Windows modification that removes bloatware and significantly reduces system latency.",
-            "link": "https://atlasos.net",
-            "tags": ["windows", "optimization"]
-        },
-        "Hiren's BootCD PE": {
-            "desc": "Emergency Windows PE-based OS for repairing, troubleshooting, and backing up broken PCs.",
-            "link": "https://www.hirensbootcd.org",
-            "tags": ["bootable", "recovery"]
-        },
-        "Ghost Spectre Discord Server": {
-            "desc": "Official community server for Ghost Spectre custom OS ISO files, updates, and troubleshooting.",
-            "link": "https://discord.com/invite/ADVqEAZ2RF",
-            "tags": ["windows", "community"]
-        },
-        "KernelOS": {
-            "desc": "Custom Windows OS focused purely on high performance without unnecessary Microsoft features.",
-            "link": "https://kernelos.org",
-            "tags": ["windows", "performance"]
-        },
-        "Nobara Linux": {
-            "desc": "Gaming-focused Linux distro by GloriousEggroll with pre-installed GPU drivers and tweaks.",
-            "link": "https://nobaraproject.org",
-            "tags": ["linux", "gaming"]
-        },
-        "Garuda Linux": {
-            "desc": "Arch-based Linux distro for gaming with a cool UI, automation features, and ready-to-use drivers.",
-            "link": "https://garudalinux.org",
-            "tags": ["linux", "arch"]
-        },
-        "Linux Mint": {
-            "desc": "Lightweight, user-friendly, and stable Linux distribution based on Ubuntu/Debian.",
-            "link": "https://linuxmint.com",
-            "tags": ["linux", "lightweight"]
-        },
-        "Pop OS": {
-            "desc": "Ubuntu-based Linux distribution with excellent out-of-the-box support for Nvidia GPUs.",
-            "link": "https://system76.com/pop",
-            "tags": ["linux", "nvidia"]
-        }
+    "Excalidraw": {
+      "desc": "Papan tulis virtual dengan gaya gambar tangan. Enak buat sketsa ide, diagram, atau alur kerja secara visual.",
+      "link": "https://excalidraw.com",
+      "tags": ["papan tulis", "sketsa", "diagram", "visual", "gratis"]
     },
-    "Browsers": {
-        "Brave Browser": {
-            "desc": "Privacy-focused web browser with a built-in ad blocker and tracker prevention.",
-            "link": "https://brave.com",
-            "tags": ["privacy", "ad-blocker"]
-        },
-        "Mozilla Firefox": {
-            "desc": "Fast, highly customizable, and open-source web browser.",
-            "link": "https://www.firefox.com",
-            "tags": ["open-source", "customization"]
-        },
-        "Aloha Browser": {
-            "desc": "Privacy-first web browser with a free built-in VPN and ad-blocker.",
-            "link": "https://alohabrowser.com",
-            "tags": ["vpn", "privacy"]
-        },
-        "Tor Browser": {
-            "desc": "Privacy-focused browser designed for anonymous browsing and accessing the dark web.",
-            "link": "https://www.torproject.org",
-            "tags": ["anonymity", "tor"]
-        }
+    "Photopea": {
+      "desc": "Edit gambar dan desain grafis seperti di Photoshop, tapi gratis dan langsung di browser! Bisa buka file PSD, AI, dan Sketch.",
+      "link": "https://www.photopea.com",
+      "tags": ["edit gambar", "desain grafis", "online", "gratis", "psd"]
     },
-    "Security & Privacy": {
-        "Ahmia": {
-            "desc": "Dark web search engine for indexing and finding hidden Tor (.onion) links safely.",
-            "link": "https://ahmia.fi",
-            "tags": ["dark-web", "search-engine"]
-        },
-        "Have I Been Pwned": {
-            "desc": "Service to check if your email or password has been compromised in a known data breach.",
-            "link": "https://haveibeenpwned.com",
-            "tags": ["data-breach", "security"]
-        },
-        "OSINT Framework": {
-            "desc": "Comprehensive directory of tools and websites for digital investigation and OSINT.",
-            "link": "https://osintframework.com",
-            "tags": ["osint", "investigation"]
-        },
-        "VirusTotal": {
-            "desc": "Web service to analyze suspicious files and URLs using multiple antivirus engines.",
-            "link": "https://www.virustotal.com/gui/home/upload",
-            "tags": ["antivirus", "malware-analysis"]
-        },
-        "IT-Tools": {
-            "desc": "Collection of handy online tools for developers, including encryption and decryption utilities.",
-            "link": "https://it-tools.tech",
-            "tags": ["encryption", "developer-tools"]
-        },
-        "Cyberforensics": {
-            "desc": "Platform and resources dedicated to digital forensics and cyber investigation.",
-            "link": "https://www.cyberforensics.in",
-            "tags": ["forensics", "investigation"]
-        },
-        "KeyCDN Tools": {
-            "desc": "Suite of web performance testing tools to analyze website speed and optimization.",
-            "link": "https://tools.keycdn.com",
-            "tags": ["performance", "testing"]
-        },
-        "Sherlock": {
-            "desc": "OSINT tool to hunt down social media accounts by username across hundreds of platforms.",
-            "link": "https://github.com/sherlock-project/sherlock",
-            "tags": ["osint", "social-media"]
-        },
-        "Internet Archive": {
-            "desc": "Non-profit digital library offering free access to historical web pages, books, and media.",
-            "link": "https://archive.org",
-            "tags": ["archive", "wayback-machine"]
-        }
+    "Waifu2x": {
+      "desc": "Perbesar resolusi gambar dan kurangi noise pakai AI, cocok buat gambar anime atau foto yang pecah.",
+      "link": "https://www.waifu2x.net",
+      "tags": ["upscale gambar", "ai", "gambar pecah", "anime", "foto"]
+    },
+    "Removebg": {
+      "desc": "Hapus latar belakang gambar secara otomatis dalam hitungan detik. Tinggal upload, langsung jadi!",
+      "link": "https://www.remove.bg",
+      "tags": ["hapus background", "edit foto", "ai", "cepat", "gratis"]
+    },
+    "SSSTik": {
+      "desc": "Download video TikTok HD tanpa watermark. Cepat, gratis, dan tanpa ribet.",
+      "link": "https://ssstik.io/id",
+      "tags": ["download video", "tiktok", "tanpa watermark", "hd", "gratis"]
+    },
+    "SaveVid IG Downloader": {
+      "desc": "Download postingan, reel, atau media dari Instagram, termasuk yang private (jika kamu punya akses).",
+      "link": "https://savevid.net/id/instagram-private-downloader",
+      "tags": ["download video", "download gambar", "instagram", "reel", "gratis"]
+    },
+    "Cobalt": {
+      "desc": "Download video atau audio dari berbagai platform media sosial tanpa iklan. Cepat, gratis, dan open-source.",
+      "link": "https://cobalt.tools",
+      "tags": ["download video", "download audio", "media sosial", "open-source", "gratis"]
+    },
+    "Scribd Downloader": {
+      "desc": "Ambil dokumen atau PDF dari Scribd secara gratis, tanpa perlu login atau berlangganan.",
+      "link": "https://scribd.vdownloaders.com",
+      "tags": ["download dokumen", "pdf", "scribd", "gratis", "online"]
+    },
+    "PinterestDownloader": {
+      "desc": "Download gambar dan video dari Pinterest dengan kualitas Full HD. Ringan dan cepat.",
+      "link": "https://pindown.io",
+      "tags": ["download gambar", "download video", "pinterest", "hd", "gratis"]
+    },
+    "SSSTwitter": {
+      "desc": "Download video dari X (Twitter) dengan pilihan resolusi dari SD sampai HD 1080p. Cepat dan mudah.",
+      "link": "https://ssstwitter.com",
+      "tags": ["download video", "twitter", "x", "hd", "gratis"]
+    },
+    "Spotidown": {
+      "desc": "Download lagu Spotify jadi MP3 kualitas tinggi (320kbps) secara gratis. Tinggal masukin link, langsung jadi.",
+      "link": "https://spotidown.co/en16",
+      "tags": ["download audio", "spotify", "mp3", "kualitas tinggi", "gratis"]
+    },
+    "Relay": {
+      "desc": "Kirim file langsung antar perangkat tanpa melalui cloud. Privasi aman, cepat, dan sumber terbuka (open-source).",
+      "link": "https://relay.rishishah.in",
+      "tags": ["kirim file", "langsung", "tanpa cloud", "privasi", "open-source"]
+    },
+    "MP3 to URL Converter": {
+      "desc": "Ubah file MP3 jadi link yang bisa diputar langsung di browser. Praktis buat berbagi audio.",
+      "link": "https://www.mp3tourl.com",
+      "tags": ["audio", "mp3", "konversi", "link", "gratis"]
+    },
+    "AudioTrimmer": {
+      "desc": "Potong dan edit audio langsung di browser. Cocok buat bikin nada dering atau potongan lagu.",
+      "link": "https://audiotrimmer.com",
+      "tags": ["edit audio", "potong audio", "nada dering", "online", "gratis"]
+    },
+    "Sci-Hub": {
+      "desc": "Akses jutaan jurnal ilmiah internasional yang berbayar secara gratis. Platform terbuka untuk pendidikan dan penelitian.",
+      "link": "https://sci-hub.sidesgame.com",
+      "tags": ["jurnal ilmiah", "penelitian", "pendidikan", "gratis", "akses terbuka"]
     }
-} 
+  },
+  "Networking": {
+    "Winbox": {
+      "desc": "Aplikasi untuk mengatur dan mengelola perangkat jaringan MikroTik dengan mudah dan cepat.",
+      "link": "https://mikrotik.com/download/winbox",
+      "tags": ["mikrotik", "router", "jaringan", "konfigurasi", "manajemen"]
+    },
+    "Cisco Packet Tracer": {
+      "desc": "Simulasi jaringan untuk belajar bikin dan atur jaringan komputer. Cocok buat pemula yang mau belajar Cisco.",
+      "link": "https://www.netacad.com/resources/lab-downloads?courseLang=en-US",
+      "tags": ["simulasi jaringan", "cisco", "belajar", "jaringan", "pendidikan"]
+    }
+  },
+  "IoT": {
+    "Arduino IDE": {
+      "desc": "Tempat nulis dan upload kode ke board Arduino. Wajib buat kamu yang mau mulai belajar IoT dan robotika.",
+      "link": "https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE",
+      "tags": ["arduino", "iot", "mikrokontroler", "pemrograman", "robotika"]
+    }
+  },
+  "Web Development": {
+    "GitHub": {
+      "desc": "Platform nomor satu buat nyimpen kode, kolaborasi dengan tim, dan manajemen versi proyek. Wajib punya buat developer!",
+      "link": "https://github.com",
+      "tags": ["kode", "kolaborasi", "version control", "developer", "open-source"]
+    },
+    "Tailwind CSS": {
+      "desc": "Framework CSS yang bikin desain website cepat dan rapi tanpa harus nulis CSS dari nol. Tinggal pakai kelas-kelas yang sudah disediakan.",
+      "link": "https://tailwindcss.com",
+      "tags": ["css", "framework", "frontend", "desain web", "cepat"]
+    },
+    "Bootstrap": {
+      "desc": "Framework CSS paling populer yang siap pakai. Bikin website jadi responsif dan keren dengan komponen siap pakai.",
+      "link": "https://getbootstrap.com",
+      "tags": ["css", "framework", "responsif", "frontend", "desain web"]
+    },
+    "Vercel": {
+      "desc": "Hosting gratis untuk website statis dan aplikasi serverless. Terintegrasi langsung dengan Git, jadi deploy tinggal push!",
+      "link": "https://vercel.com",
+      "tags": ["hosting", "deploy", "static site", "serverless", "gratis"]
+    },
+    "Netlify": {
+      "desc": "Platform serba bisa buat hosting website statis, otomatis deploy dari Git, dan gratis!",
+      "link": "https://www.netlify.com",
+      "tags": ["hosting", "deploy", "static site", "otomatis", "gratis"]
+    },
+    "CSS Grid Generator": {
+      "desc": "Bikin layout CSS Grid secara visual, tinggal drag and drop, langsung dapat kode CSS-nya.",
+      "link": "https://cssgrid-generator.netlify.app",
+      "tags": ["css", "grid", "layout", "visual", "generator"]
+    },
+    "Picsum Photos": {
+      "desc": "Sumber gambar acak berkualitas buat keperluan desain atau testing website. Tinggal pakai URL-nya.",
+      "link": "https://picsum.photos",
+      "tags": ["gambar", "placeholder", "random", "desain", "testing"]
+    },
+    "CSS Gradient": {
+      "desc": "Buat gradien CSS yang cantik dengan preview langsung. Kode siap pakai, tinggal copy-paste!",
+      "link": "https://cssgradient.io",
+      "tags": ["css", "gradien", "desain", "warna", "visual"]
+    },
+    "Lorem Ipsum Generator": {
+      "desc": "Hasilkan teks placeholder (dummy) buat ngetes layout atau isi konten sementara. Klasik dan praktis.",
+      "link": "https://www.lipsum.com",
+      "tags": ["teks", "placeholder", "dummy", "desain", "layout"]
+    },
+    "Feather Icons": {
+      "desc": "Koleksi ikon SVG yang cantik, open-source, dan bisa diubah ukuran/warna sesuai keinginan.",
+      "link": "https://feathericons.com",
+      "tags": ["ikon", "svg", "desain", "open-source", "kustom"]
+    },
+    "Heroicons": {
+      "desc": "Ikon SVG buatan tim Tailwind CSS. Desainnya bersih, modern, dan gratis buat dipakai.",
+      "link": "https://heroicons.com",
+      "tags": ["ikon", "svg", "tailwind", "desain", "gratis"]
+    },
+    "Font Awesome": {
+      "desc": "Ikon paling terkenal di dunia web. Ribuan ikon siap pakai untuk website, aplikasi, dan lainnya.",
+      "link": "https://fontawesome.com",
+      "tags": ["ikon", "svg", "font", "web", "populer"]
+    },
+    "TinyPNG": {
+      "desc": "Kompres gambar PNG dan JPG biar ukurannya kecil tapi kualitas tetap terjaga. Bikin website lebih cepat.",
+      "link": "https://tinyjpg.com",
+      "tags": ["kompres gambar", "png", "jpg", "optimasi", "cepat"]
+    },
+    "Hugging Face": {
+      "desc": "Platform AI terbesar untuk eksplorasi, belajar, dan pakai model machine learning. Banyak model siap pakai, termasuk chat dan gambar.",
+      "link": "https://huggingface.co",
+      "tags": ["ai", "machine learning", "model", "open-source", "komunitas"]
+    }
+  },
+  "Programming": {
+    "VS Code": {
+      "desc": "Editor kode modern dari Microsoft. Ringan, cepat, dan bisa dipasang berbagai ekstensi untuk dukung hampir semua bahasa pemrograman.",
+      "link": "https://code.visualstudio.com",
+      "tags": ["code editor", "pemrograman", "ringan", "microsoft", "ekstensi"]
+    },
+    "Visual Studio": {
+      "desc": "IDE lengkap dari Microsoft untuk membuat aplikasi desktop, web, mobile, dan game. Powerful dan komprehensif.",
+      "link": "https://visualstudio.microsoft.com",
+      "tags": ["ide", "pemrograman", "microsoft", "aplikasi", "visual studio"]
+    },
+    "NetBeans": {
+      "desc": "IDE open-source untuk pengembangan Java, PHP, dan C++. Fitur lengkap dan stabil.",
+      "link": "https://netbeans.apache.org/front/main/download",
+      "tags": ["ide", "java", "php", "open-source", "pemrograman"]
+    },
+    "JSON Crack": {
+      "desc": "Lihat dan pahami data JSON jadi diagram pohon yang interaktif. Enak banget buat debug data.",
+      "link": "https://jsoncrack.com",
+      "tags": ["json", "visualisasi", "diagram", "data", "debug"]
+    },
+    "Hoppscotch": {
+      "desc": "Alternatif Postman yang ringan dan gratis, langsung di browser. Buat testing API REST dan GraphQL.",
+      "link": "https://hoppscotch.io",
+      "tags": ["api", "testing", "rest", "graphql", "open-source"]
+    },
+    "Lazygit": {
+      "desc": "Antarmuka terminal yang interaktif untuk Git. Bikin commit, push, dan branch jadi lebih cepat tanpa perlu hafal banyak perintah.",
+      "link": "https://github.com/jesseduffield/lazygit",
+      "tags": ["git", "terminal", "tui", "produktivitas", "open-source"]
+    }
+  },
+  "Local Server": {
+    "Laragon": {
+      "desc": "Lingkungan pengembangan lokal yang cepat dan ringan untuk PHP, Node.js, Python, dan lainnya. Instalasi mudah dan terisolasi.",
+      "link": "https://laragon.org/download",
+      "tags": ["local server", "php", "nodejs", "python", "pengembangan"]
+    },
+    "XAMPP": {
+      "desc": "Paket lengkap server lokal (Apache, MySQL, PHP, Perl) untuk menjalankan website di komputermu sendiri. Mudah dipasang dan gratis.",
+      "link": "https://www.apachefriends.org/download.html",
+      "tags": ["local server", "apache", "mysql", "php", "website"]
+    }
+  },
+  "Simulator": {
+    "VirtualBox": {
+      "desc": "Virtualisasi untuk menjalankan sistem operasi lain di dalam komputermu. Cocok buat coba-coba OS atau bikin lab jaringan.",
+      "link": "https://www.virtualbox.org/wiki/Downloads",
+      "tags": ["virtualisasi", "virtual machine", "open-source", "lab", "testing"]
+    },
+    "Tinkercad": {
+      "desc": "Simulasi 3D, elektronika, dan coding secara online. Sangat cocok buat pemula yang mau belajar desain atau IoT.",
+      "link": "https://www.tinkercad.com",
+      "tags": ["3d design", "simulasi", "elektronika", "coding", "pemula"]
+    },
+    "Cisco Packet Tracer": {
+      "desc": "Simulasi jaringan untuk belajar bikin dan atur jaringan komputer. Cocok buat pemula yang mau belajar Cisco.",
+      "link": "https://www.netacad.com/resources/lab-downloads?courseLang=en-US",
+      "tags": ["simulasi jaringan", "cisco", "belajar", "jaringan", "pendidikan"]
+    }
+  },
+  "Design": {
+    "Color Hunt": {
+      "desc": "Kumpulan palet warna cantik buat referensi desain. Tinggal pilih, terus pakai buat proyekmu.",
+      "link": "https://colorhunt.co",
+      "tags": ["palet warna", "desain", "warna", "inspirasi", "kreatif"]
+    },
+    "Figma": {
+      "desc": "Aplikasi desain UI dan prototyping yang kolaboratif. Bisa dikerjakan bareng tim secara real-time, dan gratis!",
+      "link": "https://www.figma.com",
+      "tags": ["ui design", "prototyping", "kolaborasi", "desain", "gratis"]
+    }
+  },
+  "GitHub Repository": {
+    "Badges4-README": {
+      "desc": "Kumpulan badge SVG keren buat mempercantik profil README-mu di GitHub. Tinggal pilih, copy, tempel!",
+      "link": "https://github.com/alexandresanlim/Badges4-README.md-Profile",
+      "tags": ["github", "badges", "readme", "profil", "open-source"]
+    },
+    "SinyalDetektor": {
+      "desc": "Alat untuk memindai jaringan WiFi secara real-time. Berguna untuk analisis dan monitoring sinyal.",
+      "link": "https://github.com/XDON1/SinyalDetektor",
+      "tags": ["jaringan", "wifi", "scanner", "monitoring", "open-source"]
+    },
+    "ATM Simulator Core": {
+      "desc": "Simulasi logika mesin ATM. Cocok buat belajar backend atau testing sistem transaksi.",
+      "link": "https://github.com/VyyxSyh/ATM-Simulator-Core",
+      "tags": ["simulasi", "backend", "atm", "transaksi", "belajar"]
+    },
+    "ATM Card Designer": {
+      "desc": "Desain virtual kartu ATM dengan mudah. Bisa buat mockup untuk presentasi atau edukasi.",
+      "link": "https://github.com/VyyxSyh/ATM-Card-Designer",
+      "tags": ["desain", "ui", "kartu", "atm", "visual"]
+    },
+    "Web Weton Jawa": {
+      "desc": "Kalkulator weton Jawa berbasis web. Bantu hitungan hari baik dan budaya tradisional secara digital.",
+      "link": "https://github.com/VyyxSyh/Web-Weton-Jawa",
+      "tags": ["weton", "jawa", "kalender", "budaya", "tradisional"]
+    },
+    "KadoLink": {
+      "desc": "Generator halaman bio-link sederhana untuk hadiah, ucapan, atau momen spesial. Ringan dan mudah dibuat.",
+      "link": "https://github.com/XDON1/KadoLink",
+      "tags": ["bio link", "hadiah", "ucapan", "gratis", "personal"]
+    },
+    "Rufus": {
+      "desc": "Bikin USB bootable dari file ISO dengan cepat dan andal. Wajib punya buat install OS!",
+      "link": "https://github.com/pbatard/rufus",
+      "tags": ["usb", "bootable", "install os", "windows", "linux"]
+    },
+    "TorLink": {
+      "desc": "Direktori link onion (dark web) yang dikumpulkan secara open-source. Untuk browsing anonim dan privasi.",
+      "link": "https://github.com/baairon/torlink",
+      "tags": ["tor", "onion", "dark web", "privasi", "anonim"]
+    },
+    "OmniCloud": {
+      "desc": "Platform yang menggabungkan beberapa layanan cloud (Google Drive, Dropbox, dll) dalam satu antarmuka. Praktis!",
+      "link": "https://github.com/dimartarmizi/OmniCloud",
+      "tags": ["cloud storage", "aggregator", "file", "praktis", "open-source"]
+    },
+    "Scrapy Framework": {
+      "desc": "Framework Python buat bikin web scraper (ambil data dari website) dengan cepat dan efisien. Andalan data scientist.",
+      "link": "https://github.com/scrapy/scrapy",
+      "tags": ["web scraping", "python", "data", "framework", "open-source"]
+    },
+    "yt-dlp": {
+      "desc": "Download video dan audio dari YouTube dan ribuan platform lainnya, sampai kualitas 4K/8K. Versi lanjutan dari youtube-dl.",
+      "link": "https://github.com/yt-dlp/yt-dlp",
+      "tags": ["download video", "youtube", "4k", "audio", "open-source"]
+    },
+    "readest": {
+     "desc": "Baca ebook (EPUB, PDF, MOBI, dll) langsung di browser atau desktop. Ada fitur cari teks, anotasi, TTS (baca teks), dan sinkronisasi antar perangkat.",
+     "link": "https://github.com/readest/readest",
+    "tags": ["ebook", "pembaca", "baca", "online", "gratis"]
+    },
+    "Google Timeline Visualizer": {
+    "desc": "Ubah data riwayat lokasi dari Google Maps jadi video perjalanan animasi. Upload file JSON, langsung jadi video MP4.",
+    "link": "https://github.com/mahlernim/google-timeline-visualizer",
+    "tags": ["lokasi", "maps", "video", "animasi", "perjalanan"]
+    },
+    "Canta": {
+    "desc": "Hapus aplikasi bawaan Android tanpa root (pakai Shizuku). Ada rekomendasi aplikasi aman dihapus biar gak salah.",
+    "link": "https://github.com/samolego/Canta",
+    "tags": ["android", "debloat", "hapus aplikasi", "shizuku", "utility"]
+    },
+    "Shizuku": {
+    "desc": "Framework Android yang memungkinkan aplikasi biasa pakai system API dengan bantuan ADB atau root. Jadi fondasi buat banyak aplikasi modifikasi.",
+    "link": "https://github.com/RikkaApps/Shizuku",
+    "tags": ["android", "framework", "adb", "root", "developer"]
+}
+  },
+  "Education & Courses": {
+    "Dicoding": {
+      "desc": "Platform belajar coding dan teknologi terkemuka di Indonesia. Ada bootcamp dan sertifikasi, cocok buat pemula sampai profesional.",
+      "link": "https://www.dicoding.com",
+      "tags": ["belajar coding", "indonesia", "sertifikasi", "bootcamp", "online"]
+    },
+    "Coursera": {
+      "desc": "Belajar dari universitas top dunia seperti Stanford dan Yale. Ada ribuan kursus, sertifikat, bahkan gelar!",
+      "link": "https://www.coursera.org",
+      "tags": ["kursus online", "universitas", "sertifikat", "belajar", "global"]
+    },
+    "Digital Talent Scholarship": {
+      "desc": "Program beasiswa dari pemerintah Indonesia untuk belajar keterampilan digital secara gratis. Dapat sertifikat juga!",
+      "link": "https://digitalent.komdigi.go.id",
+      "tags": ["beasiswa", "digital skills", "indonesia", "gratis", "sertifikasi"]
+    }
+  },
+  "Scripts & Utilities": {
+    "SpotX": {
+      "desc": "Modifikasi desktop Spotify biar bebas iklan dan dapet fitur premium. Buat yang suka dengerin musik tanpa gangguan.",
+      "link": "https://github.com/SpotX-Official/SpotX",
+      "tags": ["spotify", "mod", "no ads", "premium", "windows"]
+    },
+    "Winutil (Chris Titus Tech)": {
+      "desc": "Tool PowerShell all-in-one buat tuning Windows, instal software, dan disable update. Praktis banget!",
+      "link": "https://github.com/ChrisTitusTech/winutil",
+      "tags": ["windows", "optimasi", "tweaking", "utility", "gratis"]
+    },
+    "Morphe Patches": {
+      "desc": "Kumpulan patch buat aplikasi Android biar bisa dipakai tanpa iklan dan fitur premium. Cocok buat modder.",
+      "link": "https://github.com/MorpheApp/morphe-patches",
+      "tags": ["android", "patching", "mod", "open-source", "ad-free"]
+    },
+    "ReVanced Patches": {
+      "desc": "Patch buat YouTube, Twitter, dan TikTok biar bebas iklan dan fitur tambahan. Paling populer!",
+      "link": "https://github.com/ReVanced/revanced-patches",
+      "tags": ["patching", "android", "youtube", "mod", "ad-free"]
+    },
+    "BetterDiscord": {
+      "desc": "Modifikasi Discord desktop buat pasang tema kustom, plugin, dan fitur tambahan. Bikin Discord lebih kece.",
+      "link": "https://github.com/BetterDiscord/BetterDiscord",
+      "tags": ["discord", "custom", "tema", "plugin", "mod"]
+    },
+    "Discord Quest Completer": {
+      "desc": "Auto selesaikan quest Discord tanpa harus install atau main game-nya. Hemat waktu!",
+      "link": "https://github.com/markterence/discord-quest-completer",
+      "tags": ["discord", "quest", "automation", "gratis", "tool"]
+    },
+    "Discord Quest Auto-Script": {
+      "desc": "Skrip inject ke console Discord buat ngerjain quest secara instan. Cepat dan mudah.",
+      "link": "https://gist.github.com/aamiaa/204cd9d42013ded9faf646fae7f89fbb",
+      "tags": ["discord", "quest", "script", "inject", "cepat"]
+    },
+    "FileCR": {
+      "desc": "Tempat download software Windows, macOS, dan Android gratis. Koleksinya lengkap banget.",
+      "link": "https://filecr.com",
+      "tags": ["software", "download", "windows", "macos", "android"]
+    },
+    "SteamRIP": {
+      "desc": "Download game PC langsung main tanpa instalasi ribet. Praktis dan banyak pilihan.",
+      "link": "https://steamrip.com",
+      "tags": ["game", "pc", "pre-installed", "gratis", "download"]
+    },
+    "FitGirl Repacks": {
+      "desc": "Game PC dengan ukuran file kecil karena sudah dikompres. Download lebih cepat dan hemat kuota.",
+      "link": "https://fitgirl-repacks.site",
+      "tags": ["game", "repack", "compressed", "pc", "hemat kuota"]
+    },
+    "OvaGames": {
+      "desc": "Download game PC repack atau full version dari berbagai server. Banyak pilihan game populer.",
+      "link": "https://www.ovagames.com",
+      "tags": ["game", "download", "repack", "pc", "gratis"]
+    },
+    "RG Mechanics": {
+      "desc": "Download game PC repack ukuran kecil dengan kualitas tetap bagus.",
+      "link": "https://rgmechanics.com",
+      "tags": ["game", "repack", "pc", "kompres", "gratis"]
+    },
+    "BitTorrent": {
+      "desc": "Aplikasi P2P buat download dan share file besar via torrent. Resmi dan stabil.",
+      "link": "https://www.bittorrent.com",
+      "tags": ["torrent", "p2p", "download", "file", "client"]
+    },
+    "AB Download Manager": {
+      "desc": "Download manager open-source dengan multi-thread biar download lebih cepat. Desainnya modern dan bersih.",
+      "link": "https://github.com/amir1376/ab-download-manager",
+      "tags": ["download manager", "open-source", "multi-thread", "cepat", "modern"]
+    },
+    "Win11Debloat": {
+      "desc": "Script PowerShell buat bersihin Windows 11 dari bloatware, iklan, dan aplikasi sampah. Bikin PC lebih enteng.",
+      "link": "https://github.com/Raphire/Win11Debloat",
+      "tags": ["windows", "debloat", "optimasi", "script", "gratis"]
+    },
+    "Microsoft Activation Scripts (MAS)": {
+      "desc": "Script open-source buat aktivasi Windows dan Office dengan metode HWID atau Ohook. Aman dan bersih.",
+      "link": "https://github.com/massgravel/Microsoft-Activation-Scripts",
+      "tags": ["windows", "aktivasi", "office", "open-source", "gratis"]
+    }
+  },
+  "Operating Systems": {
+    "ReviOS": {
+      "desc": "Windows khusus gaming yang sudah dioptimalkan biar performa maksimal. Ringan dan cepat.",
+      "link": "https://revi.cc",
+      "tags": ["windows", "gaming", "optimasi", "ringan", "perform"]
+    },
+    "AtlasOS": {
+      "desc": "Modifikasi Windows yang super ringan dan minim latensi. Cocok buat gaming dan PC kentang.",
+      "link": "https://atlasos.net",
+      "tags": ["windows", "optimasi", "gaming", "ringan", "low latency"]
+    },
+    "Hiren's BootCD PE": {
+      "desc": "OS darurat berbasis Windows PE buat perbaikan, backup, dan recovery PC yang rusak. Wajib buat teknisi.",
+      "link": "https://www.hirensbootcd.org",
+      "tags": ["bootable", "recovery", "windows pe", "perbaikan pc", "teknisi"]
+    },
+    "Ghost Spectre Discord Server": {
+      "desc": "Komunitas resmi pengguna Ghost Spectre, custom OS Windows. Dapat update, bantuan, dan diskusi.",
+      "link": "https://discord.com/invite/ADVqEAZ2RF",
+      "tags": ["windows", "custom os", "komunitas", "discord", "gaming"]
+    },
+    "KernelOS": {
+      "desc": "Custom Windows yang fokus pada performa tinggi tanpa fitur-fitur Microsoft yang gak perlu.",
+      "link": "https://kernelos.org",
+      "tags": ["windows", "perform", "custom os", "optimasi", "ringan"]
+    },
+    "Nobara Linux": {
+      "desc": "Distro Linux yang dibuat khusus buat gaming. Sudah include driver GPU dan berbagai tweak biar siap main game.",
+      "link": "https://nobaraproject.org",
+      "tags": ["linux", "gaming", "distro", "driver", "performance"]
+    },
+    "Garuda Linux": {
+      "desc": "Distro Linux berbasis Arch dengan UI kece, fitur otomatisasi, dan driver siap pakai. Cocok buat gaming dan daily use.",
+      "link": "https://garudalinux.org",
+      "tags": ["linux", "arch", "gaming", "modern", "user-friendly"]
+    },
+    "Linux Mint": {
+      "desc": "Distro Linux yang stabil, ringan, dan ramah pemula. Berbasis Ubuntu/Debian, cocok buat pengguna lama Windows.",
+      "link": "https://linuxmint.com",
+      "tags": ["linux", "ubuntu", "ringan", "stabil", "pemula"]
+    },
+    "Pop OS": {
+      "desc": "Linux berbasis Ubuntu dengan dukungan GPU Nvidia yang oke punya. Cocok buat desain, AI, dan gaming.",
+      "link": "https://system76.com/pop",
+      "tags": ["linux", "ubuntu", "nvidia", "gaming", "desain"]
+    }
+  },
+  "Browsers": {
+    "Brave Browser": {
+      "desc": "Browser yang fokus privasi dengan pemblokir iklan dan pelacak bawaan. Cepat dan aman.",
+      "link": "https://brave.com",
+      "tags": ["browser", "privasi", "ad blocker", "cepat", "aman"]
+    },
+    "Mozilla Firefox": {
+      "desc": "Browser open-source yang cepat, bisa dikustomisasi, dan sangat peduli dengan privasi pengguna.",
+      "link": "https://www.firefox.com",
+      "tags": ["browser", "open-source", "privasi", "kustom", "cepat"]
+    },
+    "Aloha Browser": {
+      "desc": "Browser dengan VPN gratis dan pemblokir iklan bawaan. Fokus pada keamanan dan privasi.",
+      "link": "https://alohabrowser.com",
+      "tags": ["browser", "vpn", "privasi", "ad blocker", "mobile"]
+    },
+    "Tor Browser": {
+      "desc": "Browser untuk browsing anonim dan mengakses dark web dengan aman.",
+      "link": "https://www.torproject.org",
+      "tags": ["browser", "anonim", "tor", "privasi", "dark web"]
+    }
+  },
+  "Security & Privacy": {
+    "Ahmia": {
+      "desc": "Mesin pencari khusus untuk dark web. Bisa cari link .onion dengan aman.",
+      "link": "https://ahmia.fi",
+      "tags": ["dark web", "mesin pencari", "onion", "anonim", "tor"]
+    },
+    "Have I Been Pwned": {
+      "desc": "Cek apakah email atau passwordmu pernah bocor di peretasan data. Penting buat keamanan akun.",
+      "link": "https://haveibeenpwned.com",
+      "tags": ["keamanan", "data breach", "email", "password", "cek bocor"]
+    },
+    "OSINT Framework": {
+      "desc": "Kumpulan alat dan website untuk investigasi digital dan pencarian informasi dari sumber terbuka.",
+      "link": "https://osintframework.com",
+      "tags": ["osint", "investigasi", "digital", "pencarian", "alat"]
+    },
+    "VirusTotal": {
+      "desc": "Analisis file atau link mencurigakan dengan puluhan antivirus sekaligus. Buat cek keamanan.",
+      "link": "https://www.virustotal.com/gui/home/upload",
+      "tags": ["antivirus", "malware", "analisis", "keamanan", "scan"]
+    },
+    "IT-Tools": {
+      "desc": "Koleksi alat online buat developer, termasuk enkripsi, hashing, dan konversi data.",
+      "link": "https://it-tools.tech",
+      "tags": ["enkripsi", "developer", "alat online", "keamanan", "utility"]
+    },
+    "Cyberforensics": {
+      "desc": "Platform dan sumber daya untuk belajar forensik digital dan investigasi cyber.",
+      "link": "https://www.cyberforensics.in",
+      "tags": ["forensik digital", "investigasi", "keamanan", "cyber", "pendidikan"]
+    },
+    "KeyCDN Tools": {
+      "desc": "Alat uji performa website, seperti speed test, ping, dan DNS lookup. Gratis dan mudah.",
+      "link": "https://tools.keycdn.com",
+      "tags": ["perform", "testing", "website", "speed", "analisis"]
+    },
+    "Sherlock": {
+      "desc": "Cari tahu username di ratusan platform media sosial hanya dengan satu kali pencarian.",
+      "link": "https://github.com/sherlock-project/sherlock",
+      "tags": ["osint", "username", "sosial media", "pencarian", "investigasi"]
+    },
+    "Internet Archive": {
+      "desc": "Perpustakaan digital raksasa yang menyimpan salinan website, buku, film, dan lainnya. Bisa lihat versi lama website!",
+      "link": "https://archive.org",
+      "tags": ["arsip", "wayback machine", "sejarah", "digital library", "gratis"]
+    }
+  }
+}
