@@ -3,12 +3,7 @@ function handleSearch(e) {
     e.preventDefault();
     const searchInput = document.getElementById('searchInput');
     const query = searchInput.value.trim();
-
-    if (query) {
-        alert('Searching for: "' + query + '"');
-        // Di sini bisa diarahkan ke halaman hasil search
-        // window.location.href = '/search?q=' + encodeURIComponent(query);
-    }
+    performSearch(query);
 }
 
 // ===== SHARED: fetch resources.json sekali, dipake bareng buat stats & filter =====
@@ -99,7 +94,7 @@ async function loadCategoryStats() {
 // Warna border FIX per kategori (bukan random lagi). Key HARUS sama persis
 // (case-sensitive) sama nama kategori di resources.json.
 const CATEGORY_COLORS = {
-    'Web Utilities': '#6B7280',       // gray-500
+    'Web Utilities': '#7189b7',       // gray-500 #6B7280
     'Networking': '#10B981',          // emerald-500
     'IoT': '#A855F7',                 // purple-500
     'Web Development': '#3B82F6',     // blue-500
@@ -258,6 +253,75 @@ function setActiveCategory(category) {
 }
     // TODO: hubungin ke logic filter kotak-kotak kategori kalo section-nya udah ada
 
+    // ===== SEARCH =====
+function performSearch(query) {
+    const container = document.getElementById('toolCardsContainer');
+    const emptyState = document.getElementById('toolCardsEmpty');
+    if (!container || !allToolsData) return;
+
+    if (!query) {
+        renderToolCards(activeCategory);
+        return;
+    }
+
+    const q = query.toLowerCase().trim();
+    const results = [];
+
+    for (const category in allToolsData) {
+        for (const [toolName, toolInfo] of Object.entries(allToolsData[category])) {
+            const nameMatch = toolName.toLowerCase().includes(q);
+            const descMatch = toolInfo.desc.toLowerCase().includes(q);
+            const tagMatch = toolInfo.tags.some(tag => tag.toLowerCase().includes(q));
+
+            if (nameMatch || descMatch || tagMatch) {
+                results.push({ toolName, toolInfo, category });
+            }
+        }
+    }
+
+    if (results.length > 0) {
+        container.innerHTML = results.map(({ toolName, toolInfo, category }) =>
+            createToolCard(toolName, toolInfo, category)
+        ).join('');
+        container.classList.remove('hidden');
+        emptyState.classList.add('hidden');
+    } else {
+        container.innerHTML = '';
+        container.classList.add('hidden');
+        emptyState.classList.remove('hidden');
+    }
+}
+
+// ===== SET ACTIVE CATEGORY =====
+function setActiveCategory(category) {
+    document.querySelectorAll('.category-btn').forEach((btn) => {
+        const isActive = btn.dataset.category === category;
+        btn.classList.toggle('bg-ds-green', isActive);
+        btn.classList.toggle('text-ds-green', isActive);
+        btn.classList.toggle('text-white', !isActive);
+        btn.style.borderColor = isActive ? '#a0ff5d' : btn.dataset.color;
+    });
+
+    const label = document.getElementById('categoryDropdownLabel');
+    if (label) label.textContent = category;
+
+    document.querySelectorAll('.category-option').forEach((opt) => {
+        const isActive = opt.dataset.category === category;
+        const check = opt.querySelector('.category-check');
+        if (check) check.style.visibility = isActive ? 'visible' : 'hidden';
+        opt.classList.toggle('text-ds-green', isActive);
+        opt.classList.toggle('font-bold', isActive);
+    });
+
+    closeCategoryDropdown();
+
+    // Reset search input
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) searchInput.value = '';
+
+    activeCategory = category;
+    renderToolCards(category);
+}
 
 function closeCategoryDropdown() {
     const list = document.getElementById('categoryDropdownList');
@@ -340,5 +404,14 @@ async function loadCategoryFilters() {
     }
 }
 
+// ===== INISIALISASI =====
 loadCategoryStats();
 loadCategoryFilters();
+
+// Live search
+const searchInput = document.getElementById('searchInput');
+if (searchInput) {
+    searchInput.addEventListener('input', () => {
+        performSearch(searchInput.value.trim());
+    });
+}
