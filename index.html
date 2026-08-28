@@ -125,6 +125,27 @@
         </div>
     </section>
 
+    <!-- ===== SECTION 1: FILTER KATEGORI ===== -->
+    <section class="category-filter">
+        <div class="max-w-[1440px] mx-auto px-6 lg:px-10 pb-10">
+
+            <!-- TABLET & DESKTOP: tombol-tombol, wrap otomatis kalo gak muat -->
+            <div id="categoryButtons" class="hidden sm:flex flex-wrap gap-3 justify-center">
+                <!-- diisi otomatis via JS -->
+            </div>
+
+            <!-- MOBILE: dropdown -->
+            <div class="sm:hidden relative max-w-sm mx-auto" id="categoryDropdownWrapper">
+                <button type="button" id="categoryDropdownBtn" class="w-full flex items-center justify-between bg-transparent border-2 border-[rgba(160,255,93,0.35)] text-white rounded-2xl px-5 py-3 font-semibold text-sm transition-all duration-200">
+                    <span id="categoryDropdownLabel">All Categories</span>
+                    <i class="fas fa-chevron-down text-ds-green transition-transform duration-200" id="categoryDropdownChevron"></i>
+                </button>
+                <div id="categoryDropdownList" class="hidden absolute left-0 right-0 z-20 mt-2 max-h-72 overflow-y-auto bg-black border border-[rgba(160,255,93,0.25)] rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.6)]">
+                    <!-- diisi otomatis via JS -->
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="/src/script.js"></script>
 </body>
