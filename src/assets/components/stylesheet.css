@@ -90,3 +90,27 @@ body {
     --rotate-bar-one: 45deg;
     --rotate-bar-three: -45deg;
 }
+
+/* ===== CATEGORY ICONS (button & dropdown filter) ===== */
+/* .category-icon-svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    display: inline-block;
+} */
+
+/* Icon berupa <img src="...svg">: paksa putih pake filter (invert dari hitam -> putih) */
+/* img.category-icon-svg {
+    filter: brightness(0) invert(1);
+} */
+
+/* Icon berupa mask (span dengan mask-image, misal Networking): warnain lewat background-color */
+/* .icon-mask {
+    background-color: #ffffff;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+} */

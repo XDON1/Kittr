@@ -139,9 +139,20 @@ const ICON_ALL = `
 
 const CATEGORY_ICONS = {
     'All Categories': ICON_ALL,
-    // 'Web Utilities': `<svg ...>...</svg>`,
-    // 'Networking': `<svg ...>...</svg>`,
-    // dst — tinggal tambahin per kategori di sini, kalo kosong bakal pake placeholder
+    'Web Utilities': '<img src="/src/assets/images/util.svg" class="category-icon-svg w-4 h-4 brightness-0 invert" alt="Web Utilities"/>',
+    'Networking': '<span class="category-icon-svg w-4 h-4 bg-white [mask-repeat:no-repeat] [mask-position:center] [mask-size:contain] [-webkit-mask-repeat:no-repeat] [-webkit-mask-position:center] [-webkit-mask-size:contain]" style="-webkit-mask-image:url(/src/assets/images/network.svg); mask-image:url(/src/assets/images/network.svg);" aria-label="Networking"></span>',
+    'IoT': '<img src="/src/assets/images/iot.svg" class="category-icon-svg w-4 h-4 brightness-0 invert" alt="IoT"/>',
+    'Web Development': '<img src="/src/assets/images/web.svg" class="category-icon-svg w-4 h-4 brightness-0 invert" alt="Web Development"/>',
+    'Programming': '<img src="/src/assets/images/program.svg" class="category-icon-svg w-4 h-4 brightness-0 invert" alt="Programming"/>',
+    'Local Server': '<img src="/src/assets/images/server.svg" class="category-icon-svg w-4 h-4 brightness-0 invert" alt="Local Server"/>',
+    'Simulator': '<img src="/src/assets/images/simulator.svg" class="category-icon-svg w-4 h-4 brightness-0 invert" alt="Simulator"/>',
+    'Design': '<img src="/src/assets/images/palette.svg" class="category-icon-svg w-4 h-4 brightness-0 invert" alt="Design"/>',
+    'GitHub Repository': '<img src="/src/assets/images/github.svg" class="category-icon-svg w-4 h-4 brightness-0 invert" alt="GitHub Repository"/>',
+    'Education & Courses': '<img src="/src/assets/images/edu.svg" class="category-icon-svg w-4 h-4 brightness-0 invert" alt="Education & Courses"/>',
+    'Scripts & Utilities': '<img src="/src/assets/images/script.svg" class="category-icon-svg w-4 h-4 brightness-0 invert" alt="Scripts & Utilities"/>',
+    'Operating Systems': '<img src="/src/assets/images/linux.svg" class="category-icon-svg w-4 h-4 brightness-0 invert" alt="Operating Systems"/>',
+    'Browsers': '<img src="/src/assets/images/browser.svg" class="category-icon-svg w-4 h-4 brightness-0 invert" alt="Browsers"/>',
+    'Security & Privacy': '<img src="/src/assets/images/privacy.svg" class="category-icon-svg w-4 h-4 brightness-0 invert" alt="Security & Privacy"/>',
 };
 
 function getCategoryIcon(category) {
