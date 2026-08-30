@@ -10,6 +10,8 @@ function handleSearch(e) {
 let resourcesCache = null;
 let activeCategory = 'All Categories';
 let allToolsData = null;
+let currentToolsList = [];   // <-- baru: list lengkap hasil filter/search saat ini
+let showAllCards = false;    // <-- baru: status "udah expand" atau belum
 
 async function getResources() {
     if (resourcesCache) return resourcesCache;
@@ -189,75 +191,87 @@ function createToolCard(toolName, toolInfo, categoryName) {
     `;
 }
 
-function renderToolCards(category) {
+// ===== SHOW MORE: hitung limit card sesuai breakpoint =====
+const CARDS_PER_ROW = { mobile: 1, tablet: 2, desktop: 3 };
+const VISIBLE_ROWS = { mobile: 12, tablet: 8, desktop: 6 };
+
+function getBreakpoint() {
+    const w = window.innerWidth;
+    if (w >= 1120) return 'desktop'; // sesuaikan kalo breakpoint lg custom lu beda
+    if (w >= 640) return 'tablet';
+    return 'mobile';
+}
+
+function getVisibleLimit() {
+    const bp = getBreakpoint();
+    return CARDS_PER_ROW[bp] * VISIBLE_ROWS[bp];
+}
+
+// Nge-render list tools (dari filter kategori ATAU search) dengan batasan baris + tombol show more
+function displayToolsList(list) {
+    currentToolsList = list;
+    showAllCards = false;
+    updateCardsDisplay();
+}
+
+function updateCardsDisplay() {
     const container = document.getElementById('toolCardsContainer');
     const emptyState = document.getElementById('toolCardsEmpty');
-    if (!container || !allToolsData) return;
+    const showMoreBtn = document.getElementById('showMoreBtn');
+    if (!container) return;
+
+    if (currentToolsList.length === 0) {
+        container.innerHTML = '';
+        container.classList.add('hidden');
+        if (emptyState) emptyState.classList.remove('hidden');
+        if (showMoreBtn) showMoreBtn.classList.add('hidden');
+        return;
+    }
+
+    container.classList.remove('hidden');
+    if (emptyState) emptyState.classList.add('hidden');
+
+    const limit = getVisibleLimit();
+    const visible = showAllCards ? currentToolsList : currentToolsList.slice(0, limit);
+
+    container.innerHTML = visible.map(({ toolName, toolInfo, category }) =>
+        createToolCard(toolName, toolInfo, category)
+    ).join('');
+
+    if (showMoreBtn) {
+        if (!showAllCards && currentToolsList.length > limit) {
+            showMoreBtn.classList.remove('hidden');
+        } else {
+            showMoreBtn.classList.add('hidden');
+        }
+    }
+}
+
+function renderToolCards(category) {
+    if (!allToolsData) return;
 
     let toolsToRender = [];
 
-if (category === 'All Categories') {
-    for (const cat in allToolsData) {
-        for (const [toolName, toolInfo] of Object.entries(allToolsData[cat])) {
-            toolsToRender.push({ toolName, toolInfo, category: cat });
+    if (category === 'All Categories') {
+        for (const cat in allToolsData) {
+            for (const [toolName, toolInfo] of Object.entries(allToolsData[cat])) {
+                toolsToRender.push({ toolName, toolInfo, category: cat });
+            }
         }
-    }
-} else {
-    if (allToolsData[category]) {
-        for (const [toolName, toolInfo] of Object.entries(allToolsData[category])) {
-            toolsToRender.push({ toolName, toolInfo, category: category });
-        }
-    }
-}
-
-    if (toolsToRender.length > 0) {
-        container.innerHTML = toolsToRender.map(({ toolName, toolInfo, category }) => 
-            createToolCard(toolName, toolInfo, category)
-        ).join('');
-        container.classList.remove('hidden');
-        emptyState.classList.add('hidden');
     } else {
-        container.innerHTML = '';
-        container.classList.add('hidden');
-        emptyState.classList.remove('hidden');
+        if (allToolsData[category]) {
+            for (const [toolName, toolInfo] of Object.entries(allToolsData[category])) {
+                toolsToRender.push({ toolName, toolInfo, category: category });
+            }
+        }
     }
+
+    displayToolsList(toolsToRender);
 }
-
-function setActiveCategory(category) {
-    // Update tampilan tombol (tablet/desktop)
-    document.querySelectorAll('.category-btn').forEach((btn) => {
-        const isActive = btn.dataset.category === category;
-        btn.classList.toggle('bg-ds-green', isActive);
-        btn.classList.toggle('text-ds-green', isActive);
-        btn.classList.toggle('text-white', !isActive);
-        // Border ikut jadi ds-green pas aktif, balik ke warna kategori aslinya pas gak aktif
-        btn.style.borderColor = isActive ? '#a0ff5d' : btn.dataset.color;
-    });
-
-    // Update tampilan dropdown (mobile)
-    const label = document.getElementById('categoryDropdownLabel');
-    if (label) label.textContent = category;
-
-    document.querySelectorAll('.category-option').forEach((opt) => {
-        const isActive = opt.dataset.category === category;
-        const check = opt.querySelector('.category-check');
-        if (check) check.style.visibility = isActive ? 'visible' : 'hidden';
-        opt.classList.toggle('text-ds-green', isActive);
-        opt.classList.toggle('font-bold', isActive);
-    });
-
-    closeCategoryDropdown();
-
-    activeCategory = category;
-    renderToolCards(category);
-}
-    // TODO: hubungin ke logic filter kotak-kotak kategori kalo section-nya udah ada
 
     // ===== SEARCH =====
 function performSearch(query) {
-    const container = document.getElementById('toolCardsContainer');
-    const emptyState = document.getElementById('toolCardsEmpty');
-    if (!container || !allToolsData) return;
+    if (!allToolsData) return;
 
     if (!query) {
         renderToolCards(activeCategory);
@@ -279,17 +293,7 @@ function performSearch(query) {
         }
     }
 
-    if (results.length > 0) {
-        container.innerHTML = results.map(({ toolName, toolInfo, category }) =>
-            createToolCard(toolName, toolInfo, category)
-        ).join('');
-        container.classList.remove('hidden');
-        emptyState.classList.add('hidden');
-    } else {
-        container.innerHTML = '';
-        container.classList.add('hidden');
-        emptyState.classList.remove('hidden');
-    }
+    displayToolsList(results);
 }
 
 // ===== SET ACTIVE CATEGORY =====
@@ -423,3 +427,21 @@ if (searchInput) {
         performSearch(searchInput.value.trim());
     });
 }
+
+// ===== SHOW MORE BUTTON =====
+const showMoreBtn = document.getElementById('showMoreBtn');
+if (showMoreBtn) {
+    showMoreBtn.addEventListener('click', () => {
+        showAllCards = true;
+        updateCardsDisplay();
+    });
+}
+
+// Re-hitung limit kalo breakpoint berubah (misal resize/rotate), tapi cuma kalo belom di-expand manual
+let resizeDebounce;
+window.addEventListener('resize', () => {
+    clearTimeout(resizeDebounce);
+    resizeDebounce = setTimeout(() => {
+        if (!showAllCards) updateCardsDisplay();
+    }, 200);
+});
