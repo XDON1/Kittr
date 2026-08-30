@@ -99,9 +99,16 @@
 
             <!-- KIRI: Judul + Deskripsi -->
             <div class="flex-1 w-full max-w-xl text-center lg:text-left">
-                <h1 class="text-white text-[48px] mobile:text-[36px] lg:text-[72px] font-extrabold leading-[1.05] tracking-tight">
+                <!-- MOBILE & TABLET: teks biasa -->
+                <h1 class="lg:hidden text-white text-[90px] mobile:text-[70px] font-extrabold leading-[1.05] tracking-tight">
                     Kittr
                 </h1>
+
+                <!-- DESKTOP: particle effect -->
+                <div id="particleTitleWrap" class="hidden lg:block relative h-[130px] w-[65%] pl-1 overflow-hidden touch-none" aria-label="Kittr">
+                    <canvas id="particleTitleCanvas" class="absolute inset-0 block h-full w-full" aria-hidden="true"></canvas>
+                    <span class="sr-only">Kittr</span>
+                </div>
                 <p class="mt-6 text-white/60 text-base lg:text-lg leading-relaxed">
                     Kittr adalah direktori tools, situs, dan resource pilihan buat siapa aja yang kerja di dunia web,
                     networking, programming, sampai IoT. Semuanya dikurasi dan dikelompokin per kategori biar gampang dicari,
@@ -260,6 +267,7 @@
         </div>
     </footer>
     
+    <script src="/src/particleText.js"></script>
     <script src="/src/script.js"></script>
 </body>
 </html>
