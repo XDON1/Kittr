@@ -191,9 +191,18 @@ function createToolCard(toolName, toolInfo, categoryName) {
     `;
 }
 
-// ===== SHOW MORE: hitung limit card sesuai breakpoint =====
+// ===== SHOW MORE: baris awal + increment per klik, beda-beda per breakpoint =====
 const CARDS_PER_ROW = { mobile: 1, tablet: 2, desktop: 3 };
-const VISIBLE_ROWS = { mobile: 12, tablet: 8, desktop: 6 };
+const INITIAL_ROWS = { mobile: 12, tablet: 8, desktop: 6 };
+
+// increment.first = nambah baris pas klik PERTAMA, increment.rest = nambah baris pas klik SELANJUTNYA
+const INCREMENT_ROWS = {
+    mobile:  { first: 12, rest: 12 },
+    tablet:  { first: 6,  rest: 6 },
+    desktop: { first: 4,  rest: 3 }
+};
+
+let visibleRows = 0; // baris yang lagi ditampilin sekarang, direset tiap filter/search ganti
 
 function getBreakpoint() {
     const w = window.innerWidth;
@@ -202,15 +211,10 @@ function getBreakpoint() {
     return 'mobile';
 }
 
-function getVisibleLimit() {
-    const bp = getBreakpoint();
-    return CARDS_PER_ROW[bp] * VISIBLE_ROWS[bp];
-}
-
-// Nge-render list tools (dari filter kategori ATAU search) dengan batasan baris + tombol show more
 function displayToolsList(list) {
     currentToolsList = list;
-    showAllCards = false;
+    const bp = getBreakpoint();
+    visibleRows = INITIAL_ROWS[bp]; // reset ke jumlah baris awal tiap kali kategori/search ganti
     updateCardsDisplay();
 }
 
@@ -231,20 +235,30 @@ function updateCardsDisplay() {
     container.classList.remove('hidden');
     if (emptyState) emptyState.classList.add('hidden');
 
-    const limit = getVisibleLimit();
-    const visible = showAllCards ? currentToolsList : currentToolsList.slice(0, limit);
+    const bp = getBreakpoint();
+    const limit = visibleRows * CARDS_PER_ROW[bp];
+    const visible = currentToolsList.slice(0, limit);
 
     container.innerHTML = visible.map(({ toolName, toolInfo, category }) =>
         createToolCard(toolName, toolInfo, category)
     ).join('');
 
     if (showMoreBtn) {
-        if (!showAllCards && currentToolsList.length > limit) {
+        if (currentToolsList.length > limit) {
             showMoreBtn.classList.remove('hidden');
         } else {
             showMoreBtn.classList.add('hidden');
         }
     }
+}
+
+// Nambah baris pas tombol "Show More" diklik, sesuai increment per breakpoint
+function expandVisibleRows() {
+    const bp = getBreakpoint();
+    const isFirstClick = visibleRows === INITIAL_ROWS[bp];
+    const addRows = isFirstClick ? INCREMENT_ROWS[bp].first : INCREMENT_ROWS[bp].rest;
+    visibleRows += addRows;
+    updateCardsDisplay();
 }
 
 function renderToolCards(category) {
@@ -431,17 +445,16 @@ if (searchInput) {
 // ===== SHOW MORE BUTTON =====
 const showMoreBtn = document.getElementById('showMoreBtn');
 if (showMoreBtn) {
-    showMoreBtn.addEventListener('click', () => {
-        showAllCards = true;
-        updateCardsDisplay();
-    });
+    showMoreBtn.addEventListener('click', expandVisibleRows);
 }
 
-// Re-hitung limit kalo breakpoint berubah (misal resize/rotate), tapi cuma kalo belom di-expand manual
+// Reset balik ke baris awal kalo breakpoint berubah (misal resize/rotate device)
 let resizeDebounce;
 window.addEventListener('resize', () => {
     clearTimeout(resizeDebounce);
     resizeDebounce = setTimeout(() => {
-        if (!showAllCards) updateCardsDisplay();
+        const bp = getBreakpoint();
+        visibleRows = INITIAL_ROWS[bp];
+        updateCardsDisplay();
     }, 200);
 });
