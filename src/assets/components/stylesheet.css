@@ -1,3 +1,14 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 110px;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        scroll-padding-top: 90px;
+    }
+}
+
 :root {
     --bg-primary: #000;
     --ds-green: #a0ff5d;
