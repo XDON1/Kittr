@@ -404,6 +404,14 @@ async function loadCategoryFilters() {
     }
 }
 
+// ===== AUTO-CLOSE DROPDOWN NAVBAR PAS KLIK LINK/SHARE DI DALEMNYA =====
+document.querySelectorAll('#navDropdown a').forEach((link) => {
+    link.addEventListener('click', () => {
+        const checkIcon = document.getElementById('check-icon');
+        if (checkIcon) checkIcon.checked = false;
+    });
+});
+
 // ===== INISIALISASI =====
 loadCategoryStats();
 loadCategoryFilters();

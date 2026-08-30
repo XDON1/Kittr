@@ -46,11 +46,10 @@
         </div>
 
         <!-- 2. NAV MENU (desktop: order-2 di antara logo & search-group; mobile: masuk dropdown) -->
-        <div class="nav-dropdown hidden peer-checked:flex flex-col w-full pb-6 order-4 lg:order-2 lg:flex lg:!flex-row lg:w-auto lg:pb-0 lg:contents" id="navDropdown">
+        <div class="nav-dropdown hidden peer-checked:flex flex-col gap-3 absolute left-0 right-0 top-full mt-3 bg-black/95 backdrop-blur-md border border-[rgba(160,255,93,0.25)] rounded-2xl p-5 shadow-[0_8px_32px_rgba(0,0,0,0.6)] z-20 lg:static lg:bg-transparent lg:backdrop-blur-none lg:border-0 lg:p-0 lg:shadow-none lg:contents" id="navDropdown">
             <ul class="flex flex-col lg:flex-row gap-3 lg:gap-7 lg:items-center list-none w-full lg:w-auto lg:order-2" id="navMenu">
                 <li><a href="#about" class="block lg:inline text-ds-green no-underline text-base font-semibold tracking-[1px] transition-all duration-200 uppercase hover:bg-[rgba(160,255,93,0.25)] py-2 px-4 rounded-2xl hover:text-white hover:[text-shadow:0_0_10px_rgba(160,255,93,0.4)] mobile:text-sm">About</a></li>
                 <li><a href="#tools" class="block lg:inline text-ds-green no-underline text-base font-semibold tracking-[1px] transition-all duration-200 uppercase hover:bg-[rgba(160,255,93,0.25)] py-2 px-4 rounded-2xl hover:text-white hover:[text-shadow:0_0_10px_rgba(160,255,93,0.4)] mobile:text-sm">Tools</a></li>
-                <li><a href="#github" class="block lg:inline text-ds-green no-underline text-base font-semibold tracking-[1px] transition-all duration-200 uppercase hover:bg-[rgba(160,255,93,0.25)] py-2 px-4 rounded-2xl hover:text-white hover:[text-shadow:0_0_10px_rgba(160,255,93,0.4)] mobile:text-sm">Github</a></li>
                 <li><a href="#donate" class="block lg:inline text-ds-green no-underline text-base font-semibold tracking-[1px] transition-all duration-200 uppercase hover:bg-[rgba(160,255,93,0.25)] py-2 px-4 rounded-2xl hover:text-white hover:[text-shadow:0_0_10px_rgba(160,255,93,0.4)] mobile:text-sm">Donate</a></li>
             </ul>
 
@@ -62,7 +61,7 @@
         </div>
 
         <!-- 3. GRUP KANAN: search + share-desktop + hamburger, digandeng jadi 1 flex biar gak diregangin justify-between nav -->
-        <div class="order-2 lg:order-3 flex items-center gap-3 mobile:gap-2">
+        <div class="nav-actions order-2 lg:order-3 flex items-center gap-3 mobile:gap-2">
             <form class="search-form relative flex items-center mobile:my-2" id="searchForm" role="search" onsubmit="handleSearch(event)">
                 <input
                     type="search"
@@ -92,7 +91,7 @@
         </div>
     </nav>
 
-    <section class="hero">
+    <section class="hero" id="about">
         <div class="max-w-[1440px] mx-auto px-6 lg:px-10 py-16 lg:py-24 flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-16">
 
             <!-- KIRI: Judul + Deskripsi -->
@@ -126,7 +125,7 @@
     </section>
 
     <!-- ===== SECTION 1: FILTER KATEGORI ===== -->
-    <section class="category-filter">
+    <section class="category-filter" id="tools">
         <div class="max-w-[1440px] mx-auto px-6 lg:px-10 pb-10">
 
             <!-- TABLET & DESKTOP: tombol-tombol, wrap otomatis kalo gak muat -->
