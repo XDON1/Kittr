@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Gambar/Logo Projek Kittr -->
-  <img src="assets/logo.svg" alt="Kittr logo: a stylized brand symbol representing a curated web resources platform" width="120" />
+  <img src="logo.svg" alt="Kittr Logo" width="120" />
 
   # Kittr
 
