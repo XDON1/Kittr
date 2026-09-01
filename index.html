@@ -58,10 +58,10 @@
                 <li><a href="#donate" class="block lg:inline text-ds-green no-underline text-base font-semibold tracking-[1px] transition-all duration-200 uppercase hover:bg-[rgba(160,255,93,0.25)] py-2 px-4 rounded-2xl hover:text-white hover:[text-shadow:0_0_10px_rgba(160,255,93,0.4)] mobile:text-sm">Donate</a></li>
             </ul>
             <!-- Share versi mobile -->
-            <a href="#" class="lg:hidden w-full justify-center bg-ds-green text-black px-7 py-3 rounded-[30px] font-bold text-base shadow-[0_0_20px_rgba(160,255,93,0.2)] border-none no-underline inline-flex items-center gap-2 transition-all duration-200 hover:scale-105 hover:shadow-[0_0_40px_rgba(160,255,93,0.5)]">
-                SHARE
+            <button type="button" onclick="shareLink(this)" class="lg:hidden w-full justify-center bg-ds-green text-black px-7 py-3 rounded-[30px] font-bold text-base shadow-[0_0_20px_rgba(160,255,93,0.2)] border-none no-underline inline-flex items-center gap-2 transition-all duration-200 hover:scale-105 hover:shadow-[0_0_40px_rgba(160,255,93,0.5)]">
+                <span class="share-label">SHARE</span>
                 <i class="fas fa-arrow-right"></i>
-            </a>
+            </button>
         </div>
 
         <!-- 3. GRUP KANAN: search + share-desktop + hamburger, digandeng jadi 1 flex biar gak diregangin justify-between nav -->
@@ -81,10 +81,10 @@
             </form>
 
             <!-- Share versi desktop -->
-            <a href="#" class="hidden lg:inline-flex bg-ds-green text-black px-7 py-3 rounded-[30px] font-bold text-base shadow-[0_0_20px_rgba(160,255,93,0.2)] border-none no-underline items-center gap-2 transition-all duration-200 hover:scale-105 hover:shadow-[0_0_40px_rgba(160,255,93,0.5)]">
-                SHARE
+            <button type="button" onclick="shareLink(this)" class="hidden lg:inline-flex bg-ds-green text-black px-7 py-3 rounded-[30px] font-bold text-base shadow-[0_0_20px_rgba(160,255,93,0.2)] border-none no-underline items-center gap-2 transition-all duration-200 hover:scale-105 hover:shadow-[0_0_40px_rgba(160,255,93,0.5)]">
+                <span class="share-label">SHARE</span>
                 <i class="fas fa-arrow-right"></i>
-            </a>
+            </button>
 
             <!-- HAMBURGER, ikut nempel di grup ini -->
             <label class="icon-menu lg:hidden" for="check-icon" aria-label="Toggle menu">

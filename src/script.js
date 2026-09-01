@@ -458,3 +458,29 @@ window.addEventListener('resize', () => {
         updateCardsDisplay();
     }, 200);
 });
+
+
+// ===== SHARE BUTTON: copy link ke clipboard =====
+async function shareLink(btn) {
+    const url = 'https://kittr.vercel.app/';
+    const label = btn.querySelector('.share-label');
+    const original = label.textContent;
+
+    try {
+        await navigator.clipboard.writeText(url);
+        label.textContent = 'Link Disalin!';
+    } catch (err) {
+        // Fallback buat browser lama yang gak support Clipboard API
+        const tempInput = document.createElement('input');
+        tempInput.value = url;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+        label.textContent = 'Link Disalin!';
+    }
+
+    setTimeout(() => {
+        label.textContent = original;
+    }, 2000);
+}
