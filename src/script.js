@@ -448,12 +448,15 @@ if (showMoreBtn) {
     showMoreBtn.addEventListener('click', expandVisibleRows);
 }
 
-// Reset balik ke baris awal kalo breakpoint berubah (misal resize/rotate device)
+
 let resizeDebounce;
+let lastBreakpoint = getBreakpoint();
 window.addEventListener('resize', () => {
     clearTimeout(resizeDebounce);
     resizeDebounce = setTimeout(() => {
         const bp = getBreakpoint();
+        if (bp === lastBreakpoint) return; // width gak berubah, cuma innerHeight (address bar dll) -> skip
+        lastBreakpoint = bp;
         visibleRows = INITIAL_ROWS[bp];
         updateCardsDisplay();
     }, 200);
