@@ -1,17 +1,40 @@
-# Kittr
+<div align="center">
 
-[![Status](https://img.shields.io/badge/Status-v1.0%20(Stable)-brightgreen?style=for-the-badge)](#)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
-[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+  <!-- Gambar/Logo Projek Kittr -->
+  <img src="logo.png" alt="Kittr Logo" width="120" />
+
+  # 🐱 Kittr
+
+  <!-- Status & GitHub Badges -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/Status-v1.0%20(Stable)-brightgreen?style=for-the-badge" alt="Status" />
+    <a href="https://github.com/XDON1/Kittr/stargazers">
+      <img src="https://img.shields.io/github/stars/XDON1/Kittr?style=for-the-badge&color=8A2BE2" alt="Stars Badge" />
+    </a>
+    <a href="https://github.com/XDON1/Kittr/network/members">
+      <img src="https://img.shields.io/github/forks/XDON1/Kittr?style=for-the-badge&color=00BFFF" alt="Forks Badge" />
+    </a>
+    <a href="LICENSE">
+      <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License" />
+    </a>
+  </p>
+
+  <!-- Tech Stack Badges -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  </p>
+
+  <p align="center">
+    🔗 <b>Live Demo:</b> <a href="https://kittr.vercel.app">kittr.vercel.app</a>
+  </p>
+
+</div>
+
 ---
 
-> 🔗 **Resource Terkurasi untuk Web Utilities, Networking, IOT, Web Development, Programming, Local Server, Simulator, Design, Repository Github, Education & Course, Scripts & Mods, Web Browser, Security & Privacy**  
-
-🔗 **Live Demo:** [Kittr](#)
-
----
+> 🔗 **Resource Terkurasi untuk Web Utilities, Networking, IoT, Web Development, Programming, Local Server, Simulator, Design, Repository GitHub, Education & Course, Scripts & Mods, Web Browser, Security & Privacy.**
 
 ## 🔥 Kenapa Kittr ?
 
