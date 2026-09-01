@@ -3,7 +3,7 @@
   <!-- Gambar/Logo Projek Kittr -->
   <img src="logo.png" alt="Kittr Logo" width="120" />
 
-  # 🐱 Kittr
+  # Kittr
 
   <!-- Status & GitHub Badges -->
   <p align="center">
