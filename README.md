@@ -1,7 +1,5 @@
-<div align="center">
-
-  <!-- Gambar/Logo Projek Kittr -->
-  <img src="logo.svg" alt="Kittr Logo" width="120" />
+<!-- Gambar/Logo Projek Kittr -->
+  <img src="assets/logo.svg" alt="Kittr Logo" width="120" />
 
   # Kittr
 
@@ -144,3 +142,8 @@ Setiap kategori di Kittr punya warna identitas sendiri untuk memudahkan visual f
 - **Animations:** Hover lifts halus, transisi smooth, tanpa library berat
 
 ---
+## 👨‍💻 Pembuat
+
+Projek **Kittr** dikembangkan oleh:
+* **Affi** [VyyxSyh](https://github.com/VyyxSyh)
+* **Don1ee** [@XDON1](https://github.com/XDON1)
