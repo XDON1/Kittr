@@ -472,6 +472,11 @@
 
     },
   "Scripts & Utilities": {
+    "Pinokio": {
+    "desc": "Aplikasi desktop yang memungkinkan instalasi dan menjalankan berbagai proyek AI serta open-source (seperti God's Eye View, Stable Diffusion) dengan satu klik. Menangani semua dependensi (Conda, Git, Node) secara otomatis. Cocok buat yang males setting manual!",
+    "link": "https://desktop.pinokio.co/download.html",
+    "tags": ["app installer", "open-source", "ai", "otomatis", "windows", "macos", "linux"]
+    },
     "SpotX": {
       "desc": "Modifikasi desktop Spotify biar bebas iklan dan dapet fitur premium. Buat yang suka dengerin musik tanpa gangguan.",
       "link": "https://github.com/SpotX-Official/SpotX",
