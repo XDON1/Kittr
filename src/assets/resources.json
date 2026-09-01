@@ -150,6 +150,9 @@
       "link": "https://audiotrimmer.com",
       "tags": ["edit audio", "potong audio", "nada dering", "online", "gratis"]
     }
+
+
+
   },
   "Networking": {
     "Winbox": {
@@ -162,6 +165,9 @@
       "link": "https://www.netacad.com/resources/lab-downloads?courseLang=en-US",
       "tags": ["simulasi jaringan", "cisco", "belajar", "jaringan", "pendidikan"]
     }
+
+
+    
   },
   "IoT": {
     "Arduino IDE": {
@@ -169,6 +175,9 @@
       "link": "https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE",
       "tags": ["arduino", "iot", "mikrokontroler", "pemrograman", "robotika"]
     }
+
+
+
   },
   "Web Development": {
     "GitHub": {
@@ -241,6 +250,9 @@
       "link": "https://fontawesome.com",
       "tags": ["ikon", "svg", "font", "web", "populer"]
     }
+
+
+
   },
   "Programming": {
     "VS Code": {
@@ -273,6 +285,9 @@
       "link": "https://github.com/jesseduffield/lazygit",
       "tags": ["git", "terminal", "tui", "produktivitas", "open-source"]
     }
+
+
+
   },
   "Local Server": {
     "Laragon": {
@@ -285,6 +300,9 @@
       "link": "https://www.apachefriends.org/download.html",
       "tags": ["local server", "apache", "mysql", "php", "website"]
     }
+
+
+
   },
   "Simulator": {
     "VirtualBox": {
@@ -314,6 +332,9 @@
       "link": "https://colorhunt.co",
       "tags": ["palet warna", "desain", "warna", "inspirasi", "kreatif"]
     }
+
+
+
   },
   "GitHub Repository": {
     "yt-dlp": {
@@ -381,6 +402,9 @@
       "link": "https://github.com/mahlernim/google-timeline-visualizer",
       "tags": ["lokasi", "maps", "video", "animasi", "perjalanan"]
     }
+
+
+
   },
   "Education & Courses": {
     "Coursera": {
@@ -392,13 +416,51 @@
       "desc": "Platform belajar coding dan teknologi terkemuka di Indonesia. Ada bootcamp dan sertifikasi, cocok buat pemula sampai profesional.",
       "link": "https://www.dicoding.com",
       "tags": ["belajar coding", "indonesia", "sertifikasi", "bootcamp", "online"]
+      },
+      "freeCodeCamp": {
+      "desc": "Platform belajar coding 100% gratis dengan kurikulum interaktif. Kamu bisa bikin project nyata sambil dapet sertifikat!",
+      "link": "https://www.freecodecamp.org",
+      "tags": ["gratis", "web development", "sertifikat", "interaktif", "open source"]
+    },
+    "Petanikode": {
+      "desc": "Situs tutorial coding berbahasa Indonesia yang santai, jelas, dan terlengkap. Wajib dimarkmark sama anak IT!",
+      "link": "https://www.petanikode.com",
+      "tags": ["indonesia", "tutorial", "gratis", "pemula", "web dev"]
     },
     "Digital Talent Scholarship": {
       "desc": "Program beasiswa dari pemerintah Indonesia untuk belajar keterampilan digital secara gratis. Dapat sertifikat juga!",
       "link": "https://digitalent.komdigi.go.id",
       "tags": ["beasiswa", "digital skills", "indonesia", "gratis", "sertifikasi"]
+    },
+    "roadmap.sh": {
+      "desc": "Panduan jalur karir (roadmap) terpopuler buat developer! Biar kamu nggak bingung lagi mau belajar apa dari nol sampai mahir.",
+      "link": "https://roadmap.sh",
+      "tags": ["roadmap", "panduan belajar", "web dev", "devops", "karir"]
+      },
+    "Skilvul": {
+      "desc": "Platform edukasi teknologi lokal yang menyediakan kelas interaktif dan tantangan koding untuk siap kerja di industri digital.",
+      "link": "https://skilvul.com",
+      "tags": ["indonesia", "siap kerja", "ui ux", "web dev", "interaktif"]
+    },
+    "LeetCode": {
+      "desc": "Platform asah logika koding dan persiapan interview technical di perusahaan tech global. Tempat wajib latih algoritma!",
+      "link": "https://leetcode.com",
+      "tags": ["algoritma", "problem solving", "interview", "struktur data", "latihan koding"]
+    },
+    "W3Schools": {
+      "desc": "Kamus dan tempat latihan koding paling legendaris! Cocok buat referensi cepat HTML, CSS, JavaScript, hingga SQL.",
+      "link": "https://www.w3schools.com",
+      "tags": ["referensi", "dokumentasi", "html css", "latihan", "gratis"]
+    },
+    "HackerRank": {
+      "desc": "Asah skill koding lewat berbagai tantangan kompetitif, raih sertifikat keahlian, dan pikat recruiter perusahaan IT!",
+      "link": "https://www.hackerrank.com/home",
+      "tags": ["tantangan koding", "sertifikat", "kompetitif", "algoritma", "problem solving"]
     }
-  },
+
+
+
+    },
   "Scripts & Utilities": {
     "SpotX": {
       "desc": "Modifikasi desktop Spotify biar bebas iklan dan dapet fitur premium. Buat yang suka dengerin musik tanpa gangguan.",
@@ -424,6 +486,11 @@
       "desc": "Download game PC langsung main tanpa instalasi ribet. Praktis dan banyak pilihan.",
       "link": "https://steamrip.com",
       "tags": ["game", "pc", "pre-installed", "gratis", "download"]
+    },
+        "Easy2Boot": {
+      "desc": "Tool buat bikin USB bootable multi-ISO. Bisa boot berbagai OS dari satu flashdisk.",
+      "link": "https://easy2boot.xyz",
+      "tags": ["bootable usb", "multi iso", "operating system", "tools tkj", "open source"]
     },
     "FitGirl Repacks": {
       "desc": "Game PC dengan ukuran file kecil karena sudah dikompres. Download lebih cepat dan hemat kuota.",
@@ -485,6 +552,9 @@
       "link": "https://www.bittorrent.com",
       "tags": ["torrent", "p2p", "download", "file", "client"]
     }
+
+
+
   },
   "Operating Systems": {
     "ReviOS": {
@@ -531,7 +601,19 @@
       "desc": "Custom Windows yang fokus pada performa tinggi tanpa fitur-fitur Microsoft yang gak perlu.",
       "link": "https://kernelos.org",
       "tags": ["windows", "perform", "custom os", "optimasi", "ringan"]
+    },
+    "Ventoy": {
+      "desc": "Tool open-source legendaris buat bikin USB bootable tanpa perlu format flashdisk berkali-kali! Tinggal copas file ISO ke USB, beres.",
+      "link": "https://www.ventoy.net/en/download.html",
+      "tags": ["bootable usb", "iso", "operating system","open source"]
+    },
+    "Rufus": {
+      "desc": "Tool portabel super cepat dan ringan buat bikin USB bootable Windows/Linux dari file ISO. Andalan utama anak IT saat mau install ulang OS!",
+      "link": "https://rufus.ie/",
+      "tags": ["bootable usb", "iso", "install os", "windows", "linux", "tools tkj", "portable"]
     }
+
+
   },
   "Browsers": {
     "Brave Browser": {
@@ -554,6 +636,9 @@
       "link": "https://alohabrowser.com",
       "tags": ["browser", "vpn", "privasi", "ad blocker", "mobile"]
     }
+
+
+
   },
   "Security & Privacy": {
     "VirusTotal": {
