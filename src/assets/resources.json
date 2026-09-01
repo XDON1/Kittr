@@ -210,6 +210,11 @@
       "link": "https://www.netlify.com",
       "tags": ["hosting", "deploy", "static site", "otomatis", "gratis"]
     },
+    "Aura Gradients": {
+    "desc": "Generator gradasi warna otomatis yang indah untuk latar belakang website atau desain UI.",
+    "link": "https://auragradients.vercel.app",
+    "tags": ["gradient", "design", "css"]
+    },
     "Hugging Face": {
       "desc": "Platform AI terbesar untuk eksplorasi, belajar, dan pakai model machine learning. Banyak model siap pakai, termasuk chat dan gambar.",
       "link": "https://huggingface.co",
