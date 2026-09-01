@@ -347,6 +347,11 @@
       "link": "https://github.com/yt-dlp/yt-dlp",
       "tags": ["download video", "youtube", "4k", "audio", "open-source"]
     },
+    "God's Eye View": {
+      "desc": "Simulator satelit mata-mata di peramban Anda, namun datanya nyata. Intelijen spasial sumber terbuka (open source) secara langsung pada globe 3D yang tampak realistis.",
+      "link": "https://github.com/bilawalsidhu/gods-eye-view",
+      "tags": ["satellite", "3d globe", "open-source", "realistic", "osint"]  
+    },
     "Rufus": {
       "desc": "Bikin USB bootable dari file ISO dengan cepat dan andal. Wajib punya buat install OS!",
       "link": "https://github.com/pbatard/rufus",
@@ -709,7 +714,7 @@
     "NIK Parser": {
       "desc": "Library JavaScript buat parsing dan validasi data KTP Indonesia. Bisa dapetin jenis kelamin, tanggal lahir, daerah, zodiak, dan pasaran Jawa.",
       "link": "https://github.com/bachors/nik_parse.js",
-      "tags": ["ktp", "indonesia", "parser", "javascript", "library"]
+      "tags": ["ktp", "indonesia", "parser", "javascript", "osint"]
     }
   }
 }
