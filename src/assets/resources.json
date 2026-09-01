@@ -615,7 +615,22 @@
     "Rufus": {
       "desc": "Tool portabel super cepat dan ringan buat bikin USB bootable Windows/Linux dari file ISO. Andalan utama anak IT saat mau install ulang OS!",
       "link": "https://rufus.ie/",
-      "tags": ["bootable usb", "iso", "install os", "windows", "linux", "tools tkj", "portable"]
+      "tags": ["bootable usb", "iso", "install os", "windows", "linux", "pc", "portable"]
+    },
+    "AnyDesk": {
+      "desc": "Aplikasi remote desktop super ringan dan kencang. Cocok buat akses dan troubleshooting PC dari jarak jauh.",
+      "link": "https://anydesk.com",
+      "tags": ["remote desktop", "remote access", "troubleshooting", "pc", "freemium"]
+    },
+    "TeamViewer": {
+      "desc": "Platform remote desktop legendaris untuk kontrol komputer jarak jauh, transfer file, dan screen sharing.",
+      "link": "https://www.teamviewer.com",
+      "tags": ["remote desktop", "support", "screen share", "pc", "windows"]
+    },
+    "RustDesk": {
+      "desc": "Alternatif remote desktop open-source terbaik! 100% gratis, bisa self-host server sendiri, dan tanpa limitasi waktu.",
+      "link": "https://rustdesk.com",
+      "tags": ["remote desktop", "open source", "gratis", "self-host", "alternative"]
     }
 
 
