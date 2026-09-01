@@ -11,9 +11,6 @@
     <a href="https://github.com/XDON1/Kittr/stargazers">
       <img src="https://img.shields.io/github/stars/XDON1/Kittr?style=for-the-badge&color=8A2BE2" alt="Stars Badge" />
     </a>
-    <a href="https://github.com/XDON1/Kittr/network/members">
-      <img src="https://img.shields.io/github/forks/XDON1/Kittr?style=for-the-badge&color=00BFFF" alt="Forks Badge" />
-    </a>
     <a href="LICENSE">
       <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License" />
     </a>
