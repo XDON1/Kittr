@@ -5,6 +5,11 @@
       "link": "https://www.remove.bg",
       "tags": ["hapus background", "edit foto", "ai", "cepat", "gratis"]
     },
+    "AlternativeTo": {
+      "desc": "Platform rekomendasi crowdsourced untuk mencari alternatif software, web app, dan tools open-source secara gratis.",
+      "link": "https://alternativeto.net/",
+      "tags": ["alternatif software", "open source", "freeware", "hp-pc", "crowdsourced"]
+    },
     "Photopea": {
       "desc": "Edit gambar dan desain grafis seperti di Photoshop, tapi gratis dan langsung di browser! Bisa buka file PSD, AI, dan Sketch.",
       "link": "https://www.photopea.com",
@@ -167,7 +172,7 @@
     }
 
 
-    
+
   },
   "IoT": {
     "Arduino IDE": {
