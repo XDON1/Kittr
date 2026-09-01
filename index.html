@@ -33,7 +33,7 @@
 <body>
 
     <!-- ===== NAVBAR ===== -->
-    <nav class="sticky top-5 flex flex-wrap items-center justify-between px-10 min-h-[80px] w-[94vw] max-w-[1400px] mx-auto mt-5 rounded-[20px] shadow-[0_8px_32px_rgba(0,0,0,0.6),inset_0_1px_0_rgba(255,255,255,0.1)] border border-[rgba(160,255,93,0.25)] box-border relative z-10 mobile:px-3 mobile:min-h-[60px] mobile:w-[92vw] mobile:rounded-[14px] mobile:mt-3" id="navbar">
+    <nav class="sticky top-5 flex flex-wrap items-center justify-between px-5 min-h-[80px] w-[94vw] max-w-[1400px] mx-auto mt-5 rounded-[20px] shadow-[0_8px_32px_rgba(0,0,0,0.6),inset_0_1px_0_rgba(255,255,255,0.1)] border border-[rgba(160,255,93,0.25)] box-border relative z-10 mobile:px-3 mobile:min-h-[60px] mobile:w-[92vw] mobile:rounded-[14px] mobile:mt-3" id="navbar">
 
         <!-- LAPISAN BACKGROUND+BLUR terpisah, biar <nav> sendiri gak jadi backdrop-root buat descendant lain (fix navDropdown gak keblur) -->
         <div class="absolute inset-0 -z-10 rounded-[20px] bg-[rgba(0,0,0,0.35)] backdrop-blur-[8px]"></div>
@@ -43,6 +43,7 @@
 
         <!-- 1. LOGO -->
         <div class="order-1 flex items-center">
+            <img src="/src/assets/images/Logo.png" class="w-20 h-20 pl-0" alt=""/>
             <div class="text-white text-[32px] font-bold tracking-[2px] flex items-center gap-3 cursor-default mobile:text-[20px] mobile:gap-2">
                 Kittr
             </div>
@@ -105,7 +106,7 @@
                 </h1>
 
                 <!-- DESKTOP: particle effect -->
-                <div id="particleTitleWrap" class="hidden lg:block relative h-[130px] w-[65%] pl-1 overflow-hidden touch-none" aria-label="Kittr">
+                <div id="particleTitleWrap" class="cursor-pointer hidden lg:block relative h-[130px] w-[65%] pl-1 overflow-hidden touch-none" aria-label="Kittr">
                     <canvas id="particleTitleCanvas" class="absolute inset-0 block h-full w-full" aria-hidden="true"></canvas>
                     <span class="sr-only">Kittr</span>
                 </div>
@@ -227,7 +228,7 @@
 
     <!-- ===== FOOTER ===== -->
     <footer class="border-t border-[rgba(160,255,93,0.15)] mt-10">
-        <div class="max-w-[1440px] mx-auto px-6 lg:px-10 py-16 lg:py-20">
+        <div class="max-w-[1440px] mx-auto px-6 lg:px-10 pt-20 lg:pt-20 pb-5">
             <div class="flex flex-col lg:flex-row gap-12 lg:gap-10">
 
                 <!-- 1. PALING KIRI: Judul + Deskripsi -->
@@ -272,12 +273,15 @@
                                     <span>Tailwind CSS</span>
                                 </a>
                             </li>
-                        </ul>
-                        <!-- Sub-kolom KANAN -->
-                        <ul class="flex flex-col gap-4 list-none">
                             <li>
                                 <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2.5 text-white/60 no-underline text-[15px] hover:text-ds-green transition-colors duration-200">
                                     <i class="fa-brands fa-font-awesome w-4 text-center"></i>
+                                    <span>Font Awesome</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2.5 text-white/60 no-underline text-[15px] hover:text-ds-green transition-colors duration-200">
+                                    <i class="fa-brands fa-git-alt w-4 text-center"></i>
                                     <span>Font Awesome</span>
                                 </a>
                             </li>
