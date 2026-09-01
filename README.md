@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Gambar/Logo Projek Kittr -->
-  <img src="logo.png" alt=logo.png" width="120" />
+  <img src="logo.png" alt="Kittr Logo" width="120" />
 
   # Kittr
 
