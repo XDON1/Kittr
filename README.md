@@ -24,7 +24,7 @@
   </p>
 
   <p align="center">
-    🔗 <b>Live Demo:</b> <a href="https://kittr.vercel.app">kittr.vercel.app</a>
+    🔗 <b>WEBSITE:</b> <a href="https://kittr.vercel.app">kittr.vercel.app</a>
   </p>
 
 </div>
