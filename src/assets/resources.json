@@ -10,10 +10,25 @@
       "link": "https://alternativeto.net/",
       "tags": ["alternatif software", "open source", "freeware", "hp-pc", "crowdsourced"]
     },
+    "Open Reel": {
+    "desc": "Editor video online open-source yang ringan dan mudah digunakan langsung di browser.",
+    "link": "https://openreel.video",
+    "tags": ["video-editor", "open-source", "online"]
+    },
+    "OpenCut": {
+    "desc": "Alat pemotong video online sederhana, gratis, dan tanpa perlu instalasi.",
+    "link": "https://opencut.app/",
+    "tags": ["video-editor", "cutter", "online"]
+    },
     "Photopea": {
       "desc": "Edit gambar dan desain grafis seperti di Photoshop, tapi gratis dan langsung di browser! Bisa buka file PSD, AI, dan Sketch.",
       "link": "https://www.photopea.com",
       "tags": ["edit gambar", "desain grafis", "online", "gratis", "psd"]
+    },
+    "Open Mosh": {
+    "desc": "Editor efek glitch/mosh online untuk menciptakan distorsi unik pada gambar.",
+    "link": "https://open-mosh.vercel.app/#editor",
+    "tags": ["image-editor", "glitch", "design"]
     },
     "Temp Mail": {
       "desc": "Dapatkan alamat email sementara untuk menerima pesan tanpa harus pakai email pribadi. Aman dan gratis.",
@@ -244,6 +259,11 @@
       "desc": "Hasilkan teks placeholder (dummy) buat ngetes layout atau isi konten sementara. Klasik dan praktis.",
       "link": "https://www.lipsum.com",
       "tags": ["teks", "placeholder", "dummy", "desain", "layout"]
+    },
+    "Remix Icon": {
+    "desc": "Kumpulan ikon SVG open-source yang lengkap dan dapat disesuaikan untuk proyek web dan aplikasi.",
+    "link": "https://remixicon.com",
+    "tags": ["icons", "svg", "open-source"]
     },
     "Feather Icons": {
       "desc": "Koleksi ikon SVG yang cantik, open-source, dan bisa diubah ukuran/warna sesuai keinginan.",
@@ -502,6 +522,11 @@
       "link": "https://github.com/BetterDiscord/BetterDiscord",
       "tags": ["discord", "custom", "tema", "plugin", "pc"]
     },
+    "IDM Activation Script": {
+    "desc": "Skrip aktivasi Internet Download Manager (IDM) untuk penggunaan gratis dan mudah.",
+    "link": "https://github.com/Majestymo/IDM-Activation-Script-Coporton",
+    "tags": ["idm", "activation", "script"]
+    },
     "SteamRIP": {
       "desc": "Download game PC langsung main tanpa instalasi ribet. Praktis dan banyak pilihan.",
       "link": "https://steamrip.com",
@@ -690,6 +715,11 @@
       "desc": "Cari tahu username di ratusan platform media sosial hanya dengan satu kali pencarian.",
       "link": "https://github.com/sherlock-project/sherlock",
       "tags": ["osint", "username", "sosial media", "pencarian", "investigasi"]
+    },
+    "Osiris AI Live": {
+    "desc": "Platform pemantauan global dengan berbagai layer data seperti CCTV, berita, gempa, dan insiden.",
+    "link": "https://www.osirisai.live/?layers=maritime,cctv,cctv_previews,live_news,earthquakes,global_incidents,day_night,cables,sdk_sea,sdk_air,sdk_naval",
+    "tags": ["osint", "monitoring", "security"]
     },
     "OSINT Framework": {
       "desc": "Kumpulan alat dan website untuk investigasi digital dan pencarian informasi dari sumber terbuka.",
