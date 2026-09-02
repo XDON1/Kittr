@@ -279,6 +279,11 @@
       "desc": "Ikon paling terkenal di dunia web. Ribuan ikon siap pakai untuk website, aplikasi, dan lainnya.",
       "link": "https://fontawesome.com",
       "tags": ["ikon", "svg", "font", "web", "populer"]
+    }, 
+        "Laravel": {
+      "desc": "Framework PHP paling populer buat bikin aplikasi web modern. Sintaksnya elegan, fiturnya lengkap (routing, ORM, auth, dll), cocok buat proyek kecil sampai skala besar.",
+      "link": "https://laravel.com",
+      "tags": ["php", "framework", "backend", "web development", "populer"]
     }
 
 
