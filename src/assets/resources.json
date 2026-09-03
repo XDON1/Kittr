@@ -334,8 +334,22 @@
       "desc": "Paket lengkap server lokal (Apache, MySQL, PHP, Perl) untuk menjalankan website di komputermu sendiri. Mudah dipasang dan gratis.",
       "link": "https://www.apachefriends.org/download.html",
       "tags": ["local server", "apache", "mysql", "php", "website"]
+    },
+    "FlyEnv": {
+      "desc": "Lingkungan pengembangan lokal ringan yang mendukung PHP, Node.js, Python, Java, dan banyak bahasa lain sekaligus. Tampilan modern, gampang atur versi & switch environment.",
+      "link": "https://flyenv.com/id/",
+      "tags": ["local server", "php", "nodejs", "multi-language", "pengembangan"]
+    },
+    "EasyPHP": {
+      "desc": "Paket server lokal simpel buat Windows, berisi Apache, MySQL, dan PHP. Cocok buat yang mau setup cepat tanpa ribet konfigurasi.",
+      "link": "https://www.easyphp.org/",
+      "tags": ["local server", "php", "apache", "mysql", "windows"]
+    },
+    "WampServer": {
+      "desc": "Lingkungan server lokal berbasis Windows (Apache, MySQL/MariaDB, PHP) yang populer dan udah lama dipakai developer PHP. Antarmuka tray icon-nya gampang dikelola.",
+      "link": "https://wampserver.aviatechno.net/",
+      "tags": ["local server", "php", "apache", "mysql", "windows"]
     }
-
 
 
   },
